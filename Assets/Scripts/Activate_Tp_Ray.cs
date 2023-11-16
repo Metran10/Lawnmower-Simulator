@@ -12,13 +12,14 @@ public class Activate_Tp_Ray : MonoBehaviour
     public InputActionProperty leftActivation;
     public InputActionProperty rightActivation;
 
+    public InputActionProperty leftCancel;
+    public InputActionProperty rightCancel;
 
-    
 
     // Update is called once per frame
     void Update()
     {
-        leftTP.SetActive(leftActivation.action.ReadValue<float>() > 0.1f);
-        rightTP.SetActive(rightActivation.action.ReadValue<float>() > 0.1f);
+        leftTP.SetActive(leftCancel.action.ReadValue<float>() == 0 &&  leftActivation.action.ReadValue<float>() > 0.1f);
+        rightTP.SetActive(rightCancel.action.ReadValue<float>() == 0 && rightActivation.action.ReadValue<float>() > 0.1f);
     }
 }
