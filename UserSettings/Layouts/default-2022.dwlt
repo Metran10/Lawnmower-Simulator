@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Scene
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 91
+  controlID: 67
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -224,7 +224,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 49
+  controlID: 68
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -249,7 +249,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 40
+  controlID: 44
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -278,7 +278,7 @@ MonoBehaviour:
   - {fileID: 14}
   - {fileID: 12}
   m_Selected: 0
-  m_LastSelected: 1
+  m_LastSelected: 2
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -392,9 +392,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1278
+    x: 1422
     y: 73
-    width: 641
+    width: 497
     height: 926
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -409,7 +409,7 @@ MonoBehaviour:
   progressMessageClearTime: -1
   notificationClearTime: -1
   timeSinceLastRotation: -1
-  currentBranchAndRemoteHasUpdate: 1
+  currentBranchAndRemoteHasUpdate: 0
   currentTrackingStatusHasUpdate: 1
   currentStatusEntriesHasUpdate: 1
   repositoryProgressHasUpdate: 1
@@ -552,20 +552,1343 @@ MonoBehaviour:
       tracking: 
     remoteBranches: []
   changesView:
-    currentBranchHasUpdate: 1
+    currentBranchHasUpdate: 0
     currentStatusEntriesHasUpdate: 1
     currentLocksHasUpdate: 1
     commitBody: 
     commitMessage: 
     currentBranch: master
-    treeScroll: {x: 0, y: 3480}
+    treeScroll: {x: 0, y: 0}
     treeChanges:
       assets:
-        keys: []
-        values: []
+        keys:
+        - 00000000000000001000000000000000
+        - 0bdace06264a6a74080d037b8c8131b4
+        - 2062d4b6dc268e643b6ed0924c7e01e7
+        - 8ebb527547e00834bb38dd05f7664656
+        - 2f984dd1b63fbc24abdd916834492e6e
+        - 0799a1e95665ef14f8fe2cbcd4ba3dc4
+        - daf6e58a4fe044f40860d20387bacd06
+        - d721af70c8ba1ab4daa81f30de0dbb54
+        - ddd36401006c8654eae1d9a6bcd6380d
+        - 4e40842238bcca046a7c50ffff32b019
+        - d818648c1b009ab48a03dbcc4ae09583
+        - 0a4e8c0b5a685eb4394da10424e65a7a
+        - b50dd34feb8fa1b4fa5aa0a7d2271066
+        - ac41480a091ee2446a41d386b366ae44
+        - 46d171de72518e343891c4b4c03e5103
+        - 38b178f6a1ea19f4baf761918779b712
+        - 5d113e0df0acd474cb544e13e9327875
+        - 08eefc2f613faa34fbb717ac2142af0a
+        - 324d33f3ad1481c4e8ba55d696fe64d9
+        - 43f6c6253561ce74b9f993709176caff
+        - 769bcb364254fc84f86c3bde2b625a9f
+        - 7259cce9d7302d44a8f8bf53cb1bc376
+        - 6aac2ae04e9a93646918391471e1a564
+        - 3184c8a016da6e34abff1686da99650b
+        - 7ed75b99c26237b4d844c1581c5da1b2
+        - b0ba9b7cecd675b45894beca57389899
+        - 7ea25f0f06a711d48a2bd754e29ecb0e
+        - 5374e258aa8b0a54b9ad017e47f849ec
+        - c6b568bf9e55de141add501b8cd2a0e9
+        - a3ccb41ae53c6bf4bb0a5bfc470bf069
+        - 33d9da17d5975244db32a765fa368621
+        - 2554008d6447a2540b44e55f0c0b576e
+        - a2bd798ea40c7e341aa61ad124d95342
+        - 13dd10d6717971d4ea9125d158299b1e
+        - 512b72c73a22e904d87662ebca8eb1e1
+        - 034023ff02a37fc47aab6bc6c49bf15b
+        - ef62619642b0df743b22dd5120c6ac4d
+        - b8217b9c1183a5144b666d1dd63980c4
+        - 194e9111af0c33840a49d573f2b26952
+        - 66072c42e7f38924f90a2ea3e36cc606
+        - cf22a2db10f09a34495e9f83913738c8
+        - 7baba197ce36c92439b423eabaad3737
+        - d5b8de414112a004a82d0437b5f7a780
+        - 0ab22827d0f3f0b40a97e9430d684283
+        - eae42a57b046b1a42a79ae6319bccca3
+        - d354c41a99993964baca0254487708d1
+        - d3ee913ed32937344b0587e70dc777a2
+        - 24457fdf8e66c3c49b7599931e0fdcb2
+        - a524090786e7ba545bd5ce3d24c9a3fb
+        - 9a91bc2b0a89c4748a0c5b940bd461a7
+        - c8134dd87be4906419f13922ddc5bf4f
+        - 18bb023d75a113f4cb8d1452371f5c0e
+        - e133dac167ef59c40b7678ba58107c6a
+        - 273b8f4150121d249ac7e2fd11da7005
+        - 3a18b6debda473d48bab002010eab469
+        - 97a7145d15ddffb43b6af48c743a474a
+        - cffb506ec5b6cc94498def65473d32ed
+        values:
+        - path: Assets
+          label: Assets
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Pure Poly
+          label: Pure Poly
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Pure Poly\Free Low Poly Nature Pack
+          label: Free Low Poly Nature Pack
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Pure Poly\Free Low Poly Nature Pack\Materials
+          label: Materials
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Pure Poly\Free Low Poly Nature Pack\Materials\PP_Ground.mat
+          label: PP_Ground.mat
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Pure Poly\Free Low Poly Nature Pack\Materials\PP_Ground.mat
+            fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+              Poly\Free Low Poly Nature Pack\Materials\PP_Ground.mat
+            projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Materials\PP_Ground.mat
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Pure Poly\Free Low Poly Nature Pack\Materials\PP_Standard_Material.mat
+          label: PP_Standard_Material.mat
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Pure Poly\Free Low Poly Nature Pack\Materials\PP_Standard_Material.mat
+            fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+              Poly\Free Low Poly Nature Pack\Materials\PP_Standard_Material.mat
+            projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Materials\PP_Standard_Material.mat
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes
+          label: Meshes
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Birch_Tree_05.fbx
+          label: PP_Birch_Tree_05.fbx
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Birch_Tree_05.fbx
+            fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+              Poly\Free Low Poly Nature Pack\Meshes\PP_Birch_Tree_05.fbx
+            projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Birch_Tree_05.fbx
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Birch_Tree_06.fbx
+          label: PP_Birch_Tree_06.fbx
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Birch_Tree_06.fbx
+            fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+              Poly\Free Low Poly Nature Pack\Meshes\PP_Birch_Tree_06.fbx
+            projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Birch_Tree_06.fbx
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Daffodil_03.fbx
+          label: PP_Daffodil_03.fbx
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Daffodil_03.fbx
+            fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+              Poly\Free Low Poly Nature Pack\Meshes\PP_Daffodil_03.fbx
+            projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Daffodil_03.fbx
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Forest_Mountain_Moss_01.fbx
+          label: PP_Forest_Mountain_Moss_01.fbx
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Forest_Mountain_Moss_01.fbx
+            fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+              Poly\Free Low Poly Nature Pack\Meshes\PP_Forest_Mountain_Moss_01.fbx
+            projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Forest_Mountain_Moss_01.fbx
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Forest_Mountain_Moss_02.fbx
+          label: PP_Forest_Mountain_Moss_02.fbx
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Forest_Mountain_Moss_02.fbx
+            fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+              Poly\Free Low Poly Nature Pack\Meshes\PP_Forest_Mountain_Moss_02.fbx
+            projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Forest_Mountain_Moss_02.fbx
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Grass_11.fbx
+          label: PP_Grass_11.fbx
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Grass_11.fbx
+            fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+              Poly\Free Low Poly Nature Pack\Meshes\PP_Grass_11.fbx
+            projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Grass_11.fbx
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Grass_15.fbx
+          label: PP_Grass_15.fbx
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Grass_15.fbx
+            fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+              Poly\Free Low Poly Nature Pack\Meshes\PP_Grass_15.fbx
+            projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Grass_15.fbx
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Hyacinth_04.fbx
+          label: PP_Hyacinth_04.fbx
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Hyacinth_04.fbx
+            fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+              Poly\Free Low Poly Nature Pack\Meshes\PP_Hyacinth_04.fbx
+            projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Hyacinth_04.fbx
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Lake_Ground_04.fbx
+          label: PP_Lake_Ground_04.fbx
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Lake_Ground_04.fbx
+            fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+              Poly\Free Low Poly Nature Pack\Meshes\PP_Lake_Ground_04.fbx
+            projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Lake_Ground_04.fbx
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Meadow_07.fbx
+          label: PP_Meadow_07.fbx
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Meadow_07.fbx
+            fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+              Poly\Free Low Poly Nature Pack\Meshes\PP_Meadow_07.fbx
+            projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Meadow_07.fbx
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Meadow_08.fbx
+          label: PP_Meadow_08.fbx
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Meadow_08.fbx
+            fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+              Poly\Free Low Poly Nature Pack\Meshes\PP_Meadow_08.fbx
+            projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Meadow_08.fbx
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Meadow_Path_05.fbx
+          label: PP_Meadow_Path_05.fbx
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Meadow_Path_05.fbx
+            fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+              Poly\Free Low Poly Nature Pack\Meshes\PP_Meadow_Path_05.fbx
+            projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Meadow_Path_05.fbx
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Mushroom_Fantasy_Orange_09.fbx
+          label: PP_Mushroom_Fantasy_Orange_09.fbx
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Mushroom_Fantasy_Orange_09.fbx
+            fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+              Poly\Free Low Poly Nature Pack\Meshes\PP_Mushroom_Fantasy_Orange_09.fbx
+            projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Mushroom_Fantasy_Orange_09.fbx
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Mushroom_Fantasy_Orange_10.fbx
+          label: PP_Mushroom_Fantasy_Orange_10.fbx
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Mushroom_Fantasy_Orange_10.fbx
+            fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+              Poly\Free Low Poly Nature Pack\Meshes\PP_Mushroom_Fantasy_Orange_10.fbx
+            projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Mushroom_Fantasy_Orange_10.fbx
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Mushroom_Fantasy_Purple_05.fbx
+          label: PP_Mushroom_Fantasy_Purple_05.fbx
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Mushroom_Fantasy_Purple_05.fbx
+            fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+              Poly\Free Low Poly Nature Pack\Meshes\PP_Mushroom_Fantasy_Purple_05.fbx
+            projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Mushroom_Fantasy_Purple_05.fbx
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Mushroom_Fantasy_Purple_08.fbx
+          label: PP_Mushroom_Fantasy_Purple_08.fbx
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Mushroom_Fantasy_Purple_08.fbx
+            fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+              Poly\Free Low Poly Nature Pack\Meshes\PP_Mushroom_Fantasy_Purple_08.fbx
+            projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Mushroom_Fantasy_Purple_08.fbx
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Rock_Moss_Grown_09.fbx
+          label: PP_Rock_Moss_Grown_09.fbx
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Rock_Moss_Grown_09.fbx
+            fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+              Poly\Free Low Poly Nature Pack\Meshes\PP_Rock_Moss_Grown_09.fbx
+            projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Rock_Moss_Grown_09.fbx
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Rock_Moss_Grown_11.fbx
+          label: PP_Rock_Moss_Grown_11.fbx
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Rock_Moss_Grown_11.fbx
+            fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+              Poly\Free Low Poly Nature Pack\Meshes\PP_Rock_Moss_Grown_11.fbx
+            projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Rock_Moss_Grown_11.fbx
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Rock_Pile_Forest_Moss_05.fbx
+          label: PP_Rock_Pile_Forest_Moss_05.fbx
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Rock_Pile_Forest_Moss_05.fbx
+            fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+              Poly\Free Low Poly Nature Pack\Meshes\PP_Rock_Pile_Forest_Moss_05.fbx
+            projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Rock_Pile_Forest_Moss_05.fbx
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Rock_Pile_Forest_Moss_10.fbx
+          label: PP_Rock_Pile_Forest_Moss_10.fbx
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Rock_Pile_Forest_Moss_10.fbx
+            fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+              Poly\Free Low Poly Nature Pack\Meshes\PP_Rock_Pile_Forest_Moss_10.fbx
+            projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Rock_Pile_Forest_Moss_10.fbx
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Sunflower_04.fbx
+          label: PP_Sunflower_04.fbx
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Sunflower_04.fbx
+            fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+              Poly\Free Low Poly Nature Pack\Meshes\PP_Sunflower_04.fbx
+            projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Sunflower_04.fbx
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Tree_02.fbx
+          label: PP_Tree_02.fbx
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Tree_02.fbx
+            fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+              Poly\Free Low Poly Nature Pack\Meshes\PP_Tree_02.fbx
+            projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Tree_02.fbx
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Tree_10.fbx
+          label: PP_Tree_10.fbx
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Tree_10.fbx
+            fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+              Poly\Free Low Poly Nature Pack\Meshes\PP_Tree_10.fbx
+            projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Tree_10.fbx
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs
+          label: Prefabs
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Birch_Tree_05.prefab
+          label: PP_Birch_Tree_05.prefab
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Birch_Tree_05.prefab
+            fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+              Poly\Free Low Poly Nature Pack\Prefabs\PP_Birch_Tree_05.prefab
+            projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Birch_Tree_05.prefab
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Birch_Tree_06.prefab
+          label: PP_Birch_Tree_06.prefab
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Birch_Tree_06.prefab
+            fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+              Poly\Free Low Poly Nature Pack\Prefabs\PP_Birch_Tree_06.prefab
+            projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Birch_Tree_06.prefab
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Daffodil_03.prefab
+          label: PP_Daffodil_03.prefab
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Daffodil_03.prefab
+            fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+              Poly\Free Low Poly Nature Pack\Prefabs\PP_Daffodil_03.prefab
+            projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Daffodil_03.prefab
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Forest_Mountain_Moss_01.prefab
+          label: PP_Forest_Mountain_Moss_01.prefab
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Forest_Mountain_Moss_01.prefab
+            fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+              Poly\Free Low Poly Nature Pack\Prefabs\PP_Forest_Mountain_Moss_01.prefab
+            projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Forest_Mountain_Moss_01.prefab
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Forest_Mountain_Moss_02.prefab
+          label: PP_Forest_Mountain_Moss_02.prefab
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Forest_Mountain_Moss_02.prefab
+            fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+              Poly\Free Low Poly Nature Pack\Prefabs\PP_Forest_Mountain_Moss_02.prefab
+            projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Forest_Mountain_Moss_02.prefab
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Grass_11.prefab
+          label: PP_Grass_11.prefab
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Grass_11.prefab
+            fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+              Poly\Free Low Poly Nature Pack\Prefabs\PP_Grass_11.prefab
+            projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Grass_11.prefab
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Grass_15.prefab
+          label: PP_Grass_15.prefab
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Grass_15.prefab
+            fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+              Poly\Free Low Poly Nature Pack\Prefabs\PP_Grass_15.prefab
+            projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Grass_15.prefab
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Hyacinth_04.prefab
+          label: PP_Hyacinth_04.prefab
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Hyacinth_04.prefab
+            fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+              Poly\Free Low Poly Nature Pack\Prefabs\PP_Hyacinth_04.prefab
+            projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Hyacinth_04.prefab
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Lake_Ground_04.prefab
+          label: PP_Lake_Ground_04.prefab
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Lake_Ground_04.prefab
+            fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+              Poly\Free Low Poly Nature Pack\Prefabs\PP_Lake_Ground_04.prefab
+            projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Lake_Ground_04.prefab
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Meadow_07.prefab
+          label: PP_Meadow_07.prefab
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Meadow_07.prefab
+            fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+              Poly\Free Low Poly Nature Pack\Prefabs\PP_Meadow_07.prefab
+            projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Meadow_07.prefab
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Meadow_08.prefab
+          label: PP_Meadow_08.prefab
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Meadow_08.prefab
+            fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+              Poly\Free Low Poly Nature Pack\Prefabs\PP_Meadow_08.prefab
+            projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Meadow_08.prefab
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Meadow_Path_05.prefab
+          label: PP_Meadow_Path_05.prefab
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Meadow_Path_05.prefab
+            fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+              Poly\Free Low Poly Nature Pack\Prefabs\PP_Meadow_Path_05.prefab
+            projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Meadow_Path_05.prefab
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Mushroom_Fantasy_Orange_09.prefab
+          label: PP_Mushroom_Fantasy_Orange_09.prefab
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Mushroom_Fantasy_Orange_09.prefab
+            fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+              Poly\Free Low Poly Nature Pack\Prefabs\PP_Mushroom_Fantasy_Orange_09.prefab
+            projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Mushroom_Fantasy_Orange_09.prefab
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Mushroom_Fantasy_Orange_10.prefab
+          label: PP_Mushroom_Fantasy_Orange_10.prefab
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Mushroom_Fantasy_Orange_10.prefab
+            fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+              Poly\Free Low Poly Nature Pack\Prefabs\PP_Mushroom_Fantasy_Orange_10.prefab
+            projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Mushroom_Fantasy_Orange_10.prefab
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Mushroom_Fantasy_Purple_05.prefab
+          label: PP_Mushroom_Fantasy_Purple_05.prefab
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Mushroom_Fantasy_Purple_05.prefab
+            fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+              Poly\Free Low Poly Nature Pack\Prefabs\PP_Mushroom_Fantasy_Purple_05.prefab
+            projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Mushroom_Fantasy_Purple_05.prefab
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Mushroom_Fantasy_Purple_08.prefab
+          label: PP_Mushroom_Fantasy_Purple_08.prefab
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Mushroom_Fantasy_Purple_08.prefab
+            fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+              Poly\Free Low Poly Nature Pack\Prefabs\PP_Mushroom_Fantasy_Purple_08.prefab
+            projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Mushroom_Fantasy_Purple_08.prefab
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Rock_Moss_Grown_09.prefab
+          label: PP_Rock_Moss_Grown_09.prefab
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Rock_Moss_Grown_09.prefab
+            fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+              Poly\Free Low Poly Nature Pack\Prefabs\PP_Rock_Moss_Grown_09.prefab
+            projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Rock_Moss_Grown_09.prefab
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Rock_Moss_Grown_11.prefab
+          label: PP_Rock_Moss_Grown_11.prefab
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Rock_Moss_Grown_11.prefab
+            fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+              Poly\Free Low Poly Nature Pack\Prefabs\PP_Rock_Moss_Grown_11.prefab
+            projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Rock_Moss_Grown_11.prefab
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Rock_Pile_Forest_Moss_05.prefab
+          label: PP_Rock_Pile_Forest_Moss_05.prefab
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Rock_Pile_Forest_Moss_05.prefab
+            fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+              Poly\Free Low Poly Nature Pack\Prefabs\PP_Rock_Pile_Forest_Moss_05.prefab
+            projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Rock_Pile_Forest_Moss_05.prefab
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Rock_Pile_Forest_Moss_10.prefab
+          label: PP_Rock_Pile_Forest_Moss_10.prefab
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Rock_Pile_Forest_Moss_10.prefab
+            fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+              Poly\Free Low Poly Nature Pack\Prefabs\PP_Rock_Pile_Forest_Moss_10.prefab
+            projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Rock_Pile_Forest_Moss_10.prefab
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Sunflower_04.prefab
+          label: PP_Sunflower_04.prefab
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Sunflower_04.prefab
+            fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+              Poly\Free Low Poly Nature Pack\Prefabs\PP_Sunflower_04.prefab
+            projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Sunflower_04.prefab
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Tree_02.prefab
+          label: PP_Tree_02.prefab
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Tree_02.prefab
+            fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+              Poly\Free Low Poly Nature Pack\Prefabs\PP_Tree_02.prefab
+            projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Tree_02.prefab
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Tree_10.prefab
+          label: PP_Tree_10.prefab
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Tree_10.prefab
+            fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+              Poly\Free Low Poly Nature Pack\Prefabs\PP_Tree_10.prefab
+            projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Tree_10.prefab
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Pure Poly\Free Low Poly Nature Pack\Read Me.pdf
+          label: Read Me.pdf
+          level: 3
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Pure Poly\Free Low Poly Nature Pack\Read Me.pdf
+            fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+              Poly\Free Low Poly Nature Pack\Read Me.pdf
+            projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Read Me.pdf
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Pure Poly\Free Low Poly Nature Pack\Textures
+          label: Textures
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Pure Poly\Free Low Poly Nature Pack\Textures\PP_Color_Palette.png
+          label: PP_Color_Palette.png
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Pure Poly\Free Low Poly Nature Pack\Textures\PP_Color_Palette.png
+            fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+              Poly\Free Low Poly Nature Pack\Textures\PP_Color_Palette.png
+            projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Textures\PP_Color_Palette.png
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
       folders:
-        keys: []
-        values: []
+        keys:
+        - Assets
+        - Assets\Pure Poly
+        - Assets\Pure Poly\Free Low Poly Nature Pack
+        - Assets\Pure Poly\Free Low Poly Nature Pack\Materials
+        - Assets\Pure Poly\Free Low Poly Nature Pack\Meshes
+        - Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs
+        - Assets\Pure Poly\Free Low Poly Nature Pack\Textures
+        - Packages
+        - UserSettings
+        - UserSettings\Layouts
+        values:
+        - path: Assets
+          label: Assets
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Pure Poly
+          label: Pure Poly
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Pure Poly\Free Low Poly Nature Pack
+          label: Free Low Poly Nature Pack
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Pure Poly\Free Low Poly Nature Pack\Materials
+          label: Materials
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes
+          label: Meshes
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs
+          label: Prefabs
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Pure Poly\Free Low Poly Nature Pack\Textures
+          label: Textures
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Packages
+          label: Packages
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: UserSettings
+          label: UserSettings
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: UserSettings\Layouts
+          label: Layouts
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
       checkedFileNodes:
         keys: []
         values: []
@@ -594,16 +1917,15 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      selectedNode:
-        path: 
-        label: 
+      - path: Assets
+        label: Assets
         level: 0
-        isFolder: 0
+        isFolder: 1
         isContainer: 0
         isCollapsed: 0
         isHidden: 0
         isActive: 0
-        treeIsCheckable: 0
+        treeIsCheckable: 1
         checkState: 0
         isLocked: 0
         gitStatusEntry:
@@ -613,16 +1935,3026 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-    gitStatusEntries: []
-    changedFilesText: No changed files
+      - path: Assets\Pure Poly.meta
+        label: Pure Poly.meta
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Pure Poly.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+            Poly.meta
+          projectPath: Assets\Pure Poly.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Pure Poly
+        label: Pure Poly
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack.meta
+        label: Free Low Poly Nature Pack.meta
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Pure Poly\Free Low Poly Nature Pack.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+            Poly\Free Low Poly Nature Pack.meta
+          projectPath: Assets\Pure Poly\Free Low Poly Nature Pack.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack
+        label: Free Low Poly Nature Pack
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Materials.meta
+        label: Materials.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Pure Poly\Free Low Poly Nature Pack\Materials.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+            Poly\Free Low Poly Nature Pack\Materials.meta
+          projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Materials.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Materials
+        label: Materials
+        level: 3
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Materials\PP_Ground.mat
+        label: PP_Ground.mat
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Pure Poly\Free Low Poly Nature Pack\Materials\PP_Ground.mat
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+            Poly\Free Low Poly Nature Pack\Materials\PP_Ground.mat
+          projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Materials\PP_Ground.mat
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Materials\PP_Ground.mat.meta
+        label: PP_Ground.mat.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Pure Poly\Free Low Poly Nature Pack\Materials\PP_Ground.mat.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+            Poly\Free Low Poly Nature Pack\Materials\PP_Ground.mat.meta
+          projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Materials\PP_Ground.mat.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Materials\PP_Standard_Material.mat
+        label: PP_Standard_Material.mat
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Pure Poly\Free Low Poly Nature Pack\Materials\PP_Standard_Material.mat
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+            Poly\Free Low Poly Nature Pack\Materials\PP_Standard_Material.mat
+          projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Materials\PP_Standard_Material.mat
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Materials\PP_Standard_Material.mat.meta
+        label: PP_Standard_Material.mat.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Pure Poly\Free Low Poly Nature Pack\Materials\PP_Standard_Material.mat.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+            Poly\Free Low Poly Nature Pack\Materials\PP_Standard_Material.mat.meta
+          projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Materials\PP_Standard_Material.mat.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes.meta
+        label: Meshes.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+            Poly\Free Low Poly Nature Pack\Meshes.meta
+          projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes
+        label: Meshes
+        level: 3
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Birch_Tree_05.fbx
+        label: PP_Birch_Tree_05.fbx
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Birch_Tree_05.fbx
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+            Poly\Free Low Poly Nature Pack\Meshes\PP_Birch_Tree_05.fbx
+          projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Birch_Tree_05.fbx
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Birch_Tree_05.fbx.meta
+        label: PP_Birch_Tree_05.fbx.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Birch_Tree_05.fbx.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+            Poly\Free Low Poly Nature Pack\Meshes\PP_Birch_Tree_05.fbx.meta
+          projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Birch_Tree_05.fbx.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Birch_Tree_06.fbx
+        label: PP_Birch_Tree_06.fbx
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Birch_Tree_06.fbx
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+            Poly\Free Low Poly Nature Pack\Meshes\PP_Birch_Tree_06.fbx
+          projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Birch_Tree_06.fbx
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Birch_Tree_06.fbx.meta
+        label: PP_Birch_Tree_06.fbx.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Birch_Tree_06.fbx.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+            Poly\Free Low Poly Nature Pack\Meshes\PP_Birch_Tree_06.fbx.meta
+          projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Birch_Tree_06.fbx.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Daffodil_03.fbx
+        label: PP_Daffodil_03.fbx
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Daffodil_03.fbx
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+            Poly\Free Low Poly Nature Pack\Meshes\PP_Daffodil_03.fbx
+          projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Daffodil_03.fbx
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Daffodil_03.fbx.meta
+        label: PP_Daffodil_03.fbx.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Daffodil_03.fbx.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+            Poly\Free Low Poly Nature Pack\Meshes\PP_Daffodil_03.fbx.meta
+          projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Daffodil_03.fbx.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Forest_Mountain_Moss_01.fbx
+        label: PP_Forest_Mountain_Moss_01.fbx
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Forest_Mountain_Moss_01.fbx
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+            Poly\Free Low Poly Nature Pack\Meshes\PP_Forest_Mountain_Moss_01.fbx
+          projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Forest_Mountain_Moss_01.fbx
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Forest_Mountain_Moss_01.fbx.meta
+        label: PP_Forest_Mountain_Moss_01.fbx.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Forest_Mountain_Moss_01.fbx.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+            Poly\Free Low Poly Nature Pack\Meshes\PP_Forest_Mountain_Moss_01.fbx.meta
+          projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Forest_Mountain_Moss_01.fbx.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Forest_Mountain_Moss_02.fbx
+        label: PP_Forest_Mountain_Moss_02.fbx
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Forest_Mountain_Moss_02.fbx
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+            Poly\Free Low Poly Nature Pack\Meshes\PP_Forest_Mountain_Moss_02.fbx
+          projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Forest_Mountain_Moss_02.fbx
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Forest_Mountain_Moss_02.fbx.meta
+        label: PP_Forest_Mountain_Moss_02.fbx.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Forest_Mountain_Moss_02.fbx.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+            Poly\Free Low Poly Nature Pack\Meshes\PP_Forest_Mountain_Moss_02.fbx.meta
+          projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Forest_Mountain_Moss_02.fbx.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Grass_11.fbx
+        label: PP_Grass_11.fbx
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Grass_11.fbx
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+            Poly\Free Low Poly Nature Pack\Meshes\PP_Grass_11.fbx
+          projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Grass_11.fbx
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Grass_11.fbx.meta
+        label: PP_Grass_11.fbx.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Grass_11.fbx.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+            Poly\Free Low Poly Nature Pack\Meshes\PP_Grass_11.fbx.meta
+          projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Grass_11.fbx.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Grass_15.fbx
+        label: PP_Grass_15.fbx
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Grass_15.fbx
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+            Poly\Free Low Poly Nature Pack\Meshes\PP_Grass_15.fbx
+          projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Grass_15.fbx
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Grass_15.fbx.meta
+        label: PP_Grass_15.fbx.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Grass_15.fbx.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+            Poly\Free Low Poly Nature Pack\Meshes\PP_Grass_15.fbx.meta
+          projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Grass_15.fbx.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Hyacinth_04.fbx
+        label: PP_Hyacinth_04.fbx
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Hyacinth_04.fbx
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+            Poly\Free Low Poly Nature Pack\Meshes\PP_Hyacinth_04.fbx
+          projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Hyacinth_04.fbx
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Hyacinth_04.fbx.meta
+        label: PP_Hyacinth_04.fbx.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Hyacinth_04.fbx.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+            Poly\Free Low Poly Nature Pack\Meshes\PP_Hyacinth_04.fbx.meta
+          projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Hyacinth_04.fbx.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Lake_Ground_04.fbx
+        label: PP_Lake_Ground_04.fbx
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Lake_Ground_04.fbx
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+            Poly\Free Low Poly Nature Pack\Meshes\PP_Lake_Ground_04.fbx
+          projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Lake_Ground_04.fbx
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Lake_Ground_04.fbx.meta
+        label: PP_Lake_Ground_04.fbx.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Lake_Ground_04.fbx.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+            Poly\Free Low Poly Nature Pack\Meshes\PP_Lake_Ground_04.fbx.meta
+          projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Lake_Ground_04.fbx.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Meadow_07.fbx
+        label: PP_Meadow_07.fbx
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Meadow_07.fbx
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+            Poly\Free Low Poly Nature Pack\Meshes\PP_Meadow_07.fbx
+          projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Meadow_07.fbx
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Meadow_07.fbx.meta
+        label: PP_Meadow_07.fbx.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Meadow_07.fbx.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+            Poly\Free Low Poly Nature Pack\Meshes\PP_Meadow_07.fbx.meta
+          projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Meadow_07.fbx.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Meadow_08.fbx
+        label: PP_Meadow_08.fbx
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Meadow_08.fbx
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+            Poly\Free Low Poly Nature Pack\Meshes\PP_Meadow_08.fbx
+          projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Meadow_08.fbx
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Meadow_08.fbx.meta
+        label: PP_Meadow_08.fbx.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Meadow_08.fbx.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+            Poly\Free Low Poly Nature Pack\Meshes\PP_Meadow_08.fbx.meta
+          projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Meadow_08.fbx.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Meadow_Path_05.fbx
+        label: PP_Meadow_Path_05.fbx
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Meadow_Path_05.fbx
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+            Poly\Free Low Poly Nature Pack\Meshes\PP_Meadow_Path_05.fbx
+          projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Meadow_Path_05.fbx
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Meadow_Path_05.fbx.meta
+        label: PP_Meadow_Path_05.fbx.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Meadow_Path_05.fbx.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+            Poly\Free Low Poly Nature Pack\Meshes\PP_Meadow_Path_05.fbx.meta
+          projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Meadow_Path_05.fbx.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Mushroom_Fantasy_Orange_09.fbx
+        label: PP_Mushroom_Fantasy_Orange_09.fbx
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Mushroom_Fantasy_Orange_09.fbx
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+            Poly\Free Low Poly Nature Pack\Meshes\PP_Mushroom_Fantasy_Orange_09.fbx
+          projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Mushroom_Fantasy_Orange_09.fbx
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Mushroom_Fantasy_Orange_09.fbx.meta
+        label: PP_Mushroom_Fantasy_Orange_09.fbx.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Mushroom_Fantasy_Orange_09.fbx.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+            Poly\Free Low Poly Nature Pack\Meshes\PP_Mushroom_Fantasy_Orange_09.fbx.meta
+          projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Mushroom_Fantasy_Orange_09.fbx.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Mushroom_Fantasy_Orange_10.fbx
+        label: PP_Mushroom_Fantasy_Orange_10.fbx
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Mushroom_Fantasy_Orange_10.fbx
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+            Poly\Free Low Poly Nature Pack\Meshes\PP_Mushroom_Fantasy_Orange_10.fbx
+          projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Mushroom_Fantasy_Orange_10.fbx
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Mushroom_Fantasy_Orange_10.fbx.meta
+        label: PP_Mushroom_Fantasy_Orange_10.fbx.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Mushroom_Fantasy_Orange_10.fbx.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+            Poly\Free Low Poly Nature Pack\Meshes\PP_Mushroom_Fantasy_Orange_10.fbx.meta
+          projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Mushroom_Fantasy_Orange_10.fbx.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Mushroom_Fantasy_Purple_05.fbx
+        label: PP_Mushroom_Fantasy_Purple_05.fbx
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Mushroom_Fantasy_Purple_05.fbx
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+            Poly\Free Low Poly Nature Pack\Meshes\PP_Mushroom_Fantasy_Purple_05.fbx
+          projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Mushroom_Fantasy_Purple_05.fbx
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Mushroom_Fantasy_Purple_05.fbx.meta
+        label: PP_Mushroom_Fantasy_Purple_05.fbx.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Mushroom_Fantasy_Purple_05.fbx.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+            Poly\Free Low Poly Nature Pack\Meshes\PP_Mushroom_Fantasy_Purple_05.fbx.meta
+          projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Mushroom_Fantasy_Purple_05.fbx.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Mushroom_Fantasy_Purple_08.fbx
+        label: PP_Mushroom_Fantasy_Purple_08.fbx
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Mushroom_Fantasy_Purple_08.fbx
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+            Poly\Free Low Poly Nature Pack\Meshes\PP_Mushroom_Fantasy_Purple_08.fbx
+          projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Mushroom_Fantasy_Purple_08.fbx
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Mushroom_Fantasy_Purple_08.fbx.meta
+        label: PP_Mushroom_Fantasy_Purple_08.fbx.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Mushroom_Fantasy_Purple_08.fbx.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+            Poly\Free Low Poly Nature Pack\Meshes\PP_Mushroom_Fantasy_Purple_08.fbx.meta
+          projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Mushroom_Fantasy_Purple_08.fbx.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Rock_Moss_Grown_09.fbx
+        label: PP_Rock_Moss_Grown_09.fbx
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Rock_Moss_Grown_09.fbx
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+            Poly\Free Low Poly Nature Pack\Meshes\PP_Rock_Moss_Grown_09.fbx
+          projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Rock_Moss_Grown_09.fbx
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Rock_Moss_Grown_09.fbx.meta
+        label: PP_Rock_Moss_Grown_09.fbx.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Rock_Moss_Grown_09.fbx.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+            Poly\Free Low Poly Nature Pack\Meshes\PP_Rock_Moss_Grown_09.fbx.meta
+          projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Rock_Moss_Grown_09.fbx.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Rock_Moss_Grown_11.fbx
+        label: PP_Rock_Moss_Grown_11.fbx
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Rock_Moss_Grown_11.fbx
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+            Poly\Free Low Poly Nature Pack\Meshes\PP_Rock_Moss_Grown_11.fbx
+          projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Rock_Moss_Grown_11.fbx
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Rock_Moss_Grown_11.fbx.meta
+        label: PP_Rock_Moss_Grown_11.fbx.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Rock_Moss_Grown_11.fbx.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+            Poly\Free Low Poly Nature Pack\Meshes\PP_Rock_Moss_Grown_11.fbx.meta
+          projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Rock_Moss_Grown_11.fbx.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Rock_Pile_Forest_Moss_05.fbx
+        label: PP_Rock_Pile_Forest_Moss_05.fbx
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Rock_Pile_Forest_Moss_05.fbx
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+            Poly\Free Low Poly Nature Pack\Meshes\PP_Rock_Pile_Forest_Moss_05.fbx
+          projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Rock_Pile_Forest_Moss_05.fbx
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Rock_Pile_Forest_Moss_05.fbx.meta
+        label: PP_Rock_Pile_Forest_Moss_05.fbx.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Rock_Pile_Forest_Moss_05.fbx.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+            Poly\Free Low Poly Nature Pack\Meshes\PP_Rock_Pile_Forest_Moss_05.fbx.meta
+          projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Rock_Pile_Forest_Moss_05.fbx.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Rock_Pile_Forest_Moss_10.fbx
+        label: PP_Rock_Pile_Forest_Moss_10.fbx
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Rock_Pile_Forest_Moss_10.fbx
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+            Poly\Free Low Poly Nature Pack\Meshes\PP_Rock_Pile_Forest_Moss_10.fbx
+          projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Rock_Pile_Forest_Moss_10.fbx
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Rock_Pile_Forest_Moss_10.fbx.meta
+        label: PP_Rock_Pile_Forest_Moss_10.fbx.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Rock_Pile_Forest_Moss_10.fbx.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+            Poly\Free Low Poly Nature Pack\Meshes\PP_Rock_Pile_Forest_Moss_10.fbx.meta
+          projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Rock_Pile_Forest_Moss_10.fbx.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Sunflower_04.fbx
+        label: PP_Sunflower_04.fbx
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Sunflower_04.fbx
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+            Poly\Free Low Poly Nature Pack\Meshes\PP_Sunflower_04.fbx
+          projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Sunflower_04.fbx
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Sunflower_04.fbx.meta
+        label: PP_Sunflower_04.fbx.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Sunflower_04.fbx.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+            Poly\Free Low Poly Nature Pack\Meshes\PP_Sunflower_04.fbx.meta
+          projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Sunflower_04.fbx.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Tree_02.fbx
+        label: PP_Tree_02.fbx
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Tree_02.fbx
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+            Poly\Free Low Poly Nature Pack\Meshes\PP_Tree_02.fbx
+          projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Tree_02.fbx
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Tree_02.fbx.meta
+        label: PP_Tree_02.fbx.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Tree_02.fbx.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+            Poly\Free Low Poly Nature Pack\Meshes\PP_Tree_02.fbx.meta
+          projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Tree_02.fbx.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Tree_10.fbx
+        label: PP_Tree_10.fbx
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Tree_10.fbx
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+            Poly\Free Low Poly Nature Pack\Meshes\PP_Tree_10.fbx
+          projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Tree_10.fbx
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Tree_10.fbx.meta
+        label: PP_Tree_10.fbx.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Tree_10.fbx.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+            Poly\Free Low Poly Nature Pack\Meshes\PP_Tree_10.fbx.meta
+          projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Tree_10.fbx.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs.meta
+        label: Prefabs.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+            Poly\Free Low Poly Nature Pack\Prefabs.meta
+          projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs
+        label: Prefabs
+        level: 3
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Birch_Tree_05.prefab
+        label: PP_Birch_Tree_05.prefab
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Birch_Tree_05.prefab
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+            Poly\Free Low Poly Nature Pack\Prefabs\PP_Birch_Tree_05.prefab
+          projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Birch_Tree_05.prefab
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Birch_Tree_05.prefab.meta
+        label: PP_Birch_Tree_05.prefab.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Birch_Tree_05.prefab.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+            Poly\Free Low Poly Nature Pack\Prefabs\PP_Birch_Tree_05.prefab.meta
+          projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Birch_Tree_05.prefab.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Birch_Tree_06.prefab
+        label: PP_Birch_Tree_06.prefab
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Birch_Tree_06.prefab
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+            Poly\Free Low Poly Nature Pack\Prefabs\PP_Birch_Tree_06.prefab
+          projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Birch_Tree_06.prefab
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Birch_Tree_06.prefab.meta
+        label: PP_Birch_Tree_06.prefab.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Birch_Tree_06.prefab.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+            Poly\Free Low Poly Nature Pack\Prefabs\PP_Birch_Tree_06.prefab.meta
+          projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Birch_Tree_06.prefab.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Daffodil_03.prefab
+        label: PP_Daffodil_03.prefab
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Daffodil_03.prefab
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+            Poly\Free Low Poly Nature Pack\Prefabs\PP_Daffodil_03.prefab
+          projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Daffodil_03.prefab
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Daffodil_03.prefab.meta
+        label: PP_Daffodil_03.prefab.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Daffodil_03.prefab.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+            Poly\Free Low Poly Nature Pack\Prefabs\PP_Daffodil_03.prefab.meta
+          projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Daffodil_03.prefab.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Forest_Mountain_Moss_01.prefab
+        label: PP_Forest_Mountain_Moss_01.prefab
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Forest_Mountain_Moss_01.prefab
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+            Poly\Free Low Poly Nature Pack\Prefabs\PP_Forest_Mountain_Moss_01.prefab
+          projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Forest_Mountain_Moss_01.prefab
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Forest_Mountain_Moss_01.prefab.meta
+        label: PP_Forest_Mountain_Moss_01.prefab.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Forest_Mountain_Moss_01.prefab.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+            Poly\Free Low Poly Nature Pack\Prefabs\PP_Forest_Mountain_Moss_01.prefab.meta
+          projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Forest_Mountain_Moss_01.prefab.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Forest_Mountain_Moss_02.prefab
+        label: PP_Forest_Mountain_Moss_02.prefab
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Forest_Mountain_Moss_02.prefab
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+            Poly\Free Low Poly Nature Pack\Prefabs\PP_Forest_Mountain_Moss_02.prefab
+          projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Forest_Mountain_Moss_02.prefab
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Forest_Mountain_Moss_02.prefab.meta
+        label: PP_Forest_Mountain_Moss_02.prefab.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Forest_Mountain_Moss_02.prefab.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+            Poly\Free Low Poly Nature Pack\Prefabs\PP_Forest_Mountain_Moss_02.prefab.meta
+          projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Forest_Mountain_Moss_02.prefab.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Grass_11.prefab
+        label: PP_Grass_11.prefab
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Grass_11.prefab
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+            Poly\Free Low Poly Nature Pack\Prefabs\PP_Grass_11.prefab
+          projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Grass_11.prefab
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Grass_11.prefab.meta
+        label: PP_Grass_11.prefab.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Grass_11.prefab.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+            Poly\Free Low Poly Nature Pack\Prefabs\PP_Grass_11.prefab.meta
+          projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Grass_11.prefab.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Grass_15.prefab
+        label: PP_Grass_15.prefab
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Grass_15.prefab
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+            Poly\Free Low Poly Nature Pack\Prefabs\PP_Grass_15.prefab
+          projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Grass_15.prefab
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Grass_15.prefab.meta
+        label: PP_Grass_15.prefab.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Grass_15.prefab.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+            Poly\Free Low Poly Nature Pack\Prefabs\PP_Grass_15.prefab.meta
+          projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Grass_15.prefab.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Hyacinth_04.prefab
+        label: PP_Hyacinth_04.prefab
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Hyacinth_04.prefab
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+            Poly\Free Low Poly Nature Pack\Prefabs\PP_Hyacinth_04.prefab
+          projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Hyacinth_04.prefab
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Hyacinth_04.prefab.meta
+        label: PP_Hyacinth_04.prefab.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Hyacinth_04.prefab.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+            Poly\Free Low Poly Nature Pack\Prefabs\PP_Hyacinth_04.prefab.meta
+          projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Hyacinth_04.prefab.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Lake_Ground_04.prefab
+        label: PP_Lake_Ground_04.prefab
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Lake_Ground_04.prefab
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+            Poly\Free Low Poly Nature Pack\Prefabs\PP_Lake_Ground_04.prefab
+          projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Lake_Ground_04.prefab
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Lake_Ground_04.prefab.meta
+        label: PP_Lake_Ground_04.prefab.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Lake_Ground_04.prefab.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+            Poly\Free Low Poly Nature Pack\Prefabs\PP_Lake_Ground_04.prefab.meta
+          projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Lake_Ground_04.prefab.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Meadow_07.prefab
+        label: PP_Meadow_07.prefab
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Meadow_07.prefab
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+            Poly\Free Low Poly Nature Pack\Prefabs\PP_Meadow_07.prefab
+          projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Meadow_07.prefab
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Meadow_07.prefab.meta
+        label: PP_Meadow_07.prefab.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Meadow_07.prefab.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+            Poly\Free Low Poly Nature Pack\Prefabs\PP_Meadow_07.prefab.meta
+          projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Meadow_07.prefab.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Meadow_08.prefab
+        label: PP_Meadow_08.prefab
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Meadow_08.prefab
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+            Poly\Free Low Poly Nature Pack\Prefabs\PP_Meadow_08.prefab
+          projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Meadow_08.prefab
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Meadow_08.prefab.meta
+        label: PP_Meadow_08.prefab.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Meadow_08.prefab.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+            Poly\Free Low Poly Nature Pack\Prefabs\PP_Meadow_08.prefab.meta
+          projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Meadow_08.prefab.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Meadow_Path_05.prefab
+        label: PP_Meadow_Path_05.prefab
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Meadow_Path_05.prefab
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+            Poly\Free Low Poly Nature Pack\Prefabs\PP_Meadow_Path_05.prefab
+          projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Meadow_Path_05.prefab
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Meadow_Path_05.prefab.meta
+        label: PP_Meadow_Path_05.prefab.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Meadow_Path_05.prefab.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+            Poly\Free Low Poly Nature Pack\Prefabs\PP_Meadow_Path_05.prefab.meta
+          projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Meadow_Path_05.prefab.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Mushroom_Fantasy_Orange_09.prefab
+        label: PP_Mushroom_Fantasy_Orange_09.prefab
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Mushroom_Fantasy_Orange_09.prefab
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+            Poly\Free Low Poly Nature Pack\Prefabs\PP_Mushroom_Fantasy_Orange_09.prefab
+          projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Mushroom_Fantasy_Orange_09.prefab
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Mushroom_Fantasy_Orange_09.prefab.meta
+        label: PP_Mushroom_Fantasy_Orange_09.prefab.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Mushroom_Fantasy_Orange_09.prefab.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+            Poly\Free Low Poly Nature Pack\Prefabs\PP_Mushroom_Fantasy_Orange_09.prefab.meta
+          projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Mushroom_Fantasy_Orange_09.prefab.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Mushroom_Fantasy_Orange_10.prefab
+        label: PP_Mushroom_Fantasy_Orange_10.prefab
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Mushroom_Fantasy_Orange_10.prefab
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+            Poly\Free Low Poly Nature Pack\Prefabs\PP_Mushroom_Fantasy_Orange_10.prefab
+          projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Mushroom_Fantasy_Orange_10.prefab
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Mushroom_Fantasy_Orange_10.prefab.meta
+        label: PP_Mushroom_Fantasy_Orange_10.prefab.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Mushroom_Fantasy_Orange_10.prefab.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+            Poly\Free Low Poly Nature Pack\Prefabs\PP_Mushroom_Fantasy_Orange_10.prefab.meta
+          projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Mushroom_Fantasy_Orange_10.prefab.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Mushroom_Fantasy_Purple_05.prefab
+        label: PP_Mushroom_Fantasy_Purple_05.prefab
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Mushroom_Fantasy_Purple_05.prefab
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+            Poly\Free Low Poly Nature Pack\Prefabs\PP_Mushroom_Fantasy_Purple_05.prefab
+          projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Mushroom_Fantasy_Purple_05.prefab
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Mushroom_Fantasy_Purple_05.prefab.meta
+        label: PP_Mushroom_Fantasy_Purple_05.prefab.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Mushroom_Fantasy_Purple_05.prefab.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+            Poly\Free Low Poly Nature Pack\Prefabs\PP_Mushroom_Fantasy_Purple_05.prefab.meta
+          projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Mushroom_Fantasy_Purple_05.prefab.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Mushroom_Fantasy_Purple_08.prefab
+        label: PP_Mushroom_Fantasy_Purple_08.prefab
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Mushroom_Fantasy_Purple_08.prefab
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+            Poly\Free Low Poly Nature Pack\Prefabs\PP_Mushroom_Fantasy_Purple_08.prefab
+          projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Mushroom_Fantasy_Purple_08.prefab
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Mushroom_Fantasy_Purple_08.prefab.meta
+        label: PP_Mushroom_Fantasy_Purple_08.prefab.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Mushroom_Fantasy_Purple_08.prefab.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+            Poly\Free Low Poly Nature Pack\Prefabs\PP_Mushroom_Fantasy_Purple_08.prefab.meta
+          projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Mushroom_Fantasy_Purple_08.prefab.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Rock_Moss_Grown_09.prefab
+        label: PP_Rock_Moss_Grown_09.prefab
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Rock_Moss_Grown_09.prefab
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+            Poly\Free Low Poly Nature Pack\Prefabs\PP_Rock_Moss_Grown_09.prefab
+          projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Rock_Moss_Grown_09.prefab
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Rock_Moss_Grown_09.prefab.meta
+        label: PP_Rock_Moss_Grown_09.prefab.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Rock_Moss_Grown_09.prefab.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+            Poly\Free Low Poly Nature Pack\Prefabs\PP_Rock_Moss_Grown_09.prefab.meta
+          projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Rock_Moss_Grown_09.prefab.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Rock_Moss_Grown_11.prefab
+        label: PP_Rock_Moss_Grown_11.prefab
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Rock_Moss_Grown_11.prefab
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+            Poly\Free Low Poly Nature Pack\Prefabs\PP_Rock_Moss_Grown_11.prefab
+          projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Rock_Moss_Grown_11.prefab
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Rock_Moss_Grown_11.prefab.meta
+        label: PP_Rock_Moss_Grown_11.prefab.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Rock_Moss_Grown_11.prefab.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+            Poly\Free Low Poly Nature Pack\Prefabs\PP_Rock_Moss_Grown_11.prefab.meta
+          projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Rock_Moss_Grown_11.prefab.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Rock_Pile_Forest_Moss_05.prefab
+        label: PP_Rock_Pile_Forest_Moss_05.prefab
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Rock_Pile_Forest_Moss_05.prefab
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+            Poly\Free Low Poly Nature Pack\Prefabs\PP_Rock_Pile_Forest_Moss_05.prefab
+          projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Rock_Pile_Forest_Moss_05.prefab
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Rock_Pile_Forest_Moss_05.prefab.meta
+        label: PP_Rock_Pile_Forest_Moss_05.prefab.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Rock_Pile_Forest_Moss_05.prefab.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+            Poly\Free Low Poly Nature Pack\Prefabs\PP_Rock_Pile_Forest_Moss_05.prefab.meta
+          projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Rock_Pile_Forest_Moss_05.prefab.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Rock_Pile_Forest_Moss_10.prefab
+        label: PP_Rock_Pile_Forest_Moss_10.prefab
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Rock_Pile_Forest_Moss_10.prefab
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+            Poly\Free Low Poly Nature Pack\Prefabs\PP_Rock_Pile_Forest_Moss_10.prefab
+          projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Rock_Pile_Forest_Moss_10.prefab
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Rock_Pile_Forest_Moss_10.prefab.meta
+        label: PP_Rock_Pile_Forest_Moss_10.prefab.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Rock_Pile_Forest_Moss_10.prefab.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+            Poly\Free Low Poly Nature Pack\Prefabs\PP_Rock_Pile_Forest_Moss_10.prefab.meta
+          projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Rock_Pile_Forest_Moss_10.prefab.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Sunflower_04.prefab
+        label: PP_Sunflower_04.prefab
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Sunflower_04.prefab
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+            Poly\Free Low Poly Nature Pack\Prefabs\PP_Sunflower_04.prefab
+          projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Sunflower_04.prefab
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Sunflower_04.prefab.meta
+        label: PP_Sunflower_04.prefab.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Sunflower_04.prefab.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+            Poly\Free Low Poly Nature Pack\Prefabs\PP_Sunflower_04.prefab.meta
+          projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Sunflower_04.prefab.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Tree_02.prefab
+        label: PP_Tree_02.prefab
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Tree_02.prefab
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+            Poly\Free Low Poly Nature Pack\Prefabs\PP_Tree_02.prefab
+          projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Tree_02.prefab
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Tree_02.prefab.meta
+        label: PP_Tree_02.prefab.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Tree_02.prefab.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+            Poly\Free Low Poly Nature Pack\Prefabs\PP_Tree_02.prefab.meta
+          projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Tree_02.prefab.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Tree_10.prefab
+        label: PP_Tree_10.prefab
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Tree_10.prefab
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+            Poly\Free Low Poly Nature Pack\Prefabs\PP_Tree_10.prefab
+          projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Tree_10.prefab
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Tree_10.prefab.meta
+        label: PP_Tree_10.prefab.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Tree_10.prefab.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+            Poly\Free Low Poly Nature Pack\Prefabs\PP_Tree_10.prefab.meta
+          projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Tree_10.prefab.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Read Me.pdf
+        label: Read Me.pdf
+        level: 3
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Pure Poly\Free Low Poly Nature Pack\Read Me.pdf
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+            Poly\Free Low Poly Nature Pack\Read Me.pdf
+          projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Read Me.pdf
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Read Me.pdf.meta
+        label: Read Me.pdf.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Pure Poly\Free Low Poly Nature Pack\Read Me.pdf.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+            Poly\Free Low Poly Nature Pack\Read Me.pdf.meta
+          projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Read Me.pdf.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Textures.meta
+        label: Textures.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Pure Poly\Free Low Poly Nature Pack\Textures.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+            Poly\Free Low Poly Nature Pack\Textures.meta
+          projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Textures.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Textures
+        label: Textures
+        level: 3
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Textures\PP_Color_Palette.png
+        label: PP_Color_Palette.png
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Pure Poly\Free Low Poly Nature Pack\Textures\PP_Color_Palette.png
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+            Poly\Free Low Poly Nature Pack\Textures\PP_Color_Palette.png
+          projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Textures\PP_Color_Palette.png
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Pure Poly\Free Low Poly Nature Pack\Textures\PP_Color_Palette.png.meta
+        label: PP_Color_Palette.png.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Pure Poly\Free Low Poly Nature Pack\Textures\PP_Color_Palette.png.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+            Poly\Free Low Poly Nature Pack\Textures\PP_Color_Palette.png.meta
+          projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Textures\PP_Color_Palette.png.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Packages
+        label: Packages
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Packages\manifest.json
+        label: manifest.json
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Packages\manifest.json
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Packages\manifest.json
+          projectPath: Packages\manifest.json
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: Packages\packages-lock.json
+        label: packages-lock.json
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Packages\packages-lock.json
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Packages\packages-lock.json
+          projectPath: Packages\packages-lock.json
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: UserSettings
+        label: UserSettings
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: UserSettings\Layouts
+        label: Layouts
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: UserSettings\Layouts\default-2022.dwlt
+        label: default-2022.dwlt
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UserSettings\Layouts\default-2022.dwlt
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\UserSettings\Layouts\default-2022.dwlt
+          projectPath: UserSettings\Layouts\default-2022.dwlt
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      selectedNode:
+        path: Assets\Pure Poly\Free Low Poly Nature Pack\Materials\PP_Ground.mat
+        label: PP_Ground.mat
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Pure Poly\Free Low Poly Nature Pack\Materials\PP_Ground.mat
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+            Poly\Free Low Poly Nature Pack\Materials\PP_Ground.mat
+          projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Materials\PP_Ground.mat
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+    gitStatusEntries:
+    - path: Assets\Pure Poly.meta
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+        Poly.meta
+      projectPath: Assets\Pure Poly.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Pure Poly\Free Low Poly Nature Pack.meta
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+        Poly\Free Low Poly Nature Pack.meta
+      projectPath: Assets\Pure Poly\Free Low Poly Nature Pack.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Pure Poly\Free Low Poly Nature Pack\Materials.meta
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+        Poly\Free Low Poly Nature Pack\Materials.meta
+      projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Materials.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Pure Poly\Free Low Poly Nature Pack\Materials\PP_Ground.mat
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+        Poly\Free Low Poly Nature Pack\Materials\PP_Ground.mat
+      projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Materials\PP_Ground.mat
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Pure Poly\Free Low Poly Nature Pack\Materials\PP_Ground.mat.meta
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+        Poly\Free Low Poly Nature Pack\Materials\PP_Ground.mat.meta
+      projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Materials\PP_Ground.mat.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Pure Poly\Free Low Poly Nature Pack\Materials\PP_Standard_Material.mat
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+        Poly\Free Low Poly Nature Pack\Materials\PP_Standard_Material.mat
+      projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Materials\PP_Standard_Material.mat
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Pure Poly\Free Low Poly Nature Pack\Materials\PP_Standard_Material.mat.meta
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+        Poly\Free Low Poly Nature Pack\Materials\PP_Standard_Material.mat.meta
+      projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Materials\PP_Standard_Material.mat.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes.meta
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+        Poly\Free Low Poly Nature Pack\Meshes.meta
+      projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Birch_Tree_05.fbx
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+        Poly\Free Low Poly Nature Pack\Meshes\PP_Birch_Tree_05.fbx
+      projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Birch_Tree_05.fbx
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Birch_Tree_05.fbx.meta
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+        Poly\Free Low Poly Nature Pack\Meshes\PP_Birch_Tree_05.fbx.meta
+      projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Birch_Tree_05.fbx.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Birch_Tree_06.fbx
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+        Poly\Free Low Poly Nature Pack\Meshes\PP_Birch_Tree_06.fbx
+      projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Birch_Tree_06.fbx
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Birch_Tree_06.fbx.meta
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+        Poly\Free Low Poly Nature Pack\Meshes\PP_Birch_Tree_06.fbx.meta
+      projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Birch_Tree_06.fbx.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Daffodil_03.fbx
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+        Poly\Free Low Poly Nature Pack\Meshes\PP_Daffodil_03.fbx
+      projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Daffodil_03.fbx
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Daffodil_03.fbx.meta
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+        Poly\Free Low Poly Nature Pack\Meshes\PP_Daffodil_03.fbx.meta
+      projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Daffodil_03.fbx.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Forest_Mountain_Moss_01.fbx
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+        Poly\Free Low Poly Nature Pack\Meshes\PP_Forest_Mountain_Moss_01.fbx
+      projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Forest_Mountain_Moss_01.fbx
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Forest_Mountain_Moss_01.fbx.meta
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+        Poly\Free Low Poly Nature Pack\Meshes\PP_Forest_Mountain_Moss_01.fbx.meta
+      projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Forest_Mountain_Moss_01.fbx.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Forest_Mountain_Moss_02.fbx
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+        Poly\Free Low Poly Nature Pack\Meshes\PP_Forest_Mountain_Moss_02.fbx
+      projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Forest_Mountain_Moss_02.fbx
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Forest_Mountain_Moss_02.fbx.meta
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+        Poly\Free Low Poly Nature Pack\Meshes\PP_Forest_Mountain_Moss_02.fbx.meta
+      projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Forest_Mountain_Moss_02.fbx.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Grass_11.fbx
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+        Poly\Free Low Poly Nature Pack\Meshes\PP_Grass_11.fbx
+      projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Grass_11.fbx
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Grass_11.fbx.meta
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+        Poly\Free Low Poly Nature Pack\Meshes\PP_Grass_11.fbx.meta
+      projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Grass_11.fbx.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Grass_15.fbx
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+        Poly\Free Low Poly Nature Pack\Meshes\PP_Grass_15.fbx
+      projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Grass_15.fbx
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Grass_15.fbx.meta
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+        Poly\Free Low Poly Nature Pack\Meshes\PP_Grass_15.fbx.meta
+      projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Grass_15.fbx.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Hyacinth_04.fbx
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+        Poly\Free Low Poly Nature Pack\Meshes\PP_Hyacinth_04.fbx
+      projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Hyacinth_04.fbx
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Hyacinth_04.fbx.meta
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+        Poly\Free Low Poly Nature Pack\Meshes\PP_Hyacinth_04.fbx.meta
+      projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Hyacinth_04.fbx.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Lake_Ground_04.fbx
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+        Poly\Free Low Poly Nature Pack\Meshes\PP_Lake_Ground_04.fbx
+      projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Lake_Ground_04.fbx
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Lake_Ground_04.fbx.meta
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+        Poly\Free Low Poly Nature Pack\Meshes\PP_Lake_Ground_04.fbx.meta
+      projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Lake_Ground_04.fbx.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Meadow_07.fbx
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+        Poly\Free Low Poly Nature Pack\Meshes\PP_Meadow_07.fbx
+      projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Meadow_07.fbx
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Meadow_07.fbx.meta
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+        Poly\Free Low Poly Nature Pack\Meshes\PP_Meadow_07.fbx.meta
+      projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Meadow_07.fbx.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Meadow_08.fbx
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+        Poly\Free Low Poly Nature Pack\Meshes\PP_Meadow_08.fbx
+      projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Meadow_08.fbx
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Meadow_08.fbx.meta
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+        Poly\Free Low Poly Nature Pack\Meshes\PP_Meadow_08.fbx.meta
+      projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Meadow_08.fbx.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Meadow_Path_05.fbx
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+        Poly\Free Low Poly Nature Pack\Meshes\PP_Meadow_Path_05.fbx
+      projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Meadow_Path_05.fbx
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Meadow_Path_05.fbx.meta
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+        Poly\Free Low Poly Nature Pack\Meshes\PP_Meadow_Path_05.fbx.meta
+      projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Meadow_Path_05.fbx.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Mushroom_Fantasy_Orange_09.fbx
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+        Poly\Free Low Poly Nature Pack\Meshes\PP_Mushroom_Fantasy_Orange_09.fbx
+      projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Mushroom_Fantasy_Orange_09.fbx
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Mushroom_Fantasy_Orange_09.fbx.meta
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+        Poly\Free Low Poly Nature Pack\Meshes\PP_Mushroom_Fantasy_Orange_09.fbx.meta
+      projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Mushroom_Fantasy_Orange_09.fbx.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Mushroom_Fantasy_Orange_10.fbx
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+        Poly\Free Low Poly Nature Pack\Meshes\PP_Mushroom_Fantasy_Orange_10.fbx
+      projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Mushroom_Fantasy_Orange_10.fbx
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Mushroom_Fantasy_Orange_10.fbx.meta
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+        Poly\Free Low Poly Nature Pack\Meshes\PP_Mushroom_Fantasy_Orange_10.fbx.meta
+      projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Mushroom_Fantasy_Orange_10.fbx.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Mushroom_Fantasy_Purple_05.fbx
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+        Poly\Free Low Poly Nature Pack\Meshes\PP_Mushroom_Fantasy_Purple_05.fbx
+      projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Mushroom_Fantasy_Purple_05.fbx
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Mushroom_Fantasy_Purple_05.fbx.meta
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+        Poly\Free Low Poly Nature Pack\Meshes\PP_Mushroom_Fantasy_Purple_05.fbx.meta
+      projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Mushroom_Fantasy_Purple_05.fbx.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Mushroom_Fantasy_Purple_08.fbx
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+        Poly\Free Low Poly Nature Pack\Meshes\PP_Mushroom_Fantasy_Purple_08.fbx
+      projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Mushroom_Fantasy_Purple_08.fbx
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Mushroom_Fantasy_Purple_08.fbx.meta
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+        Poly\Free Low Poly Nature Pack\Meshes\PP_Mushroom_Fantasy_Purple_08.fbx.meta
+      projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Mushroom_Fantasy_Purple_08.fbx.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Rock_Moss_Grown_09.fbx
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+        Poly\Free Low Poly Nature Pack\Meshes\PP_Rock_Moss_Grown_09.fbx
+      projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Rock_Moss_Grown_09.fbx
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Rock_Moss_Grown_09.fbx.meta
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+        Poly\Free Low Poly Nature Pack\Meshes\PP_Rock_Moss_Grown_09.fbx.meta
+      projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Rock_Moss_Grown_09.fbx.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Rock_Moss_Grown_11.fbx
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+        Poly\Free Low Poly Nature Pack\Meshes\PP_Rock_Moss_Grown_11.fbx
+      projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Rock_Moss_Grown_11.fbx
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Rock_Moss_Grown_11.fbx.meta
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+        Poly\Free Low Poly Nature Pack\Meshes\PP_Rock_Moss_Grown_11.fbx.meta
+      projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Rock_Moss_Grown_11.fbx.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Rock_Pile_Forest_Moss_05.fbx
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+        Poly\Free Low Poly Nature Pack\Meshes\PP_Rock_Pile_Forest_Moss_05.fbx
+      projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Rock_Pile_Forest_Moss_05.fbx
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Rock_Pile_Forest_Moss_05.fbx.meta
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+        Poly\Free Low Poly Nature Pack\Meshes\PP_Rock_Pile_Forest_Moss_05.fbx.meta
+      projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Rock_Pile_Forest_Moss_05.fbx.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Rock_Pile_Forest_Moss_10.fbx
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+        Poly\Free Low Poly Nature Pack\Meshes\PP_Rock_Pile_Forest_Moss_10.fbx
+      projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Rock_Pile_Forest_Moss_10.fbx
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Rock_Pile_Forest_Moss_10.fbx.meta
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+        Poly\Free Low Poly Nature Pack\Meshes\PP_Rock_Pile_Forest_Moss_10.fbx.meta
+      projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Rock_Pile_Forest_Moss_10.fbx.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Sunflower_04.fbx
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+        Poly\Free Low Poly Nature Pack\Meshes\PP_Sunflower_04.fbx
+      projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Sunflower_04.fbx
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Sunflower_04.fbx.meta
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+        Poly\Free Low Poly Nature Pack\Meshes\PP_Sunflower_04.fbx.meta
+      projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Sunflower_04.fbx.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Tree_02.fbx
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+        Poly\Free Low Poly Nature Pack\Meshes\PP_Tree_02.fbx
+      projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Tree_02.fbx
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Tree_02.fbx.meta
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+        Poly\Free Low Poly Nature Pack\Meshes\PP_Tree_02.fbx.meta
+      projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Tree_02.fbx.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Tree_10.fbx
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+        Poly\Free Low Poly Nature Pack\Meshes\PP_Tree_10.fbx
+      projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Tree_10.fbx
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Tree_10.fbx.meta
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+        Poly\Free Low Poly Nature Pack\Meshes\PP_Tree_10.fbx.meta
+      projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Meshes\PP_Tree_10.fbx.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs.meta
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+        Poly\Free Low Poly Nature Pack\Prefabs.meta
+      projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Birch_Tree_05.prefab
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+        Poly\Free Low Poly Nature Pack\Prefabs\PP_Birch_Tree_05.prefab
+      projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Birch_Tree_05.prefab
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Birch_Tree_05.prefab.meta
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+        Poly\Free Low Poly Nature Pack\Prefabs\PP_Birch_Tree_05.prefab.meta
+      projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Birch_Tree_05.prefab.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Birch_Tree_06.prefab
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+        Poly\Free Low Poly Nature Pack\Prefabs\PP_Birch_Tree_06.prefab
+      projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Birch_Tree_06.prefab
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Birch_Tree_06.prefab.meta
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+        Poly\Free Low Poly Nature Pack\Prefabs\PP_Birch_Tree_06.prefab.meta
+      projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Birch_Tree_06.prefab.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Daffodil_03.prefab
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+        Poly\Free Low Poly Nature Pack\Prefabs\PP_Daffodil_03.prefab
+      projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Daffodil_03.prefab
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Daffodil_03.prefab.meta
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+        Poly\Free Low Poly Nature Pack\Prefabs\PP_Daffodil_03.prefab.meta
+      projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Daffodil_03.prefab.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Forest_Mountain_Moss_01.prefab
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+        Poly\Free Low Poly Nature Pack\Prefabs\PP_Forest_Mountain_Moss_01.prefab
+      projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Forest_Mountain_Moss_01.prefab
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Forest_Mountain_Moss_01.prefab.meta
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+        Poly\Free Low Poly Nature Pack\Prefabs\PP_Forest_Mountain_Moss_01.prefab.meta
+      projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Forest_Mountain_Moss_01.prefab.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Forest_Mountain_Moss_02.prefab
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+        Poly\Free Low Poly Nature Pack\Prefabs\PP_Forest_Mountain_Moss_02.prefab
+      projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Forest_Mountain_Moss_02.prefab
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Forest_Mountain_Moss_02.prefab.meta
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+        Poly\Free Low Poly Nature Pack\Prefabs\PP_Forest_Mountain_Moss_02.prefab.meta
+      projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Forest_Mountain_Moss_02.prefab.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Grass_11.prefab
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+        Poly\Free Low Poly Nature Pack\Prefabs\PP_Grass_11.prefab
+      projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Grass_11.prefab
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Grass_11.prefab.meta
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+        Poly\Free Low Poly Nature Pack\Prefabs\PP_Grass_11.prefab.meta
+      projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Grass_11.prefab.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Grass_15.prefab
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+        Poly\Free Low Poly Nature Pack\Prefabs\PP_Grass_15.prefab
+      projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Grass_15.prefab
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Grass_15.prefab.meta
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+        Poly\Free Low Poly Nature Pack\Prefabs\PP_Grass_15.prefab.meta
+      projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Grass_15.prefab.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Hyacinth_04.prefab
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+        Poly\Free Low Poly Nature Pack\Prefabs\PP_Hyacinth_04.prefab
+      projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Hyacinth_04.prefab
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Hyacinth_04.prefab.meta
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+        Poly\Free Low Poly Nature Pack\Prefabs\PP_Hyacinth_04.prefab.meta
+      projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Hyacinth_04.prefab.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Lake_Ground_04.prefab
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+        Poly\Free Low Poly Nature Pack\Prefabs\PP_Lake_Ground_04.prefab
+      projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Lake_Ground_04.prefab
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Lake_Ground_04.prefab.meta
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+        Poly\Free Low Poly Nature Pack\Prefabs\PP_Lake_Ground_04.prefab.meta
+      projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Lake_Ground_04.prefab.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Meadow_07.prefab
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+        Poly\Free Low Poly Nature Pack\Prefabs\PP_Meadow_07.prefab
+      projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Meadow_07.prefab
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Meadow_07.prefab.meta
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+        Poly\Free Low Poly Nature Pack\Prefabs\PP_Meadow_07.prefab.meta
+      projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Meadow_07.prefab.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Meadow_08.prefab
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+        Poly\Free Low Poly Nature Pack\Prefabs\PP_Meadow_08.prefab
+      projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Meadow_08.prefab
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Meadow_08.prefab.meta
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+        Poly\Free Low Poly Nature Pack\Prefabs\PP_Meadow_08.prefab.meta
+      projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Meadow_08.prefab.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Meadow_Path_05.prefab
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+        Poly\Free Low Poly Nature Pack\Prefabs\PP_Meadow_Path_05.prefab
+      projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Meadow_Path_05.prefab
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Meadow_Path_05.prefab.meta
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+        Poly\Free Low Poly Nature Pack\Prefabs\PP_Meadow_Path_05.prefab.meta
+      projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Meadow_Path_05.prefab.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Mushroom_Fantasy_Orange_09.prefab
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+        Poly\Free Low Poly Nature Pack\Prefabs\PP_Mushroom_Fantasy_Orange_09.prefab
+      projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Mushroom_Fantasy_Orange_09.prefab
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Mushroom_Fantasy_Orange_09.prefab.meta
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+        Poly\Free Low Poly Nature Pack\Prefabs\PP_Mushroom_Fantasy_Orange_09.prefab.meta
+      projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Mushroom_Fantasy_Orange_09.prefab.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Mushroom_Fantasy_Orange_10.prefab
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+        Poly\Free Low Poly Nature Pack\Prefabs\PP_Mushroom_Fantasy_Orange_10.prefab
+      projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Mushroom_Fantasy_Orange_10.prefab
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Mushroom_Fantasy_Orange_10.prefab.meta
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+        Poly\Free Low Poly Nature Pack\Prefabs\PP_Mushroom_Fantasy_Orange_10.prefab.meta
+      projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Mushroom_Fantasy_Orange_10.prefab.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Mushroom_Fantasy_Purple_05.prefab
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+        Poly\Free Low Poly Nature Pack\Prefabs\PP_Mushroom_Fantasy_Purple_05.prefab
+      projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Mushroom_Fantasy_Purple_05.prefab
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Mushroom_Fantasy_Purple_05.prefab.meta
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+        Poly\Free Low Poly Nature Pack\Prefabs\PP_Mushroom_Fantasy_Purple_05.prefab.meta
+      projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Mushroom_Fantasy_Purple_05.prefab.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Mushroom_Fantasy_Purple_08.prefab
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+        Poly\Free Low Poly Nature Pack\Prefabs\PP_Mushroom_Fantasy_Purple_08.prefab
+      projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Mushroom_Fantasy_Purple_08.prefab
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Mushroom_Fantasy_Purple_08.prefab.meta
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+        Poly\Free Low Poly Nature Pack\Prefabs\PP_Mushroom_Fantasy_Purple_08.prefab.meta
+      projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Mushroom_Fantasy_Purple_08.prefab.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Rock_Moss_Grown_09.prefab
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+        Poly\Free Low Poly Nature Pack\Prefabs\PP_Rock_Moss_Grown_09.prefab
+      projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Rock_Moss_Grown_09.prefab
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Rock_Moss_Grown_09.prefab.meta
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+        Poly\Free Low Poly Nature Pack\Prefabs\PP_Rock_Moss_Grown_09.prefab.meta
+      projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Rock_Moss_Grown_09.prefab.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Rock_Moss_Grown_11.prefab
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+        Poly\Free Low Poly Nature Pack\Prefabs\PP_Rock_Moss_Grown_11.prefab
+      projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Rock_Moss_Grown_11.prefab
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Rock_Moss_Grown_11.prefab.meta
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+        Poly\Free Low Poly Nature Pack\Prefabs\PP_Rock_Moss_Grown_11.prefab.meta
+      projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Rock_Moss_Grown_11.prefab.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Rock_Pile_Forest_Moss_05.prefab
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+        Poly\Free Low Poly Nature Pack\Prefabs\PP_Rock_Pile_Forest_Moss_05.prefab
+      projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Rock_Pile_Forest_Moss_05.prefab
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Rock_Pile_Forest_Moss_05.prefab.meta
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+        Poly\Free Low Poly Nature Pack\Prefabs\PP_Rock_Pile_Forest_Moss_05.prefab.meta
+      projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Rock_Pile_Forest_Moss_05.prefab.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Rock_Pile_Forest_Moss_10.prefab
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+        Poly\Free Low Poly Nature Pack\Prefabs\PP_Rock_Pile_Forest_Moss_10.prefab
+      projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Rock_Pile_Forest_Moss_10.prefab
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Rock_Pile_Forest_Moss_10.prefab.meta
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+        Poly\Free Low Poly Nature Pack\Prefabs\PP_Rock_Pile_Forest_Moss_10.prefab.meta
+      projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Rock_Pile_Forest_Moss_10.prefab.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Sunflower_04.prefab
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+        Poly\Free Low Poly Nature Pack\Prefabs\PP_Sunflower_04.prefab
+      projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Sunflower_04.prefab
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Sunflower_04.prefab.meta
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+        Poly\Free Low Poly Nature Pack\Prefabs\PP_Sunflower_04.prefab.meta
+      projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Sunflower_04.prefab.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Tree_02.prefab
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+        Poly\Free Low Poly Nature Pack\Prefabs\PP_Tree_02.prefab
+      projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Tree_02.prefab
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Tree_02.prefab.meta
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+        Poly\Free Low Poly Nature Pack\Prefabs\PP_Tree_02.prefab.meta
+      projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Tree_02.prefab.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Tree_10.prefab
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+        Poly\Free Low Poly Nature Pack\Prefabs\PP_Tree_10.prefab
+      projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Tree_10.prefab
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Tree_10.prefab.meta
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+        Poly\Free Low Poly Nature Pack\Prefabs\PP_Tree_10.prefab.meta
+      projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Prefabs\PP_Tree_10.prefab.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Pure Poly\Free Low Poly Nature Pack\Read Me.pdf
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+        Poly\Free Low Poly Nature Pack\Read Me.pdf
+      projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Read Me.pdf
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Pure Poly\Free Low Poly Nature Pack\Read Me.pdf.meta
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+        Poly\Free Low Poly Nature Pack\Read Me.pdf.meta
+      projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Read Me.pdf.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Pure Poly\Free Low Poly Nature Pack\Textures.meta
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+        Poly\Free Low Poly Nature Pack\Textures.meta
+      projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Textures.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Pure Poly\Free Low Poly Nature Pack\Textures\PP_Color_Palette.png
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+        Poly\Free Low Poly Nature Pack\Textures\PP_Color_Palette.png
+      projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Textures\PP_Color_Palette.png
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Pure Poly\Free Low Poly Nature Pack\Textures\PP_Color_Palette.png.meta
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Pure
+        Poly\Free Low Poly Nature Pack\Textures\PP_Color_Palette.png.meta
+      projectPath: Assets\Pure Poly\Free Low Poly Nature Pack\Textures\PP_Color_Palette.png.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Packages\manifest.json
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Packages\manifest.json
+      projectPath: Packages\manifest.json
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: Packages\packages-lock.json
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Packages\packages-lock.json
+      projectPath: Packages\packages-lock.json
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: UserSettings\Layouts\default-2022.dwlt
+      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\UserSettings\Layouts\default-2022.dwlt
+      projectPath: UserSettings\Layouts\default-2022.dwlt
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    changedFilesText: 109 changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2023-11-16T16:02:04.973+01:00
+      updatedTimeString: 2023-11-30T19:59:41.922+01:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2023-11-16T17:00:51.349+01:00
+      updatedTimeString: 2023-11-30T20:58:51.216+01:00
       cacheType: 6
     lastLocksChangedEvent:
-      updatedTimeString: 2023-11-16T16:59:48.750+01:00
+      updatedTimeString: 2023-11-30T20:49:13.346+01:00
       cacheType: 7
   historyView:
     currentLogHasUpdate: 0
@@ -954,7 +5286,7 @@ MonoBehaviour:
   currentRemoteUrl: https://github.com/Metran10/Lawnmower-Simulator.git
   statusAhead: 0
   statusBehind: 0
-  hasItemsToCommit: 0
+  hasItemsToCommit: 1
   isTrackingRemoteBranch: 1
   currentBranchContent:
     m_Text: master
@@ -965,13 +5297,13 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: Url of the origin remote
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2023-11-16T16:02:04.973+01:00
+    updatedTimeString: 2023-11-30T19:59:41.922+01:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2023-11-16T16:03:05.394+01:00
+    updatedTimeString: 2023-11-30T20:20:31.822+01:00
     cacheType: 5
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2023-11-16T16:03:05.363+01:00
+    updatedTimeString: 2023-11-30T20:20:31.802+01:00
     cacheType: 6
   pullButtonContent:
     m_Text: Pull
@@ -991,7 +5323,7 @@ MonoBehaviour:
     m_Tooltip: 
   repositoryProgressValue: 0
   repositoryProgressMessage: 
-  appManagerProgressValue: 1
+  appManagerProgressValue: 0.875
   appManagerProgressMessage: 
   primaryConnectionUsername: 
 --- !u!114 &14
@@ -1006,8 +5338,8 @@ MonoBehaviour:
   m_Script: {fileID: 12111, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_MinSize: {x: 400, y: 100}
-  m_MaxSize: {x: 2048, y: 2048}
+  m_MinSize: {x: 455, y: 354}
+  m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Asset Store
     m_Image: {fileID: -8693916549880196297, guid: 0000000000000000d000000000000000,
@@ -1015,10 +5347,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 468
-    y: 181
-    width: 973
-    height: 501
+    x: 339
+    y: 73
+    width: 1081
+    height: 585
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1075,7 +5407,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/Nature Low-Poly Pack By TexTheMess/Nature Models/Prefabs
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -1083,16 +5415,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 89
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Nature Low-Poly Pack By TexTheMess/Nature Models/Prefabs
   m_LastFoldersGridSize: 89
   m_LastProjectPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 324}
-    m_SelectedIDs: 32100100
-    m_LastClickedID: 69682
-    m_ExpandedIDs: 00000000ec400000fcaa000000ab000004ab000008ab000014ab000024ab0000b4c400003c10010000ca9a3b
+    scrollPos: {x: 0, y: 79}
+    m_SelectedIDs: a89e0000
+    m_LastClickedID: 40616
+    m_ExpandedIDs: 00000000487b00004a7b00004c7b00004e7b0000507b0000527b0000547b0000f27d0000f67d0000f2800000fe8000000e810000928c0000ac900000cc900000d490000054910000ec940000f8940000b09b00008c9c0000909e0000949e000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1120,7 +5452,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000ec400000
+    m_ExpandedIDs: 00000000487b00004a7b00004c7b00004e7b0000507b0000527b0000547b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1214,7 +5546,7 @@ MonoBehaviour:
   m_ObjectsLockedBeforeSerialization: []
   m_InstanceIDsLockedBeforeSerialization: 
   m_PreviewResizer:
-    m_CachedPref: 369
+    m_CachedPref: -369
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
@@ -1262,9 +5594,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: fe2d0100
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 18ebfcffb65cfdffd668fdff6a69fdff2876fdff0e7ffdff54c0fdff5ac0fdff6ac1fdff70c1fdff4e9efeff5a9efeffe6cdfeff66d0feffa4d2feff
+      m_ExpandedIDs: 84e5feff16fbffff6c8f0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1645,9 +5977,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.8685946, y: 0.12883258, z: -2.0551424}
+    m_Target: {x: 7.384267, y: -0.30754316, z: -0.45852804}
     speed: 2
-    m_Value: {x: -0.8685946, y: 0.12883258, z: -2.0551424}
+    m_Value: {x: 7.384267, y: -0.30754316, z: -0.45852804}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1693,13 +6025,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.23263873, y: 0.7066085, z: -0.26864284, w: -0.61191016}
+    m_Target: {x: -0.08546245, y: 0.90910643, z: -0.23146394, w: -0.33566585}
     speed: 2
-    m_Value: {x: -0.23263648, y: 0.7066017, z: -0.26864025, w: -0.61190426}
+    m_Value: {x: -0.08615537, y: 0.9080838, z: -0.23120359, w: -0.33838737}
   m_Size:
-    m_Target: 0.60112077
+    m_Target: 2.019328
     speed: 2
-    m_Value: 0.60112077
+    m_Value: 2.1144798
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1792,7 +6124,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
+    m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -1821,7 +6153,7 @@ MonoBehaviour:
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000100000100
-  m_XRRenderMode: 0
+  m_XRRenderMode: -1
   m_RenderTexture: {fileID: 0}
 --- !u!114 &20
 MonoBehaviour:
