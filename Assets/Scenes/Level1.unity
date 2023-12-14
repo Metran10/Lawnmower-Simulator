@@ -5155,7 +5155,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2090088646
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5717,7 +5717,7 @@ PrefabInstance:
     - target: {fileID: 8797206840679446794, guid: 0a8b5be76a5b6d142808e28743986093,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9045592902021295244, guid: 0a8b5be76a5b6d142808e28743986093,
         type: 3}
@@ -6375,6 +6375,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7732655720800878110}
   - component: {fileID: 4444988769116333156}
+  - component: {fileID: 7732655720800878111}
   m_Layer: 0
   m_Name: hand
   m_TagString: Untagged
@@ -6466,6 +6467,45 @@ Transform:
   - {fileID: 6084031854415921240}
   m_Father: {fileID: 2951535204627004388}
   m_LocalEulerAnglesHint: {x: 180, y: 80, z: 0}
+--- !u!114 &7732655720800878111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6918718442498040996}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eef4f8e32528c9f44bcfd3665edfb3e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pinchAnimationAction:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Pinch Animation
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 789dd2fe-6f8b-4aec-b660-a094f5ad86c2
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 7904272356298805229, guid: c348712bda248c246b8c49b3db54643f,
+      type: 3}
+  gripAnimationAction:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Grip Animation
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: e75d04ff-4228-4f9d-8a54-ad9baacb82e1
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: -1758520528963094988, guid: c348712bda248c246b8c49b3db54643f,
+      type: 3}
+  handAnimator: {fileID: 4444988769116333156}
 --- !u!4 &7816324842019094321
 Transform:
   m_ObjectHideFlags: 0
