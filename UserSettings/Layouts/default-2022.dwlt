@@ -19,12 +19,63 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Git for Unity
-  m_RootView: {fileID: 6}
+  m_Title: Inspector
+  m_RootView: {fileID: 8}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: GameView
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 951
+    height: 386
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 19}
+  m_Panes:
+  - {fileID: 19}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &3
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 2}
+  - {fileID: 7}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 561
+    width: 1466
+    height: 386
+  m_MinSize: {x: 200, y: 50}
+  m_MaxSize: {x: 16192, y: 8096}
+  vertical: 0
+  controlID: 71
+--- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -37,8 +88,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 9}
-  - {fileID: 3}
+  - {fileID: 11}
+  - {fileID: 5}
   m_Position:
     serializedVersion: 2
     x: 0
@@ -48,60 +99,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 118
---- !u!114 &3
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: Window
-  m_EditorClassIdentifier: 
-  m_Children: []
-  m_Position:
-    serializedVersion: 2
-    x: 1422
-    y: 0
-    width: 498
-    height: 947
-  m_MinSize: {x: 101, y: 121}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 13}
-  m_Panes:
-  - {fileID: 16}
-  - {fileID: 13}
-  m_Selected: 1
-  m_LastSelected: 0
---- !u!114 &4
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children: []
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 339
-    height: 606
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 17}
-  m_Panes:
-  - {fileID: 17}
-  m_Selected: 0
-  m_LastSelected: 0
+  controlID: 349
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -112,24 +110,77 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: InspectorWindow
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 1466
+    y: 0
+    width: 454
+    height: 947
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 16}
+  m_Panes:
+  - {fileID: 16}
+  - {fileID: 14}
+  m_Selected: 0
+  m_LastSelected: 1
+--- !u!114 &6
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 606
-    width: 1422
-    height: 341
-  m_MinSize: {x: 231, y: 271}
-  m_MaxSize: {x: 10001, y: 10021}
+    y: 0
+    width: 363
+    height: 561
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 17}
+  m_Panes:
+  - {fileID: 17}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &7
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: ProjectBrowser
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 951
+    y: 0
+    width: 515
+    height: 386
+  m_MinSize: {x: 232, y: 271}
+  m_MaxSize: {x: 10002, y: 10021}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
   - {fileID: 20}
   m_Selected: 0
   m_LastSelected: 1
---- !u!114 &6
+--- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -142,9 +193,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 7}
-  - {fileID: 2}
-  - {fileID: 8}
+  - {fileID: 9}
+  - {fileID: 4}
+  - {fileID: 10}
   m_Position:
     serializedVersion: 2
     x: 0
@@ -157,7 +208,7 @@ MonoBehaviour:
   m_TopViewHeight: 30
   m_UseBottomView: 1
   m_BottomViewHeight: 20
---- !u!114 &7
+--- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -179,7 +230,7 @@ MonoBehaviour:
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
   m_LastLoadedLayoutName: 
---- !u!114 &8
+--- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -200,7 +251,7 @@ MonoBehaviour:
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
---- !u!114 &9
+--- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -213,19 +264,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 10}
-  - {fileID: 5}
+  - {fileID: 12}
+  - {fileID: 3}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1422
+    width: 1466
     height: 947
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 61
---- !u!114 &10
+  controlID: 70
+--- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -238,19 +289,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 4}
-  - {fileID: 11}
+  - {fileID: 6}
+  - {fileID: 13}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1422
-    height: 606
+    width: 1466
+    height: 561
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 62
---- !u!114 &11
+  controlID: 61
+--- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -265,114 +316,18 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 339
+    x: 363
     y: 0
-    width: 1083
-    height: 606
+    width: 1103
+    height: 561
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
-  - {fileID: 19}
-  - {fileID: 14}
-  - {fileID: 12}
   m_Selected: 0
-  m_LastSelected: 2
---- !u!114 &12
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 12914, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Animator
-    m_Image: {fileID: -1673928668082335149, guid: 0000000000000000d000000000000000,
-      type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 208
-    y: 73
-    width: 1068
-    height: 585
-  m_SerializedDataModeController:
-    m_DataMode: 0
-    m_PreferredDataMode: 0
-    m_SupportedDataModes: 
-    isAutomatic: 1
-  m_ViewDataDictionary: {fileID: 0}
-  m_OverlayCanvas:
-    m_LastAppliedPresetName: Default
-    m_SaveData: []
-    m_OverlaysVisible: 1
-  m_ViewTransforms:
-    m_KeySerializationHelper:
-    - {fileID: -2276301845227396631, guid: 3338dde1ae80a3b43826deca5c238356, type: 2}
-    - {fileID: 5869694157650388578, guid: 3338dde1ae80a3b43826deca5c238356, type: 2}
-    m_ValueSerializationHelper:
-    - e00: 0.8924499
-      e01: 0
-      e02: 0
-      e03: -59.54051
-      e10: 0
-      e11: 0.8924499
-      e12: 0
-      e13: 188.76859
-      e20: 0
-      e21: 0
-      e22: 1
-      e23: 0
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-    - e00: 1
-      e01: 0
-      e02: 0
-      e03: 35.25
-      e10: 0
-      e11: 1
-      e12: 0
-      e13: 160.5
-      e20: 0
-      e21: 0
-      e22: 1
-      e23: 0
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-  m_PreviewAnimator: {fileID: 0}
-  m_AnimatorController: {fileID: 9100000, guid: 3338dde1ae80a3b43826deca5c238356,
-    type: 2}
-  m_BreadCrumbs:
-  - m_Target: {fileID: -2276301845227396631, guid: 3338dde1ae80a3b43826deca5c238356,
-      type: 2}
-    m_ScrollPosition: {x: 0, y: 0}
-  - m_Target: {fileID: 5869694157650388578, guid: 3338dde1ae80a3b43826deca5c238356,
-      type: 2}
-    m_ScrollPosition: {x: 0, y: 0}
-  stateMachineGraph: {fileID: 0}
-  stateMachineGraphGUI: {fileID: 0}
-  blendTreeGraph: {fileID: 0}
-  blendTreeGraphGUI: {fileID: 0}
-  m_AutoLiveLink: 1
-  m_MiniTool: 0
-  m_LockTracker:
-    m_IsLocked: 0
-  m_CurrentEditor: 0
-  m_LayerEditor:
-    m_SelectedLayerIndex: 0
---- !u!114 &13
+  m_LastSelected: 0
+--- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -392,9 +347,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1422
+    x: 1466
     y: 73
-    width: 497
+    width: 453
     height: 926
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -410,17 +365,17 @@ MonoBehaviour:
   notificationClearTime: -1
   timeSinceLastRotation: -1
   currentBranchAndRemoteHasUpdate: 0
-  currentTrackingStatusHasUpdate: 0
-  currentStatusEntriesHasUpdate: 0
-  repositoryProgressHasUpdate: 0
-  appManagerProgressHasUpdate: 0
-  changeTab: 3
-  activeTab: 3
+  currentTrackingStatusHasUpdate: 1
+  currentStatusEntriesHasUpdate: 1
+  repositoryProgressHasUpdate: 1
+  appManagerProgressHasUpdate: 1
+  changeTab: 4
+  activeTab: 4
   initProjectView:
-    hasCompletedInitialCheck: 1
-    isUserDataPresent: 1
+    hasCompletedInitialCheck: 0
+    isUserDataPresent: 0
     lastCheckUserChangedEvent:
-      updatedTimeString: 2023-10-16T14:37:12.108+02:00
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
       cacheType: 8
   branchesView:
     treeLocals:
@@ -465,11 +420,21 @@ MonoBehaviour:
         isContainer: 0
         isCollapsed: 0
         isHidden: 0
-        isActive: 1
+        isActive: 0
         treeIsCheckable: 0
         checkState: 0
       - path: grass
         label: grass
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 1
+        treeIsCheckable: 0
+        checkState: 0
+      - path: Hands
+        label: Hands
         level: 1
         isFolder: 0
         isContainer: 0
@@ -486,7 +451,7 @@ MonoBehaviour:
         isContainer: 0
         isCollapsed: 0
         isHidden: 0
-        isActive: 0
+        isActive: 1
         treeIsCheckable: 0
         checkState: 0
     treeRemotes:
@@ -555,6 +520,16 @@ MonoBehaviour:
         isActive: 0
         treeIsCheckable: 0
         checkState: 0
+      - path: origin/Hands
+        label: Hands
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
       - path: origin/master
         label: master
         level: 2
@@ -579,17 +554,17 @@ MonoBehaviour:
     mode: 0
     newBranchName: 
     scroll: {x: 0, y: 0}
-    disableDelete: 0
+    disableDelete: 1
     disableCreate: 0
     lastLocalAndRemoteBranchListChangedEvent:
-      updatedTimeString: 2023-12-12T20:16:01.328+01:00
+      updatedTimeString: 2023-12-14T16:33:48.484+01:00
       cacheType: 2
     lastCurrentBranchAndRemoteChange:
-      updatedTimeString: 2023-12-12T20:16:01.323+01:00
+      updatedTimeString: 2023-12-14T16:33:56.043+01:00
       cacheType: 1
     currentBranch:
-      name: master
-      tracking: origin/master
+      name: grass
+      tracking: origin/grass
     currentRemote:
       name: origin
       url: https://github.com/Metran10/Lawnmower-Simulator.git
@@ -603,8 +578,12 @@ MonoBehaviour:
       tracking: origin/master
     - name: grass
       tracking: origin/grass
+    - name: Hands
+      tracking: origin/Hands
     remoteBranches:
     - name: origin/grass
+      tracking: '[None]'
+    - name: origin/Hands
       tracking: '[None]'
     - name: origin/master
       tracking: '[None]'
@@ -614,224 +593,15 @@ MonoBehaviour:
     currentLocksHasUpdate: 0
     commitBody: 
     commitMessage: 
-    currentBranch: grass
+    currentBranch: Hands
     treeScroll: {x: 0, y: 0}
     treeChanges:
       assets:
-        keys:
-        - 00000000000000001000000000000000
-        - 0cc1b79de78bc4991892d4d342d7211a
-        - c3dad06628cd59644b6c3af4420d95c5
-        - afa574677db529e4c8e8a0a09df10485
-        - 1f52334614e1e9a499d81477e32cb580
-        - 0000000000000000b100000000000000
-        - 00000000000000003000000000000000
-        values:
-        - path: Assets
-          label: Assets
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Scenes
-          label: Scenes
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Scenes\Level1.unity
-          label: Level1.unity
-          level: 2
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Scenes\Level1.unity
-            fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Scenes\Level1.unity
-            projectPath: Assets\Scenes\Level1.unity
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: Assets\Scripts
-          label: Scripts
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Scripts\LawnMover.cs
-          label: LawnMover.cs
-          level: 2
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Scripts\LawnMover.cs
-            fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Scripts\LawnMover.cs
-            projectPath: Assets\Scripts\LawnMover.cs
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: ProjectSettings\PresetManager.asset
-          label: PresetManager.asset
-          level: 1
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: ProjectSettings\PresetManager.asset
-            fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\ProjectSettings\PresetManager.asset
-            projectPath: ProjectSettings\PresetManager.asset
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: ProjectSettings\TagManager.asset
-          label: TagManager.asset
-          level: 1
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: ProjectSettings\TagManager.asset
-            fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\ProjectSettings\TagManager.asset
-            projectPath: ProjectSettings\TagManager.asset
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
+        keys: []
+        values: []
       folders:
-        keys:
-        - Assets
-        - Assets\Scenes
-        - Assets\Scripts
-        - ProjectSettings
-        values:
-        - path: Assets
-          label: Assets
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Scenes
-          label: Scenes
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Scripts
-          label: Scripts
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: ProjectSettings
-          label: ProjectSettings
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
+        keys: []
+        values: []
       checkedFileNodes:
         keys: []
         values: []
@@ -860,168 +630,6 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: Assets
-        label: Assets
-        level: 0
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\Scenes
-        label: Scenes
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\Scenes\Level1.unity
-        label: Level1.unity
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scenes\Level1.unity
-          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Scenes\Level1.unity
-          projectPath: Assets\Scenes\Level1.unity
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Assets\Scripts
-        label: Scripts
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\Scripts\LawnMover.cs
-        label: LawnMover.cs
-        level: 2
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scripts\LawnMover.cs
-          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Scripts\LawnMover.cs
-          projectPath: Assets\Scripts\LawnMover.cs
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Scripts\LawnMover.cs.meta
-        label: LawnMover.cs.meta
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scripts\LawnMover.cs.meta
-          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Scripts\LawnMover.cs.meta
-          projectPath: Assets\Scripts\LawnMover.cs.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings
-        label: ProjectSettings
-        level: 0
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: ProjectSettings\PresetManager.asset
-        label: PresetManager.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\PresetManager.asset
-          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\ProjectSettings\PresetManager.asset
-          projectPath: ProjectSettings\PresetManager.asset
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: ProjectSettings\TagManager.asset
-        label: TagManager.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\TagManager.asset
-          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\ProjectSettings\TagManager.asset
-          projectPath: ProjectSettings\TagManager.asset
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
       selectedNode:
         path: 
         label: 
@@ -1041,43 +649,13 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-    gitStatusEntries:
-    - path: Assets\Scenes\Level1.unity
-      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Scenes\Level1.unity
-      projectPath: Assets\Scenes\Level1.unity
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Assets\Scripts\LawnMover.cs
-      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Scripts\LawnMover.cs
-      projectPath: Assets\Scripts\LawnMover.cs
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Scripts\LawnMover.cs.meta
-      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Scripts\LawnMover.cs.meta
-      projectPath: Assets\Scripts\LawnMover.cs.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\PresetManager.asset
-      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\ProjectSettings\PresetManager.asset
-      projectPath: ProjectSettings\PresetManager.asset
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: ProjectSettings\TagManager.asset
-      fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\ProjectSettings\TagManager.asset
-      projectPath: ProjectSettings\TagManager.asset
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    changedFilesText: 5 changed files
+    gitStatusEntries: []
+    changedFilesText: No changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2023-12-13T19:39:12.269+01:00
+      updatedTimeString: 2023-12-14T16:33:48.493+01:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2023-12-13T19:39:12.421+01:00
+      updatedTimeString: 2023-12-14T16:33:20.643+01:00
       cacheType: 6
     lastLocksChangedEvent:
       updatedTimeString: 0001-01-01T00:00:00.000+00:00
@@ -1086,6 +664,1080 @@ MonoBehaviour:
     currentLogHasUpdate: 0
     currentTrackingStatusHasUpdate: 0
     logEntries:
+    - commitID: bbf5b53ed4a24bb7c4094153de76581954897e44
+      mergeA: 
+      mergeB: 
+      authorName: Metran10
+      authorEmail: grzetra@op.pl
+      commitEmail: grzetra@op.pl
+      commitName: Metran10
+      summary: Controllers Repairment
+      description: 
+      timeString: 2023-12-14T15:26:59.000+01:00
+      commitTimeString: 2023-12-14T15:26:59.000+01:00
+      changes:
+      - path: Assets\Scenes\Level1.unity
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Scenes\Level1.unity
+        projectPath: Assets\Scenes\Level1.unity
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Scripts\LawnMover.cs
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Scripts\LawnMover.cs
+        projectPath: Assets\Scripts\LawnMover.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scripts\LawnMover.cs.meta
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Scripts\LawnMover.cs.meta
+        projectPath: Assets\Scripts\LawnMover.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\PresetManager.asset
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\ProjectSettings\PresetManager.asset
+        projectPath: ProjectSettings\PresetManager.asset
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: ProjectSettings\TagManager.asset
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\ProjectSettings\TagManager.asset
+        projectPath: ProjectSettings\TagManager.asset
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: UserSettings\Layouts\CurrentMaximizeLayout.dwlt
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\UserSettings\Layouts\CurrentMaximizeLayout.dwlt
+        projectPath: UserSettings\Layouts\CurrentMaximizeLayout.dwlt
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: UserSettings\Layouts\default-2022.dwlt
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\UserSettings\Layouts\default-2022.dwlt
+        projectPath: UserSettings\Layouts\default-2022.dwlt
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+    - commitID: 628ffea62ac15bfb2ad59d8917389372752a5990
+      mergeA: 
+      mergeB: 
+      authorName: Metran10
+      authorEmail: grzetra@op.pl
+      commitEmail: grzetra@op.pl
+      commitName: Metran10
+      summary: Materials repair and added lawnmover
+      description: 
+      timeString: 2023-12-13T17:20:45.000+01:00
+      commitTimeString: 2023-12-13T17:20:45.000+01:00
+      changes:
+      - path: Assets\AssetsFromShop\Low Poly Free Tree Pack\Material\M_Green.mat
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\AssetsFromShop\Low
+          Poly Free Tree Pack\Material\M_Green.mat
+        projectPath: Assets\AssetsFromShop\Low Poly Free Tree Pack\Material\M_Green.mat
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\CustomModels.meta
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\CustomModels.meta
+        projectPath: Assets\CustomModels.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\CustomModels\lawnmower.blend
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\CustomModels\lawnmower.blend
+        projectPath: Assets\CustomModels\lawnmower.blend
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\CustomModels\lawnmower.blend.meta
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\CustomModels\lawnmower.blend.meta
+        projectPath: Assets\CustomModels\lawnmower.blend.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Materials\LeavesMaterial.mat
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Materials\LeavesMaterial.mat
+        projectPath: Assets\Materials\LeavesMaterial.mat
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Materials\LeavesMaterial.mat.meta
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Materials\LeavesMaterial.mat.meta
+        projectPath: Assets\Materials\LeavesMaterial.mat.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\LawnMover.prefab
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Prefabs\LawnMover.prefab
+        projectPath: Assets\Prefabs\LawnMover.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\LawnMover.prefab.meta
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Prefabs\LawnMover.prefab.meta
+        projectPath: Assets\Prefabs\LawnMover.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scenes\Level1.unity
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Scenes\Level1.unity
+        projectPath: Assets\Scenes\Level1.unity
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: ProjectSettings\GraphicsSettings.asset
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\ProjectSettings\GraphicsSettings.asset
+        projectPath: ProjectSettings\GraphicsSettings.asset
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: UserSettings\HDRPUserSettings.asset
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\UserSettings\HDRPUserSettings.asset
+        projectPath: UserSettings\HDRPUserSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: UserSettings\Layouts\default-2022.dwlt
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\UserSettings\Layouts\default-2022.dwlt
+        projectPath: UserSettings\Layouts\default-2022.dwlt
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+    - commitID: ebe221279ddaf74722e90780d1b4c665df5aa9a5
+      mergeA: 
+      mergeB: 
+      authorName: YurijDumitriuk
+      authorEmail: yclloud@gmail.com
+      commitEmail: yclloud@gmail.com
+      commitName: YurijDumitriuk
+      summary: Added Grass
+      description: 
+      timeString: 2023-12-12T20:10:58.000+01:00
+      commitTimeString: 2023-12-12T20:10:58.000+01:00
+      changes:
+      - path: Assets\AssetsFromShop\Low Poly Free Tree Pack\Material\M_Green.mat
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\AssetsFromShop\Low
+          Poly Free Tree Pack\Material\M_Green.mat
+        projectPath: Assets\AssetsFromShop\Low Poly Free Tree Pack\Material\M_Green.mat
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\AssetsFromShop\Low Poly Free Tree Pack\Material\M_Green_2.mat
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\AssetsFromShop\Low
+          Poly Free Tree Pack\Material\M_Green_2.mat
+        projectPath: Assets\AssetsFromShop\Low Poly Free Tree Pack\Material\M_Green_2.mat
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Dynamic Grass FX.meta
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+          Grass FX.meta
+        projectPath: Assets\Dynamic Grass FX.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Dynamic Grass FX\Demo.meta
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+          Grass FX\Demo.meta
+        projectPath: Assets\Dynamic Grass FX\Demo.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Dynamic Grass FX\Demo\Animations.meta
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+          Grass FX\Demo\Animations.meta
+        projectPath: Assets\Dynamic Grass FX\Demo\Animations.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Dynamic Grass FX\Demo\Animations\Llama.controller
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+          Grass FX\Demo\Animations\Llama.controller
+        projectPath: Assets\Dynamic Grass FX\Demo\Animations\Llama.controller
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Dynamic Grass FX\Demo\Animations\Llama.controller.meta
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+          Grass FX\Demo\Animations\Llama.controller.meta
+        projectPath: Assets\Dynamic Grass FX\Demo\Animations\Llama.controller.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Dynamic Grass FX\Demo\Animations\Sheep.controller
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+          Grass FX\Demo\Animations\Sheep.controller
+        projectPath: Assets\Dynamic Grass FX\Demo\Animations\Sheep.controller
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Dynamic Grass FX\Demo\Animations\Sheep.controller.meta
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+          Grass FX\Demo\Animations\Sheep.controller.meta
+        projectPath: Assets\Dynamic Grass FX\Demo\Animations\Sheep.controller.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Dynamic Grass FX\Demo\Demo.unity
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+          Grass FX\Demo\Demo.unity
+        projectPath: Assets\Dynamic Grass FX\Demo\Demo.unity
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Dynamic Grass FX\Demo\Demo.unity.meta
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+          Grass FX\Demo\Demo.unity.meta
+        projectPath: Assets\Dynamic Grass FX\Demo\Demo.unity.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Dynamic Grass FX\Demo\Models.meta
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+          Grass FX\Demo\Models.meta
+        projectPath: Assets\Dynamic Grass FX\Demo\Models.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Dynamic Grass FX\Demo\Models\Barn.fbx
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+          Grass FX\Demo\Models\Barn.fbx
+        projectPath: Assets\Dynamic Grass FX\Demo\Models\Barn.fbx
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Dynamic Grass FX\Demo\Models\Barn.fbx.meta
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+          Grass FX\Demo\Models\Barn.fbx.meta
+        projectPath: Assets\Dynamic Grass FX\Demo\Models\Barn.fbx.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Dynamic Grass FX\Demo\Models\BigBarn.fbx
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+          Grass FX\Demo\Models\BigBarn.fbx
+        projectPath: Assets\Dynamic Grass FX\Demo\Models\BigBarn.fbx
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Dynamic Grass FX\Demo\Models\BigBarn.fbx.meta
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+          Grass FX\Demo\Models\BigBarn.fbx.meta
+        projectPath: Assets\Dynamic Grass FX\Demo\Models\BigBarn.fbx.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Dynamic Grass FX\Demo\Models\ChickenCoop.fbx
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+          Grass FX\Demo\Models\ChickenCoop.fbx
+        projectPath: Assets\Dynamic Grass FX\Demo\Models\ChickenCoop.fbx
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Dynamic Grass FX\Demo\Models\ChickenCoop.fbx.meta
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+          Grass FX\Demo\Models\ChickenCoop.fbx.meta
+        projectPath: Assets\Dynamic Grass FX\Demo\Models\ChickenCoop.fbx.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Dynamic Grass FX\Demo\Models\Llama.fbx
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+          Grass FX\Demo\Models\Llama.fbx
+        projectPath: Assets\Dynamic Grass FX\Demo\Models\Llama.fbx
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Dynamic Grass FX\Demo\Models\Llama.fbx.meta
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+          Grass FX\Demo\Models\Llama.fbx.meta
+        projectPath: Assets\Dynamic Grass FX\Demo\Models\Llama.fbx.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Dynamic Grass FX\Demo\Models\Materials.meta
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+          Grass FX\Demo\Models\Materials.meta
+        projectPath: Assets\Dynamic Grass FX\Demo\Models\Materials.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Dynamic Grass FX\Demo\Models\Materials\Beige.mat
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+          Grass FX\Demo\Models\Materials\Beige.mat
+        projectPath: Assets\Dynamic Grass FX\Demo\Models\Materials\Beige.mat
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Dynamic Grass FX\Demo\Models\Materials\Beige.mat.meta
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+          Grass FX\Demo\Models\Materials\Beige.mat.meta
+        projectPath: Assets\Dynamic Grass FX\Demo\Models\Materials\Beige.mat.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Dynamic Grass FX\Demo\Models\Materials\Black.mat
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+          Grass FX\Demo\Models\Materials\Black.mat
+        projectPath: Assets\Dynamic Grass FX\Demo\Models\Materials\Black.mat
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Dynamic Grass FX\Demo\Models\Materials\Black.mat.meta
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+          Grass FX\Demo\Models\Materials\Black.mat.meta
+        projectPath: Assets\Dynamic Grass FX\Demo\Models\Materials\Black.mat.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Dynamic Grass FX\Demo\Models\Materials\Brown.mat
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+          Grass FX\Demo\Models\Materials\Brown.mat
+        projectPath: Assets\Dynamic Grass FX\Demo\Models\Materials\Brown.mat
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Dynamic Grass FX\Demo\Models\Materials\Brown.mat.meta
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+          Grass FX\Demo\Models\Materials\Brown.mat.meta
+        projectPath: Assets\Dynamic Grass FX\Demo\Models\Materials\Brown.mat.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Dynamic Grass FX\Demo\Models\Materials\DarkBrown.mat
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+          Grass FX\Demo\Models\Materials\DarkBrown.mat
+        projectPath: Assets\Dynamic Grass FX\Demo\Models\Materials\DarkBrown.mat
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Dynamic Grass FX\Demo\Models\Materials\DarkBrown.mat.meta
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+          Grass FX\Demo\Models\Materials\DarkBrown.mat.meta
+        projectPath: Assets\Dynamic Grass FX\Demo\Models\Materials\DarkBrown.mat.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Dynamic Grass FX\Demo\Models\Materials\DarkGrey.mat
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+          Grass FX\Demo\Models\Materials\DarkGrey.mat
+        projectPath: Assets\Dynamic Grass FX\Demo\Models\Materials\DarkGrey.mat
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Dynamic Grass FX\Demo\Models\Materials\DarkGrey.mat.meta
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+          Grass FX\Demo\Models\Materials\DarkGrey.mat.meta
+        projectPath: Assets\Dynamic Grass FX\Demo\Models\Materials\DarkGrey.mat.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Dynamic Grass FX\Demo\Models\Materials\DarkRed.mat
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+          Grass FX\Demo\Models\Materials\DarkRed.mat
+        projectPath: Assets\Dynamic Grass FX\Demo\Models\Materials\DarkRed.mat
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Dynamic Grass FX\Demo\Models\Materials\DarkRed.mat.meta
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+          Grass FX\Demo\Models\Materials\DarkRed.mat.meta
+        projectPath: Assets\Dynamic Grass FX\Demo\Models\Materials\DarkRed.mat.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Dynamic Grass FX\Demo\Models\Materials\Green.mat
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+          Grass FX\Demo\Models\Materials\Green.mat
+        projectPath: Assets\Dynamic Grass FX\Demo\Models\Materials\Green.mat
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Dynamic Grass FX\Demo\Models\Materials\Green.mat.meta
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+          Grass FX\Demo\Models\Materials\Green.mat.meta
+        projectPath: Assets\Dynamic Grass FX\Demo\Models\Materials\Green.mat.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Dynamic Grass FX\Demo\Models\Materials\Grey.mat
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+          Grass FX\Demo\Models\Materials\Grey.mat
+        projectPath: Assets\Dynamic Grass FX\Demo\Models\Materials\Grey.mat
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Dynamic Grass FX\Demo\Models\Materials\Grey.mat.meta
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+          Grass FX\Demo\Models\Materials\Grey.mat.meta
+        projectPath: Assets\Dynamic Grass FX\Demo\Models\Materials\Grey.mat.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Dynamic Grass FX\Demo\Models\Materials\Ground.mat
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+          Grass FX\Demo\Models\Materials\Ground.mat
+        projectPath: Assets\Dynamic Grass FX\Demo\Models\Materials\Ground.mat
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Dynamic Grass FX\Demo\Models\Materials\Ground.mat.meta
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+          Grass FX\Demo\Models\Materials\Ground.mat.meta
+        projectPath: Assets\Dynamic Grass FX\Demo\Models\Materials\Ground.mat.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Dynamic Grass FX\Demo\Models\Materials\Leaves.mat
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+          Grass FX\Demo\Models\Materials\Leaves.mat
+        projectPath: Assets\Dynamic Grass FX\Demo\Models\Materials\Leaves.mat
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Dynamic Grass FX\Demo\Models\Materials\Leaves.mat.meta
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+          Grass FX\Demo\Models\Materials\Leaves.mat.meta
+        projectPath: Assets\Dynamic Grass FX\Demo\Models\Materials\Leaves.mat.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Dynamic Grass FX\Demo\Models\Materials\LightBrown.mat
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+          Grass FX\Demo\Models\Materials\LightBrown.mat
+        projectPath: Assets\Dynamic Grass FX\Demo\Models\Materials\LightBrown.mat
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Dynamic Grass FX\Demo\Models\Materials\LightBrown.mat.meta
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+          Grass FX\Demo\Models\Materials\LightBrown.mat.meta
+        projectPath: Assets\Dynamic Grass FX\Demo\Models\Materials\LightBrown.mat.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Dynamic Grass FX\Demo\Models\Materials\LightRed.mat
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+          Grass FX\Demo\Models\Materials\LightRed.mat
+        projectPath: Assets\Dynamic Grass FX\Demo\Models\Materials\LightRed.mat
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Dynamic Grass FX\Demo\Models\Materials\LightRed.mat.meta
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+          Grass FX\Demo\Models\Materials\LightRed.mat.meta
+        projectPath: Assets\Dynamic Grass FX\Demo\Models\Materials\LightRed.mat.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Dynamic Grass FX\Demo\Models\Materials\Material.001.mat
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+          Grass FX\Demo\Models\Materials\Material.001.mat
+        projectPath: Assets\Dynamic Grass FX\Demo\Models\Materials\Material.001.mat
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Dynamic Grass FX\Demo\Models\Materials\Material.001.mat.meta
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+          Grass FX\Demo\Models\Materials\Material.001.mat.meta
+        projectPath: Assets\Dynamic Grass FX\Demo\Models\Materials\Material.001.mat.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Dynamic Grass FX\Demo\Models\Materials\Material.003.mat
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+          Grass FX\Demo\Models\Materials\Material.003.mat
+        projectPath: Assets\Dynamic Grass FX\Demo\Models\Materials\Material.003.mat
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Dynamic Grass FX\Demo\Models\Materials\Material.003.mat.meta
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+          Grass FX\Demo\Models\Materials\Material.003.mat.meta
+        projectPath: Assets\Dynamic Grass FX\Demo\Models\Materials\Material.003.mat.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Dynamic Grass FX\Demo\Models\Materials\Material.005.mat
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+          Grass FX\Demo\Models\Materials\Material.005.mat
+        projectPath: Assets\Dynamic Grass FX\Demo\Models\Materials\Material.005.mat
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Dynamic Grass FX\Demo\Models\Materials\Material.005.mat.meta
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+          Grass FX\Demo\Models\Materials\Material.005.mat.meta
+        projectPath: Assets\Dynamic Grass FX\Demo\Models\Materials\Material.005.mat.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Dynamic Grass FX\Demo\Models\Materials\Material.006.mat
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+          Grass FX\Demo\Models\Materials\Material.006.mat
+        projectPath: Assets\Dynamic Grass FX\Demo\Models\Materials\Material.006.mat
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Dynamic Grass FX\Demo\Models\Materials\Material.006.mat.meta
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+          Grass FX\Demo\Models\Materials\Material.006.mat.meta
+        projectPath: Assets\Dynamic Grass FX\Demo\Models\Materials\Material.006.mat.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Dynamic Grass FX\Demo\Models\Materials\Material.mat
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+          Grass FX\Demo\Models\Materials\Material.mat
+        projectPath: Assets\Dynamic Grass FX\Demo\Models\Materials\Material.mat
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Dynamic Grass FX\Demo\Models\Materials\Material.mat.meta
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+          Grass FX\Demo\Models\Materials\Material.mat.meta
+        projectPath: Assets\Dynamic Grass FX\Demo\Models\Materials\Material.mat.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Dynamic Grass FX\Demo\Models\Materials\No Name.mat
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+          Grass FX\Demo\Models\Materials\No Name.mat
+        projectPath: Assets\Dynamic Grass FX\Demo\Models\Materials\No Name.mat
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Dynamic Grass FX\Demo\Models\Materials\No Name.mat.meta
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+          Grass FX\Demo\Models\Materials\No Name.mat.meta
+        projectPath: Assets\Dynamic Grass FX\Demo\Models\Materials\No Name.mat.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Dynamic Grass FX\Demo\Models\Materials\Pink.mat
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+          Grass FX\Demo\Models\Materials\Pink.mat
+        projectPath: Assets\Dynamic Grass FX\Demo\Models\Materials\Pink.mat
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Dynamic Grass FX\Demo\Models\Materials\Pink.mat.meta
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+          Grass FX\Demo\Models\Materials\Pink.mat.meta
+        projectPath: Assets\Dynamic Grass FX\Demo\Models\Materials\Pink.mat.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Dynamic Grass FX\Demo\Models\Materials\RoofBlack.mat
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+          Grass FX\Demo\Models\Materials\RoofBlack.mat
+        projectPath: Assets\Dynamic Grass FX\Demo\Models\Materials\RoofBlack.mat
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Dynamic Grass FX\Demo\Models\Materials\RoofBlack.mat.meta
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+          Grass FX\Demo\Models\Materials\RoofBlack.mat.meta
+        projectPath: Assets\Dynamic Grass FX\Demo\Models\Materials\RoofBlack.mat.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Dynamic Grass FX\Demo\Models\Materials\Tree.mat
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+          Grass FX\Demo\Models\Materials\Tree.mat
+        projectPath: Assets\Dynamic Grass FX\Demo\Models\Materials\Tree.mat
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Dynamic Grass FX\Demo\Models\Materials\Tree.mat.meta
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+          Grass FX\Demo\Models\Materials\Tree.mat.meta
+        projectPath: Assets\Dynamic Grass FX\Demo\Models\Materials\Tree.mat.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Dynamic Grass FX\Demo\Models\Materials\White.mat
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+          Grass FX\Demo\Models\Materials\White.mat
+        projectPath: Assets\Dynamic Grass FX\Demo\Models\Materials\White.mat
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Dynamic Grass FX\Demo\Models\Materials\White.mat.meta
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+          Grass FX\Demo\Models\Materials\White.mat.meta
+        projectPath: Assets\Dynamic Grass FX\Demo\Models\Materials\White.mat.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Dynamic Grass FX\Demo\Models\OpenBarn.fbx
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+          Grass FX\Demo\Models\OpenBarn.fbx
+        projectPath: Assets\Dynamic Grass FX\Demo\Models\OpenBarn.fbx
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Dynamic Grass FX\Demo\Models\OpenBarn.fbx.meta
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+          Grass FX\Demo\Models\OpenBarn.fbx.meta
+        projectPath: Assets\Dynamic Grass FX\Demo\Models\OpenBarn.fbx.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Dynamic Grass FX\Demo\Models\Rock1.fbx
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+          Grass FX\Demo\Models\Rock1.fbx
+        projectPath: Assets\Dynamic Grass FX\Demo\Models\Rock1.fbx
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Dynamic Grass FX\Demo\Models\Rock1.fbx.meta
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+          Grass FX\Demo\Models\Rock1.fbx.meta
+        projectPath: Assets\Dynamic Grass FX\Demo\Models\Rock1.fbx.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Dynamic Grass FX\Demo\Models\Rock2.fbx
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+          Grass FX\Demo\Models\Rock2.fbx
+        projectPath: Assets\Dynamic Grass FX\Demo\Models\Rock2.fbx
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Dynamic Grass FX\Demo\Models\Rock2.fbx.meta
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+          Grass FX\Demo\Models\Rock2.fbx.meta
+        projectPath: Assets\Dynamic Grass FX\Demo\Models\Rock2.fbx.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Dynamic Grass FX\Demo\Models\Rock3.fbx
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+          Grass FX\Demo\Models\Rock3.fbx
+        projectPath: Assets\Dynamic Grass FX\Demo\Models\Rock3.fbx
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Dynamic Grass FX\Demo\Models\Rock3.fbx.meta
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+          Grass FX\Demo\Models\Rock3.fbx.meta
+        projectPath: Assets\Dynamic Grass FX\Demo\Models\Rock3.fbx.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Dynamic Grass FX\Demo\Models\Rock4.fbx
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+          Grass FX\Demo\Models\Rock4.fbx
+        projectPath: Assets\Dynamic Grass FX\Demo\Models\Rock4.fbx
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Dynamic Grass FX\Demo\Models\Rock4.fbx.meta
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+          Grass FX\Demo\Models\Rock4.fbx.meta
+        projectPath: Assets\Dynamic Grass FX\Demo\Models\Rock4.fbx.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Dynamic Grass FX\Demo\Models\Sheep.fbx
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+          Grass FX\Demo\Models\Sheep.fbx
+        projectPath: Assets\Dynamic Grass FX\Demo\Models\Sheep.fbx
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Dynamic Grass FX\Demo\Models\Sheep.fbx.meta
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+          Grass FX\Demo\Models\Sheep.fbx.meta
+        projectPath: Assets\Dynamic Grass FX\Demo\Models\Sheep.fbx.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Dynamic Grass FX\Demo\Models\Silo.fbx
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+          Grass FX\Demo\Models\Silo.fbx
+        projectPath: Assets\Dynamic Grass FX\Demo\Models\Silo.fbx
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Dynamic Grass FX\Demo\Models\Silo.fbx.meta
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+          Grass FX\Demo\Models\Silo.fbx.meta
+        projectPath: Assets\Dynamic Grass FX\Demo\Models\Silo.fbx.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Dynamic Grass FX\Demo\Models\Silo_House.fbx
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+          Grass FX\Demo\Models\Silo_House.fbx
+        projectPath: Assets\Dynamic Grass FX\Demo\Models\Silo_House.fbx
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Dynamic Grass FX\Demo\Models\Silo_House.fbx.meta
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+          Grass FX\Demo\Models\Silo_House.fbx.meta
+        projectPath: Assets\Dynamic Grass FX\Demo\Models\Silo_House.fbx.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Dynamic Grass FX\Demo\Models\SmallBarn.fbx
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+          Grass FX\Demo\Models\SmallBarn.fbx
+        projectPath: Assets\Dynamic Grass FX\Demo\Models\SmallBarn.fbx
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Dynamic Grass FX\Demo\Models\SmallBarn.fbx.meta
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+          Grass FX\Demo\Models\SmallBarn.fbx.meta
+        projectPath: Assets\Dynamic Grass FX\Demo\Models\SmallBarn.fbx.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Dynamic Grass FX\Demo\Models\TowerWindmill.fbx
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+          Grass FX\Demo\Models\TowerWindmill.fbx
+        projectPath: Assets\Dynamic Grass FX\Demo\Models\TowerWindmill.fbx
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Dynamic Grass FX\Demo\Models\TowerWindmill.fbx.meta
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+          Grass FX\Demo\Models\TowerWindmill.fbx.meta
+        projectPath: Assets\Dynamic Grass FX\Demo\Models\TowerWindmill.fbx.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Dynamic Grass FX\Demo\Models\Well.fbx
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+          Grass FX\Demo\Models\Well.fbx
+        projectPath: Assets\Dynamic Grass FX\Demo\Models\Well.fbx
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Dynamic Grass FX\Demo\Models\Well.fbx.meta
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+          Grass FX\Demo\Models\Well.fbx.meta
+        projectPath: Assets\Dynamic Grass FX\Demo\Models\Well.fbx.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Dynamic Grass FX\Demo\Scripts.meta
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+          Grass FX\Demo\Scripts.meta
+        projectPath: Assets\Dynamic Grass FX\Demo\Scripts.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Dynamic Grass FX\Demo\Scripts\Move.cs
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+          Grass FX\Demo\Scripts\Move.cs
+        projectPath: Assets\Dynamic Grass FX\Demo\Scripts\Move.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Dynamic Grass FX\Demo\Scripts\Move.cs.meta
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+          Grass FX\Demo\Scripts\Move.cs.meta
+        projectPath: Assets\Dynamic Grass FX\Demo\Scripts\Move.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Dynamic Grass FX\Demo\Scripts\Rotate.cs
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+          Grass FX\Demo\Scripts\Rotate.cs
+        projectPath: Assets\Dynamic Grass FX\Demo\Scripts\Rotate.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Dynamic Grass FX\Demo\Scripts\Rotate.cs.meta
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+          Grass FX\Demo\Scripts\Rotate.cs.meta
+        projectPath: Assets\Dynamic Grass FX\Demo\Scripts\Rotate.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Dynamic Grass FX\Documentation.pdf
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+          Grass FX\Documentation.pdf
+        projectPath: Assets\Dynamic Grass FX\Documentation.pdf
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Dynamic Grass FX\Documentation.pdf.meta
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+          Grass FX\Documentation.pdf.meta
+        projectPath: Assets\Dynamic Grass FX\Documentation.pdf.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Dynamic Grass FX\Grass Material.mat
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+          Grass FX\Grass Material.mat
+        projectPath: Assets\Dynamic Grass FX\Grass Material.mat
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Dynamic Grass FX\Grass Material.mat.meta
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+          Grass FX\Grass Material.mat.meta
+        projectPath: Assets\Dynamic Grass FX\Grass Material.mat.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Dynamic Grass FX\Shaders.meta
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+          Grass FX\Shaders.meta
+        projectPath: Assets\Dynamic Grass FX\Shaders.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Dynamic Grass FX\Shaders\Grass.shader
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+          Grass FX\Shaders\Grass.shader
+        projectPath: Assets\Dynamic Grass FX\Shaders\Grass.shader
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Dynamic Grass FX\Shaders\Grass.shader.meta
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+          Grass FX\Shaders\Grass.shader.meta
+        projectPath: Assets\Dynamic Grass FX\Shaders\Grass.shader.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Dynamic Grass FX\Shaders\GrassTessellation.cginc
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+          Grass FX\Shaders\GrassTessellation.cginc
+        projectPath: Assets\Dynamic Grass FX\Shaders\GrassTessellation.cginc
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Dynamic Grass FX\Shaders\GrassTessellation.cginc.meta
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+          Grass FX\Shaders\GrassTessellation.cginc.meta
+        projectPath: Assets\Dynamic Grass FX\Shaders\GrassTessellation.cginc.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Dynamic Grass FX\Shaders\Helpers.cginc
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+          Grass FX\Shaders\Helpers.cginc
+        projectPath: Assets\Dynamic Grass FX\Shaders\Helpers.cginc
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Dynamic Grass FX\Shaders\Helpers.cginc.meta
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+          Grass FX\Shaders\Helpers.cginc.meta
+        projectPath: Assets\Dynamic Grass FX\Shaders\Helpers.cginc.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Grass.meta
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Grass.meta
+        projectPath: Assets\Grass.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Grass\GrassShader.shadergraph
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Grass\GrassShader.shadergraph
+        projectPath: Assets\Grass\GrassShader.shadergraph
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Grass\GrassShader.shadergraph.meta
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Grass\GrassShader.shadergraph.meta
+        projectPath: Assets\Grass\GrassShader.shadergraph.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Grass\GrassSpawner.cs
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Grass\GrassSpawner.cs
+        projectPath: Assets\Grass\GrassSpawner.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Grass\GrassSpawner.cs.meta
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Grass\GrassSpawner.cs.meta
+        projectPath: Assets\Grass\GrassSpawner.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Grass\New Universal Render Pipeline Asset.asset
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Grass\New
+          Universal Render Pipeline Asset.asset
+        projectPath: Assets\Grass\New Universal Render Pipeline Asset.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Grass\New Universal Render Pipeline Asset.asset.meta
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Grass\New
+          Universal Render Pipeline Asset.asset.meta
+        projectPath: Assets\Grass\New Universal Render Pipeline Asset.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Grass\New Universal Render Pipeline Asset_Renderer.asset
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Grass\New
+          Universal Render Pipeline Asset_Renderer.asset
+        projectPath: Assets\Grass\New Universal Render Pipeline Asset_Renderer.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Grass\New Universal Render Pipeline Asset_Renderer.asset.meta
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Grass\New
+          Universal Render Pipeline Asset_Renderer.asset.meta
+        projectPath: Assets\Grass\New Universal Render Pipeline Asset_Renderer.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Grass\TestGrass.mat
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Grass\TestGrass.mat
+        projectPath: Assets\Grass\TestGrass.mat
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Grass\TestGrass.mat.meta
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Grass\TestGrass.mat.meta
+        projectPath: Assets\Grass\TestGrass.mat.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Grass\Untitled.png
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Grass\Untitled.png
+        projectPath: Assets\Grass\Untitled.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Grass\Untitled.png.meta
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Grass\Untitled.png.meta
+        projectPath: Assets\Grass\Untitled.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Grass\grass 1.blend
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Grass\grass
+          1.blend
+        projectPath: Assets\Grass\grass 1.blend
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Grass\grass 1.blend.meta
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Grass\grass
+          1.blend.meta
+        projectPath: Assets\Grass\grass 1.blend.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Grass\grass 1.prefab
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Grass\grass
+          1.prefab
+        projectPath: Assets\Grass\grass 1.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Grass\grass 1.prefab.meta
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Grass\grass
+          1.prefab.meta
+        projectPath: Assets\Grass\grass 1.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Grass\grass.png
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Grass\grass.png
+        projectPath: Assets\Grass\grass.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Grass\grass.png.meta
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Grass\grass.png.meta
+        projectPath: Assets\Grass\grass.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\HDRPDefaultResources.meta
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\HDRPDefaultResources.meta
+        projectPath: Assets\HDRPDefaultResources.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\HDRPDefaultResources\HDRenderPipelineGlobalSettings.asset
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\HDRPDefaultResources\HDRenderPipelineGlobalSettings.asset
+        projectPath: Assets\HDRPDefaultResources\HDRenderPipelineGlobalSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\HDRPDefaultResources\HDRenderPipelineGlobalSettings.asset.meta
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\HDRPDefaultResources\HDRenderPipelineGlobalSettings.asset.meta
+        projectPath: Assets\HDRPDefaultResources\HDRenderPipelineGlobalSettings.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\New Terrain.asset
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\New
+          Terrain.asset
+        projectPath: Assets\New Terrain.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\New Terrain.asset.meta
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\New
+          Terrain.asset.meta
+        projectPath: Assets\New Terrain.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scenes\Level1.unity
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Scenes\Level1.unity
+        projectPath: Assets\Scenes\Level1.unity
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Packages\manifest.json
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Packages\manifest.json
+        projectPath: Packages\manifest.json
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Packages\packages-lock.json
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Packages\packages-lock.json
+        projectPath: Packages\packages-lock.json
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: ProjectSettings\GraphicsSettings.asset
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\ProjectSettings\GraphicsSettings.asset
+        projectPath: ProjectSettings\GraphicsSettings.asset
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: ProjectSettings\VFXManager.asset
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\ProjectSettings\VFXManager.asset
+        projectPath: ProjectSettings\VFXManager.asset
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: UserSettings\EditorUserSettings.asset
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\UserSettings\EditorUserSettings.asset
+        projectPath: UserSettings\EditorUserSettings.asset
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: UserSettings\Layouts\default-2022.dwlt
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\UserSettings\Layouts\default-2022.dwlt
+        projectPath: UserSettings\Layouts\default-2022.dwlt
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: UserSettings\Search.settings
+        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\UserSettings\Search.settings
+        projectPath: UserSettings\Search.settings
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
     - commitID: 7d343425bd43d1afe9fa5b1d1ff0b71c825b759b
       mergeA: 
       mergeB: 
@@ -6218,14 +6870,1088 @@ MonoBehaviour:
         workTreeStatus: 0
     statusAhead: 0
     lastLogChangedEvent:
-      updatedTimeString: 2023-12-12T20:15:47.783+01:00
+      updatedTimeString: 2023-12-14T16:15:20.546+01:00
       cacheType: 3
     lastTrackingStatusChangedEvent:
-      updatedTimeString: 2023-12-12T20:15:39.944+01:00
+      updatedTimeString: 2023-12-14T16:14:24.242+01:00
       cacheType: 5
     historyControl:
       scroll: {x: 0, y: 0}
       entries:
+      - commitID: bbf5b53ed4a24bb7c4094153de76581954897e44
+        mergeA: 
+        mergeB: 
+        authorName: Metran10
+        authorEmail: grzetra@op.pl
+        commitEmail: grzetra@op.pl
+        commitName: Metran10
+        summary: Controllers Repairment
+        description: 
+        timeString: 2023-12-14T15:26:59.000+01:00
+        commitTimeString: 2023-12-14T15:26:59.000+01:00
+        changes:
+        - path: Assets\Scenes\Level1.unity
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Scenes\Level1.unity
+          projectPath: Assets\Scenes\Level1.unity
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Scripts\LawnMover.cs
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Scripts\LawnMover.cs
+          projectPath: Assets\Scripts\LawnMover.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scripts\LawnMover.cs.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Scripts\LawnMover.cs.meta
+          projectPath: Assets\Scripts\LawnMover.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\PresetManager.asset
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\ProjectSettings\PresetManager.asset
+          projectPath: ProjectSettings\PresetManager.asset
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: ProjectSettings\TagManager.asset
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\ProjectSettings\TagManager.asset
+          projectPath: ProjectSettings\TagManager.asset
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: UserSettings\Layouts\CurrentMaximizeLayout.dwlt
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\UserSettings\Layouts\CurrentMaximizeLayout.dwlt
+          projectPath: UserSettings\Layouts\CurrentMaximizeLayout.dwlt
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: UserSettings\Layouts\default-2022.dwlt
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\UserSettings\Layouts\default-2022.dwlt
+          projectPath: UserSettings\Layouts\default-2022.dwlt
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+      - commitID: 628ffea62ac15bfb2ad59d8917389372752a5990
+        mergeA: 
+        mergeB: 
+        authorName: Metran10
+        authorEmail: grzetra@op.pl
+        commitEmail: grzetra@op.pl
+        commitName: Metran10
+        summary: Materials repair and added lawnmover
+        description: 
+        timeString: 2023-12-13T17:20:45.000+01:00
+        commitTimeString: 2023-12-13T17:20:45.000+01:00
+        changes:
+        - path: Assets\AssetsFromShop\Low Poly Free Tree Pack\Material\M_Green.mat
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\AssetsFromShop\Low
+            Poly Free Tree Pack\Material\M_Green.mat
+          projectPath: Assets\AssetsFromShop\Low Poly Free Tree Pack\Material\M_Green.mat
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\CustomModels.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\CustomModels.meta
+          projectPath: Assets\CustomModels.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\CustomModels\lawnmower.blend
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\CustomModels\lawnmower.blend
+          projectPath: Assets\CustomModels\lawnmower.blend
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\CustomModels\lawnmower.blend.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\CustomModels\lawnmower.blend.meta
+          projectPath: Assets\CustomModels\lawnmower.blend.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Materials\LeavesMaterial.mat
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Materials\LeavesMaterial.mat
+          projectPath: Assets\Materials\LeavesMaterial.mat
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Materials\LeavesMaterial.mat.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Materials\LeavesMaterial.mat.meta
+          projectPath: Assets\Materials\LeavesMaterial.mat.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\LawnMover.prefab
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Prefabs\LawnMover.prefab
+          projectPath: Assets\Prefabs\LawnMover.prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\LawnMover.prefab.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Prefabs\LawnMover.prefab.meta
+          projectPath: Assets\Prefabs\LawnMover.prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scenes\Level1.unity
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Scenes\Level1.unity
+          projectPath: Assets\Scenes\Level1.unity
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: ProjectSettings\GraphicsSettings.asset
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\ProjectSettings\GraphicsSettings.asset
+          projectPath: ProjectSettings\GraphicsSettings.asset
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: UserSettings\HDRPUserSettings.asset
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\UserSettings\HDRPUserSettings.asset
+          projectPath: UserSettings\HDRPUserSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: UserSettings\Layouts\default-2022.dwlt
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\UserSettings\Layouts\default-2022.dwlt
+          projectPath: UserSettings\Layouts\default-2022.dwlt
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+      - commitID: ebe221279ddaf74722e90780d1b4c665df5aa9a5
+        mergeA: 
+        mergeB: 
+        authorName: YurijDumitriuk
+        authorEmail: yclloud@gmail.com
+        commitEmail: yclloud@gmail.com
+        commitName: YurijDumitriuk
+        summary: Added Grass
+        description: 
+        timeString: 2023-12-12T20:10:58.000+01:00
+        commitTimeString: 2023-12-12T20:10:58.000+01:00
+        changes:
+        - path: Assets\AssetsFromShop\Low Poly Free Tree Pack\Material\M_Green.mat
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\AssetsFromShop\Low
+            Poly Free Tree Pack\Material\M_Green.mat
+          projectPath: Assets\AssetsFromShop\Low Poly Free Tree Pack\Material\M_Green.mat
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\AssetsFromShop\Low Poly Free Tree Pack\Material\M_Green_2.mat
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\AssetsFromShop\Low
+            Poly Free Tree Pack\Material\M_Green_2.mat
+          projectPath: Assets\AssetsFromShop\Low Poly Free Tree Pack\Material\M_Green_2.mat
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Dynamic Grass FX.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+            Grass FX.meta
+          projectPath: Assets\Dynamic Grass FX.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Dynamic Grass FX\Demo.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+            Grass FX\Demo.meta
+          projectPath: Assets\Dynamic Grass FX\Demo.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Dynamic Grass FX\Demo\Animations.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+            Grass FX\Demo\Animations.meta
+          projectPath: Assets\Dynamic Grass FX\Demo\Animations.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Dynamic Grass FX\Demo\Animations\Llama.controller
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+            Grass FX\Demo\Animations\Llama.controller
+          projectPath: Assets\Dynamic Grass FX\Demo\Animations\Llama.controller
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Dynamic Grass FX\Demo\Animations\Llama.controller.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+            Grass FX\Demo\Animations\Llama.controller.meta
+          projectPath: Assets\Dynamic Grass FX\Demo\Animations\Llama.controller.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Dynamic Grass FX\Demo\Animations\Sheep.controller
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+            Grass FX\Demo\Animations\Sheep.controller
+          projectPath: Assets\Dynamic Grass FX\Demo\Animations\Sheep.controller
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Dynamic Grass FX\Demo\Animations\Sheep.controller.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+            Grass FX\Demo\Animations\Sheep.controller.meta
+          projectPath: Assets\Dynamic Grass FX\Demo\Animations\Sheep.controller.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Dynamic Grass FX\Demo\Demo.unity
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+            Grass FX\Demo\Demo.unity
+          projectPath: Assets\Dynamic Grass FX\Demo\Demo.unity
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Dynamic Grass FX\Demo\Demo.unity.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+            Grass FX\Demo\Demo.unity.meta
+          projectPath: Assets\Dynamic Grass FX\Demo\Demo.unity.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Dynamic Grass FX\Demo\Models.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+            Grass FX\Demo\Models.meta
+          projectPath: Assets\Dynamic Grass FX\Demo\Models.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Dynamic Grass FX\Demo\Models\Barn.fbx
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+            Grass FX\Demo\Models\Barn.fbx
+          projectPath: Assets\Dynamic Grass FX\Demo\Models\Barn.fbx
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Dynamic Grass FX\Demo\Models\Barn.fbx.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+            Grass FX\Demo\Models\Barn.fbx.meta
+          projectPath: Assets\Dynamic Grass FX\Demo\Models\Barn.fbx.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Dynamic Grass FX\Demo\Models\BigBarn.fbx
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+            Grass FX\Demo\Models\BigBarn.fbx
+          projectPath: Assets\Dynamic Grass FX\Demo\Models\BigBarn.fbx
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Dynamic Grass FX\Demo\Models\BigBarn.fbx.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+            Grass FX\Demo\Models\BigBarn.fbx.meta
+          projectPath: Assets\Dynamic Grass FX\Demo\Models\BigBarn.fbx.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Dynamic Grass FX\Demo\Models\ChickenCoop.fbx
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+            Grass FX\Demo\Models\ChickenCoop.fbx
+          projectPath: Assets\Dynamic Grass FX\Demo\Models\ChickenCoop.fbx
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Dynamic Grass FX\Demo\Models\ChickenCoop.fbx.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+            Grass FX\Demo\Models\ChickenCoop.fbx.meta
+          projectPath: Assets\Dynamic Grass FX\Demo\Models\ChickenCoop.fbx.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Dynamic Grass FX\Demo\Models\Llama.fbx
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+            Grass FX\Demo\Models\Llama.fbx
+          projectPath: Assets\Dynamic Grass FX\Demo\Models\Llama.fbx
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Dynamic Grass FX\Demo\Models\Llama.fbx.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+            Grass FX\Demo\Models\Llama.fbx.meta
+          projectPath: Assets\Dynamic Grass FX\Demo\Models\Llama.fbx.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Dynamic Grass FX\Demo\Models\Materials.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+            Grass FX\Demo\Models\Materials.meta
+          projectPath: Assets\Dynamic Grass FX\Demo\Models\Materials.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Dynamic Grass FX\Demo\Models\Materials\Beige.mat
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+            Grass FX\Demo\Models\Materials\Beige.mat
+          projectPath: Assets\Dynamic Grass FX\Demo\Models\Materials\Beige.mat
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Dynamic Grass FX\Demo\Models\Materials\Beige.mat.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+            Grass FX\Demo\Models\Materials\Beige.mat.meta
+          projectPath: Assets\Dynamic Grass FX\Demo\Models\Materials\Beige.mat.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Dynamic Grass FX\Demo\Models\Materials\Black.mat
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+            Grass FX\Demo\Models\Materials\Black.mat
+          projectPath: Assets\Dynamic Grass FX\Demo\Models\Materials\Black.mat
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Dynamic Grass FX\Demo\Models\Materials\Black.mat.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+            Grass FX\Demo\Models\Materials\Black.mat.meta
+          projectPath: Assets\Dynamic Grass FX\Demo\Models\Materials\Black.mat.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Dynamic Grass FX\Demo\Models\Materials\Brown.mat
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+            Grass FX\Demo\Models\Materials\Brown.mat
+          projectPath: Assets\Dynamic Grass FX\Demo\Models\Materials\Brown.mat
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Dynamic Grass FX\Demo\Models\Materials\Brown.mat.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+            Grass FX\Demo\Models\Materials\Brown.mat.meta
+          projectPath: Assets\Dynamic Grass FX\Demo\Models\Materials\Brown.mat.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Dynamic Grass FX\Demo\Models\Materials\DarkBrown.mat
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+            Grass FX\Demo\Models\Materials\DarkBrown.mat
+          projectPath: Assets\Dynamic Grass FX\Demo\Models\Materials\DarkBrown.mat
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Dynamic Grass FX\Demo\Models\Materials\DarkBrown.mat.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+            Grass FX\Demo\Models\Materials\DarkBrown.mat.meta
+          projectPath: Assets\Dynamic Grass FX\Demo\Models\Materials\DarkBrown.mat.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Dynamic Grass FX\Demo\Models\Materials\DarkGrey.mat
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+            Grass FX\Demo\Models\Materials\DarkGrey.mat
+          projectPath: Assets\Dynamic Grass FX\Demo\Models\Materials\DarkGrey.mat
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Dynamic Grass FX\Demo\Models\Materials\DarkGrey.mat.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+            Grass FX\Demo\Models\Materials\DarkGrey.mat.meta
+          projectPath: Assets\Dynamic Grass FX\Demo\Models\Materials\DarkGrey.mat.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Dynamic Grass FX\Demo\Models\Materials\DarkRed.mat
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+            Grass FX\Demo\Models\Materials\DarkRed.mat
+          projectPath: Assets\Dynamic Grass FX\Demo\Models\Materials\DarkRed.mat
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Dynamic Grass FX\Demo\Models\Materials\DarkRed.mat.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+            Grass FX\Demo\Models\Materials\DarkRed.mat.meta
+          projectPath: Assets\Dynamic Grass FX\Demo\Models\Materials\DarkRed.mat.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Dynamic Grass FX\Demo\Models\Materials\Green.mat
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+            Grass FX\Demo\Models\Materials\Green.mat
+          projectPath: Assets\Dynamic Grass FX\Demo\Models\Materials\Green.mat
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Dynamic Grass FX\Demo\Models\Materials\Green.mat.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+            Grass FX\Demo\Models\Materials\Green.mat.meta
+          projectPath: Assets\Dynamic Grass FX\Demo\Models\Materials\Green.mat.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Dynamic Grass FX\Demo\Models\Materials\Grey.mat
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+            Grass FX\Demo\Models\Materials\Grey.mat
+          projectPath: Assets\Dynamic Grass FX\Demo\Models\Materials\Grey.mat
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Dynamic Grass FX\Demo\Models\Materials\Grey.mat.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+            Grass FX\Demo\Models\Materials\Grey.mat.meta
+          projectPath: Assets\Dynamic Grass FX\Demo\Models\Materials\Grey.mat.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Dynamic Grass FX\Demo\Models\Materials\Ground.mat
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+            Grass FX\Demo\Models\Materials\Ground.mat
+          projectPath: Assets\Dynamic Grass FX\Demo\Models\Materials\Ground.mat
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Dynamic Grass FX\Demo\Models\Materials\Ground.mat.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+            Grass FX\Demo\Models\Materials\Ground.mat.meta
+          projectPath: Assets\Dynamic Grass FX\Demo\Models\Materials\Ground.mat.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Dynamic Grass FX\Demo\Models\Materials\Leaves.mat
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+            Grass FX\Demo\Models\Materials\Leaves.mat
+          projectPath: Assets\Dynamic Grass FX\Demo\Models\Materials\Leaves.mat
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Dynamic Grass FX\Demo\Models\Materials\Leaves.mat.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+            Grass FX\Demo\Models\Materials\Leaves.mat.meta
+          projectPath: Assets\Dynamic Grass FX\Demo\Models\Materials\Leaves.mat.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Dynamic Grass FX\Demo\Models\Materials\LightBrown.mat
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+            Grass FX\Demo\Models\Materials\LightBrown.mat
+          projectPath: Assets\Dynamic Grass FX\Demo\Models\Materials\LightBrown.mat
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Dynamic Grass FX\Demo\Models\Materials\LightBrown.mat.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+            Grass FX\Demo\Models\Materials\LightBrown.mat.meta
+          projectPath: Assets\Dynamic Grass FX\Demo\Models\Materials\LightBrown.mat.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Dynamic Grass FX\Demo\Models\Materials\LightRed.mat
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+            Grass FX\Demo\Models\Materials\LightRed.mat
+          projectPath: Assets\Dynamic Grass FX\Demo\Models\Materials\LightRed.mat
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Dynamic Grass FX\Demo\Models\Materials\LightRed.mat.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+            Grass FX\Demo\Models\Materials\LightRed.mat.meta
+          projectPath: Assets\Dynamic Grass FX\Demo\Models\Materials\LightRed.mat.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Dynamic Grass FX\Demo\Models\Materials\Material.001.mat
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+            Grass FX\Demo\Models\Materials\Material.001.mat
+          projectPath: Assets\Dynamic Grass FX\Demo\Models\Materials\Material.001.mat
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Dynamic Grass FX\Demo\Models\Materials\Material.001.mat.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+            Grass FX\Demo\Models\Materials\Material.001.mat.meta
+          projectPath: Assets\Dynamic Grass FX\Demo\Models\Materials\Material.001.mat.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Dynamic Grass FX\Demo\Models\Materials\Material.003.mat
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+            Grass FX\Demo\Models\Materials\Material.003.mat
+          projectPath: Assets\Dynamic Grass FX\Demo\Models\Materials\Material.003.mat
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Dynamic Grass FX\Demo\Models\Materials\Material.003.mat.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+            Grass FX\Demo\Models\Materials\Material.003.mat.meta
+          projectPath: Assets\Dynamic Grass FX\Demo\Models\Materials\Material.003.mat.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Dynamic Grass FX\Demo\Models\Materials\Material.005.mat
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+            Grass FX\Demo\Models\Materials\Material.005.mat
+          projectPath: Assets\Dynamic Grass FX\Demo\Models\Materials\Material.005.mat
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Dynamic Grass FX\Demo\Models\Materials\Material.005.mat.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+            Grass FX\Demo\Models\Materials\Material.005.mat.meta
+          projectPath: Assets\Dynamic Grass FX\Demo\Models\Materials\Material.005.mat.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Dynamic Grass FX\Demo\Models\Materials\Material.006.mat
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+            Grass FX\Demo\Models\Materials\Material.006.mat
+          projectPath: Assets\Dynamic Grass FX\Demo\Models\Materials\Material.006.mat
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Dynamic Grass FX\Demo\Models\Materials\Material.006.mat.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+            Grass FX\Demo\Models\Materials\Material.006.mat.meta
+          projectPath: Assets\Dynamic Grass FX\Demo\Models\Materials\Material.006.mat.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Dynamic Grass FX\Demo\Models\Materials\Material.mat
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+            Grass FX\Demo\Models\Materials\Material.mat
+          projectPath: Assets\Dynamic Grass FX\Demo\Models\Materials\Material.mat
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Dynamic Grass FX\Demo\Models\Materials\Material.mat.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+            Grass FX\Demo\Models\Materials\Material.mat.meta
+          projectPath: Assets\Dynamic Grass FX\Demo\Models\Materials\Material.mat.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Dynamic Grass FX\Demo\Models\Materials\No Name.mat
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+            Grass FX\Demo\Models\Materials\No Name.mat
+          projectPath: Assets\Dynamic Grass FX\Demo\Models\Materials\No Name.mat
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Dynamic Grass FX\Demo\Models\Materials\No Name.mat.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+            Grass FX\Demo\Models\Materials\No Name.mat.meta
+          projectPath: Assets\Dynamic Grass FX\Demo\Models\Materials\No Name.mat.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Dynamic Grass FX\Demo\Models\Materials\Pink.mat
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+            Grass FX\Demo\Models\Materials\Pink.mat
+          projectPath: Assets\Dynamic Grass FX\Demo\Models\Materials\Pink.mat
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Dynamic Grass FX\Demo\Models\Materials\Pink.mat.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+            Grass FX\Demo\Models\Materials\Pink.mat.meta
+          projectPath: Assets\Dynamic Grass FX\Demo\Models\Materials\Pink.mat.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Dynamic Grass FX\Demo\Models\Materials\RoofBlack.mat
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+            Grass FX\Demo\Models\Materials\RoofBlack.mat
+          projectPath: Assets\Dynamic Grass FX\Demo\Models\Materials\RoofBlack.mat
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Dynamic Grass FX\Demo\Models\Materials\RoofBlack.mat.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+            Grass FX\Demo\Models\Materials\RoofBlack.mat.meta
+          projectPath: Assets\Dynamic Grass FX\Demo\Models\Materials\RoofBlack.mat.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Dynamic Grass FX\Demo\Models\Materials\Tree.mat
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+            Grass FX\Demo\Models\Materials\Tree.mat
+          projectPath: Assets\Dynamic Grass FX\Demo\Models\Materials\Tree.mat
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Dynamic Grass FX\Demo\Models\Materials\Tree.mat.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+            Grass FX\Demo\Models\Materials\Tree.mat.meta
+          projectPath: Assets\Dynamic Grass FX\Demo\Models\Materials\Tree.mat.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Dynamic Grass FX\Demo\Models\Materials\White.mat
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+            Grass FX\Demo\Models\Materials\White.mat
+          projectPath: Assets\Dynamic Grass FX\Demo\Models\Materials\White.mat
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Dynamic Grass FX\Demo\Models\Materials\White.mat.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+            Grass FX\Demo\Models\Materials\White.mat.meta
+          projectPath: Assets\Dynamic Grass FX\Demo\Models\Materials\White.mat.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Dynamic Grass FX\Demo\Models\OpenBarn.fbx
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+            Grass FX\Demo\Models\OpenBarn.fbx
+          projectPath: Assets\Dynamic Grass FX\Demo\Models\OpenBarn.fbx
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Dynamic Grass FX\Demo\Models\OpenBarn.fbx.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+            Grass FX\Demo\Models\OpenBarn.fbx.meta
+          projectPath: Assets\Dynamic Grass FX\Demo\Models\OpenBarn.fbx.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Dynamic Grass FX\Demo\Models\Rock1.fbx
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+            Grass FX\Demo\Models\Rock1.fbx
+          projectPath: Assets\Dynamic Grass FX\Demo\Models\Rock1.fbx
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Dynamic Grass FX\Demo\Models\Rock1.fbx.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+            Grass FX\Demo\Models\Rock1.fbx.meta
+          projectPath: Assets\Dynamic Grass FX\Demo\Models\Rock1.fbx.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Dynamic Grass FX\Demo\Models\Rock2.fbx
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+            Grass FX\Demo\Models\Rock2.fbx
+          projectPath: Assets\Dynamic Grass FX\Demo\Models\Rock2.fbx
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Dynamic Grass FX\Demo\Models\Rock2.fbx.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+            Grass FX\Demo\Models\Rock2.fbx.meta
+          projectPath: Assets\Dynamic Grass FX\Demo\Models\Rock2.fbx.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Dynamic Grass FX\Demo\Models\Rock3.fbx
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+            Grass FX\Demo\Models\Rock3.fbx
+          projectPath: Assets\Dynamic Grass FX\Demo\Models\Rock3.fbx
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Dynamic Grass FX\Demo\Models\Rock3.fbx.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+            Grass FX\Demo\Models\Rock3.fbx.meta
+          projectPath: Assets\Dynamic Grass FX\Demo\Models\Rock3.fbx.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Dynamic Grass FX\Demo\Models\Rock4.fbx
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+            Grass FX\Demo\Models\Rock4.fbx
+          projectPath: Assets\Dynamic Grass FX\Demo\Models\Rock4.fbx
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Dynamic Grass FX\Demo\Models\Rock4.fbx.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+            Grass FX\Demo\Models\Rock4.fbx.meta
+          projectPath: Assets\Dynamic Grass FX\Demo\Models\Rock4.fbx.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Dynamic Grass FX\Demo\Models\Sheep.fbx
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+            Grass FX\Demo\Models\Sheep.fbx
+          projectPath: Assets\Dynamic Grass FX\Demo\Models\Sheep.fbx
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Dynamic Grass FX\Demo\Models\Sheep.fbx.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+            Grass FX\Demo\Models\Sheep.fbx.meta
+          projectPath: Assets\Dynamic Grass FX\Demo\Models\Sheep.fbx.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Dynamic Grass FX\Demo\Models\Silo.fbx
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+            Grass FX\Demo\Models\Silo.fbx
+          projectPath: Assets\Dynamic Grass FX\Demo\Models\Silo.fbx
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Dynamic Grass FX\Demo\Models\Silo.fbx.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+            Grass FX\Demo\Models\Silo.fbx.meta
+          projectPath: Assets\Dynamic Grass FX\Demo\Models\Silo.fbx.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Dynamic Grass FX\Demo\Models\Silo_House.fbx
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+            Grass FX\Demo\Models\Silo_House.fbx
+          projectPath: Assets\Dynamic Grass FX\Demo\Models\Silo_House.fbx
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Dynamic Grass FX\Demo\Models\Silo_House.fbx.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+            Grass FX\Demo\Models\Silo_House.fbx.meta
+          projectPath: Assets\Dynamic Grass FX\Demo\Models\Silo_House.fbx.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Dynamic Grass FX\Demo\Models\SmallBarn.fbx
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+            Grass FX\Demo\Models\SmallBarn.fbx
+          projectPath: Assets\Dynamic Grass FX\Demo\Models\SmallBarn.fbx
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Dynamic Grass FX\Demo\Models\SmallBarn.fbx.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+            Grass FX\Demo\Models\SmallBarn.fbx.meta
+          projectPath: Assets\Dynamic Grass FX\Demo\Models\SmallBarn.fbx.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Dynamic Grass FX\Demo\Models\TowerWindmill.fbx
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+            Grass FX\Demo\Models\TowerWindmill.fbx
+          projectPath: Assets\Dynamic Grass FX\Demo\Models\TowerWindmill.fbx
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Dynamic Grass FX\Demo\Models\TowerWindmill.fbx.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+            Grass FX\Demo\Models\TowerWindmill.fbx.meta
+          projectPath: Assets\Dynamic Grass FX\Demo\Models\TowerWindmill.fbx.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Dynamic Grass FX\Demo\Models\Well.fbx
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+            Grass FX\Demo\Models\Well.fbx
+          projectPath: Assets\Dynamic Grass FX\Demo\Models\Well.fbx
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Dynamic Grass FX\Demo\Models\Well.fbx.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+            Grass FX\Demo\Models\Well.fbx.meta
+          projectPath: Assets\Dynamic Grass FX\Demo\Models\Well.fbx.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Dynamic Grass FX\Demo\Scripts.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+            Grass FX\Demo\Scripts.meta
+          projectPath: Assets\Dynamic Grass FX\Demo\Scripts.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Dynamic Grass FX\Demo\Scripts\Move.cs
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+            Grass FX\Demo\Scripts\Move.cs
+          projectPath: Assets\Dynamic Grass FX\Demo\Scripts\Move.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Dynamic Grass FX\Demo\Scripts\Move.cs.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+            Grass FX\Demo\Scripts\Move.cs.meta
+          projectPath: Assets\Dynamic Grass FX\Demo\Scripts\Move.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Dynamic Grass FX\Demo\Scripts\Rotate.cs
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+            Grass FX\Demo\Scripts\Rotate.cs
+          projectPath: Assets\Dynamic Grass FX\Demo\Scripts\Rotate.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Dynamic Grass FX\Demo\Scripts\Rotate.cs.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+            Grass FX\Demo\Scripts\Rotate.cs.meta
+          projectPath: Assets\Dynamic Grass FX\Demo\Scripts\Rotate.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Dynamic Grass FX\Documentation.pdf
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+            Grass FX\Documentation.pdf
+          projectPath: Assets\Dynamic Grass FX\Documentation.pdf
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Dynamic Grass FX\Documentation.pdf.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+            Grass FX\Documentation.pdf.meta
+          projectPath: Assets\Dynamic Grass FX\Documentation.pdf.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Dynamic Grass FX\Grass Material.mat
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+            Grass FX\Grass Material.mat
+          projectPath: Assets\Dynamic Grass FX\Grass Material.mat
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Dynamic Grass FX\Grass Material.mat.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+            Grass FX\Grass Material.mat.meta
+          projectPath: Assets\Dynamic Grass FX\Grass Material.mat.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Dynamic Grass FX\Shaders.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+            Grass FX\Shaders.meta
+          projectPath: Assets\Dynamic Grass FX\Shaders.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Dynamic Grass FX\Shaders\Grass.shader
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+            Grass FX\Shaders\Grass.shader
+          projectPath: Assets\Dynamic Grass FX\Shaders\Grass.shader
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Dynamic Grass FX\Shaders\Grass.shader.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+            Grass FX\Shaders\Grass.shader.meta
+          projectPath: Assets\Dynamic Grass FX\Shaders\Grass.shader.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Dynamic Grass FX\Shaders\GrassTessellation.cginc
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+            Grass FX\Shaders\GrassTessellation.cginc
+          projectPath: Assets\Dynamic Grass FX\Shaders\GrassTessellation.cginc
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Dynamic Grass FX\Shaders\GrassTessellation.cginc.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+            Grass FX\Shaders\GrassTessellation.cginc.meta
+          projectPath: Assets\Dynamic Grass FX\Shaders\GrassTessellation.cginc.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Dynamic Grass FX\Shaders\Helpers.cginc
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+            Grass FX\Shaders\Helpers.cginc
+          projectPath: Assets\Dynamic Grass FX\Shaders\Helpers.cginc
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Dynamic Grass FX\Shaders\Helpers.cginc.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Dynamic
+            Grass FX\Shaders\Helpers.cginc.meta
+          projectPath: Assets\Dynamic Grass FX\Shaders\Helpers.cginc.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Grass.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Grass.meta
+          projectPath: Assets\Grass.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Grass\GrassShader.shadergraph
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Grass\GrassShader.shadergraph
+          projectPath: Assets\Grass\GrassShader.shadergraph
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Grass\GrassShader.shadergraph.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Grass\GrassShader.shadergraph.meta
+          projectPath: Assets\Grass\GrassShader.shadergraph.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Grass\GrassSpawner.cs
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Grass\GrassSpawner.cs
+          projectPath: Assets\Grass\GrassSpawner.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Grass\GrassSpawner.cs.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Grass\GrassSpawner.cs.meta
+          projectPath: Assets\Grass\GrassSpawner.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Grass\New Universal Render Pipeline Asset.asset
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Grass\New
+            Universal Render Pipeline Asset.asset
+          projectPath: Assets\Grass\New Universal Render Pipeline Asset.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Grass\New Universal Render Pipeline Asset.asset.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Grass\New
+            Universal Render Pipeline Asset.asset.meta
+          projectPath: Assets\Grass\New Universal Render Pipeline Asset.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Grass\New Universal Render Pipeline Asset_Renderer.asset
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Grass\New
+            Universal Render Pipeline Asset_Renderer.asset
+          projectPath: Assets\Grass\New Universal Render Pipeline Asset_Renderer.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Grass\New Universal Render Pipeline Asset_Renderer.asset.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Grass\New
+            Universal Render Pipeline Asset_Renderer.asset.meta
+          projectPath: Assets\Grass\New Universal Render Pipeline Asset_Renderer.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Grass\TestGrass.mat
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Grass\TestGrass.mat
+          projectPath: Assets\Grass\TestGrass.mat
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Grass\TestGrass.mat.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Grass\TestGrass.mat.meta
+          projectPath: Assets\Grass\TestGrass.mat.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Grass\Untitled.png
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Grass\Untitled.png
+          projectPath: Assets\Grass\Untitled.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Grass\Untitled.png.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Grass\Untitled.png.meta
+          projectPath: Assets\Grass\Untitled.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Grass\grass 1.blend
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Grass\grass
+            1.blend
+          projectPath: Assets\Grass\grass 1.blend
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Grass\grass 1.blend.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Grass\grass
+            1.blend.meta
+          projectPath: Assets\Grass\grass 1.blend.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Grass\grass 1.prefab
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Grass\grass
+            1.prefab
+          projectPath: Assets\Grass\grass 1.prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Grass\grass 1.prefab.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Grass\grass
+            1.prefab.meta
+          projectPath: Assets\Grass\grass 1.prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Grass\grass.png
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Grass\grass.png
+          projectPath: Assets\Grass\grass.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Grass\grass.png.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Grass\grass.png.meta
+          projectPath: Assets\Grass\grass.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\HDRPDefaultResources.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\HDRPDefaultResources.meta
+          projectPath: Assets\HDRPDefaultResources.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\HDRPDefaultResources\HDRenderPipelineGlobalSettings.asset
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\HDRPDefaultResources\HDRenderPipelineGlobalSettings.asset
+          projectPath: Assets\HDRPDefaultResources\HDRenderPipelineGlobalSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\HDRPDefaultResources\HDRenderPipelineGlobalSettings.asset.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\HDRPDefaultResources\HDRenderPipelineGlobalSettings.asset.meta
+          projectPath: Assets\HDRPDefaultResources\HDRenderPipelineGlobalSettings.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\New Terrain.asset
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\New
+            Terrain.asset
+          projectPath: Assets\New Terrain.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\New Terrain.asset.meta
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\New
+            Terrain.asset.meta
+          projectPath: Assets\New Terrain.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scenes\Level1.unity
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\Scenes\Level1.unity
+          projectPath: Assets\Scenes\Level1.unity
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Packages\manifest.json
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Packages\manifest.json
+          projectPath: Packages\manifest.json
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Packages\packages-lock.json
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Packages\packages-lock.json
+          projectPath: Packages\packages-lock.json
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: ProjectSettings\GraphicsSettings.asset
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\ProjectSettings\GraphicsSettings.asset
+          projectPath: ProjectSettings\GraphicsSettings.asset
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: ProjectSettings\VFXManager.asset
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\ProjectSettings\VFXManager.asset
+          projectPath: ProjectSettings\VFXManager.asset
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: UserSettings\EditorUserSettings.asset
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\UserSettings\EditorUserSettings.asset
+          projectPath: UserSettings\EditorUserSettings.asset
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: UserSettings\Layouts\default-2022.dwlt
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\UserSettings\Layouts\default-2022.dwlt
+          projectPath: UserSettings\Layouts\default-2022.dwlt
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: UserSettings\Search.settings
+          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\UserSettings\Search.settings
+          projectPath: UserSettings\Search.settings
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
       - commitID: 7d343425bd43d1afe9fa5b1d1ff0b71c825b759b
         mergeA: 
         mergeB: 
@@ -11372,164 +13098,37 @@ MonoBehaviour:
           indexStatus: 4
           workTreeStatus: 0
       statusAhead: 0
-      selectedIndex: 4
+      selectedIndex: -1
     selectedEntry:
-      commitID: 2e022cfc8fc4384b0cdf2a75ebc8442616f32351
+      commitID: 
       mergeA: 
       mergeB: 
-      authorName: Metran10
-      authorEmail: grzetra@op.pl
-      commitEmail: grzetra@op.pl
-      commitName: Metran10
-      summary: Initial commit
+      authorName: 
+      authorEmail: 
+      commitEmail: 
+      commitName: 
+      summary: 
       description: 
-      timeString: 2023-10-16T14:37:49.000+02:00
-      commitTimeString: 2023-10-16T14:37:49.000+02:00
-      changes:
-      - path: .gitattributes
-        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\.gitattributes
-        projectPath: .gitattributes
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: .gitignore
-        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\.gitignore
-        projectPath: .gitignore
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\.gitignore
-        fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\.gitignore
-        projectPath: Assets\.gitignore
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
+      timeString: 0001-01-01T00:00:00.000+00:00
+      commitTimeString: 0001-01-01T00:00:00.000+00:00
+      changes: []
     treeChanges:
       assets:
         keys: []
         values: []
       folders:
-        keys:
-        - Assets
-        values:
-        - path: Assets
-          label: Assets
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 0
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
+        keys: []
+        values: []
       checkedFileNodes:
         keys: []
         values: []
       title: 
-      pathSeparator: \
+      pathSeparator: /
       displayRootNode: 0
       isSelectable: 1
       isCheckable: 0
       isUsingGlobalSelection: 0
-      nodes:
-      - path: 
-        label: 
-        level: -1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: .gitattributes
-        label: .gitattributes
-        level: 0
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: .gitattributes
-          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\.gitattributes
-          projectPath: .gitattributes
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: .gitignore
-        label: .gitignore
-        level: 0
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: .gitignore
-          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\.gitignore
-          projectPath: .gitignore
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: Assets
-        label: Assets
-        level: 0
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\.gitignore
-        label: .gitignore
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\.gitignore
-          fullPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator\Assets\.gitignore
-          projectPath: Assets\.gitignore
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
+      nodes: []
       selectedNode:
         path: 
         label: 
@@ -11552,36 +13151,36 @@ MonoBehaviour:
     detailsScroll: {x: 0, y: 0}
   settingsView:
     gitPathView:
-      gitPath: C:\Program Files\Git\cmd\git.exe
-      gitLfsPath: C:\Program Files\Git\cmd\git-lfs.exe
+      gitPath: 
+      gitLfsPath: 
       errorMessage: 
       resetToBundled: 0
       resetToSystem: 0
       changingManually: 0
-    hasRemote: 1
+    hasRemote: 0
     lastCurrentRemoteChangedEvent:
-      updatedTimeString: 2023-10-16T14:50:40.137+02:00
-      cacheType: 1
-    newRepositoryRemoteUrl: https://github.com/Metran10/Lawnmower-Simulator.git
-    repositoryRemoteName: origin
-    repositoryRemoteUrl: https://github.com/Metran10/Lawnmower-Simulator.git
+      updatedTimeString: 
+      cacheType: 0
+    newRepositoryRemoteUrl: 
+    repositoryRemoteName: 
+    repositoryRemoteUrl: 
     scroll: {x: 0, y: 0}
     userSettingsView:
-      gitName: Metran10
-      gitEmail: grzetra@op.pl
-      newGitName: Metran10
-      newGitEmail: grzetra@op.pl
+      gitName: 
+      gitEmail: 
+      newGitName: 
+      newGitEmail: 
       needsSaving: 0
       lastCheckUserChangedEvent:
-        updatedTimeString: 0001-01-01T00:00:00.000+00:00
-        cacheType: 8
-    webTimeout: 100000
-    gitTimeout: 5000
+        updatedTimeString: 
+        cacheType: 0
+    webTimeout: 0
+    gitTimeout: 0
   locksView:
-    currentRemoteHasUpdate: 1
+    currentRemoteHasUpdate: 0
     currentStatusEntriesHasUpdate: 0
     currentLocksHasUpdate: 0
-    keychainHasUpdate: 1
+    keychainHasUpdate: 0
     locksControl:
       scroll: {x: 0, y: 0}
       gitLockEntries: []
@@ -11600,16 +13199,16 @@ MonoBehaviour:
             email: 
           lockedAtString: 
         gitFileStatus: 0
-        lockedAt: 1 sty 0001, 01:00
+        lockedAt: 
     lastCurrentRemoteChangedEvent:
-      updatedTimeString: 2023-12-12T20:07:23.812+01:00
-      cacheType: 1
+      updatedTimeString: 
+      cacheType: 0
     lastLocksChangedEvent:
-      updatedTimeString: 0001-01-01T00:00:00.000+00:00
-      cacheType: 7
+      updatedTimeString: 
+      cacheType: 0
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2023-12-12T20:15:32.361+01:00
-      cacheType: 6
+      updatedTimeString: 
+      cacheType: 0
     lockedFiles: []
     gitStatusEntries: []
     currentUsername: 
@@ -11627,7 +13226,7 @@ MonoBehaviour:
   currentRemoteUrl: https://github.com/Metran10/Lawnmower-Simulator.git
   statusAhead: 0
   statusBehind: 0
-  hasItemsToCommit: 1
+  hasItemsToCommit: 0
   isTrackingRemoteBranch: 1
   currentBranchContent:
     m_Text: grass
@@ -11638,13 +13237,13 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: Url of the origin remote
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2023-12-13T19:39:12.269+01:00
+    updatedTimeString: 2023-12-14T16:33:56.043+01:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2023-12-13T19:39:12.442+01:00
+    updatedTimeString: 2023-12-14T16:36:23.637+01:00
     cacheType: 5
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2023-12-13T19:39:12.421+01:00
+    updatedTimeString: 2023-12-14T16:36:23.617+01:00
     cacheType: 6
   pullButtonContent:
     m_Text: Pull
@@ -11667,41 +13266,6 @@ MonoBehaviour:
   appManagerProgressValue: 0.875
   appManagerProgressMessage: 
   primaryConnectionUsername: 
---- !u!114 &14
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12111, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 455, y: 354}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Asset Store
-    m_Image: {fileID: -8693916549880196297, guid: 0000000000000000d000000000000000,
-      type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 339
-    y: 73
-    width: 1081
-    height: 585
-  m_SerializedDataModeController:
-    m_DataMode: 0
-    m_PreferredDataMode: 0
-    m_SupportedDataModes: 
-    isAutomatic: 1
-  m_ViewDataDictionary: {fileID: 0}
-  m_OverlayCanvas:
-    m_LastAppliedPresetName: Default
-    m_SaveData: []
-    m_OverlaysVisible: 1
 --- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -11723,10 +13287,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 0
-    y: 679
-    width: 1421
-    height: 320
+    x: 951
+    y: 634
+    width: 513
+    height: 365
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -11748,24 +13312,24 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/CustomModels
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
     m_FilterByTypeIntersection: 0
   m_ViewMode: 1
-  m_StartGridSize: 89
+  m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Nature Low-Poly Pack By TexTheMess/Nature Models/Prefabs
-  m_LastFoldersGridSize: 89
+  - Assets/CustomModels
+  m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: 828a0000
-    m_LastClickedID: 35458
-    m_ExpandedIDs: 00000000828a0000848a0000868a0000888a00008a8a00008c8a00008e8a000000ca9a3b
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: c28d0000
+    m_LastClickedID: 36290
+    m_ExpandedIDs: 00000000088b00000a8b00000c8b00000e8b0000108b0000128b0000148b000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -11793,7 +13357,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000828a0000848a0000868a0000888a00008a8a00008c8a00008e8a0000
+    m_ExpandedIDs: 00000000088b00000a8b00000c8b00000e8b0000108b0000128b0000148b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -11820,8 +13384,8 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
-    m_ExpandedInstanceIDs: c6230000
+    m_HadKeyboardFocusLastEvent: 1
+    m_ExpandedInstanceIDs: c62300007e860000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -11837,7 +13401,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 5}
+      m_ClientGUIView: {fileID: 7}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -11846,9 +13410,9 @@ MonoBehaviour:
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
     m_ScrollPosition: {x: 0, y: 0}
-    m_GridSize: 89
+    m_GridSize: 16
   m_SkipHiddenPackages: 0
-  m_DirectoriesAreaWidth: 320
+  m_DirectoriesAreaWidth: 207
 --- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -11870,9 +13434,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1422
+    x: 1466
     y: 73
-    width: 497
+    width: 453
     height: 926
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -11887,7 +13451,7 @@ MonoBehaviour:
   m_ObjectsLockedBeforeSerialization: []
   m_InstanceIDsLockedBeforeSerialization: 
   m_PreviewResizer:
-    m_CachedPref: -369
+    m_CachedPref: 160
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
@@ -11920,8 +13484,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 73
-    width: 338
-    height: 585
+    width: 362
+    height: 540
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -11935,9 +13499,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 20fbffff
+      m_SelectedIDs: 7cebffff
+      m_LastClickedID: -5252
+      m_ExpandedIDs: 7ceafffffaeaffff04ebffff7cebffffa4ebffff20fbffff348f0000fc8f0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -11953,14 +13517,14 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 4}
+        m_ClientGUIView: {fileID: 6}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
     m_LockTracker:
       m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
-  m_WindowGUID: 46b7a0fefa812c44ca6fda42b4d7b176
+  m_WindowGUID: 4c969a2b90040154d917609493e03593
 --- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -11982,10 +13546,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 339
+    x: 363
     y: 73
-    width: 1081
-    height: 585
+    width: 1101
+    height: 540
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -12000,8 +13564,8 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: -166, y: -26}
-      snapOffsetDelta: {x: 0, y: 0}
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: -166, y: -26}
       snapCorner: 3
       id: Tool Settings
       index: 0
@@ -12259,10 +13823,10 @@ MonoBehaviour:
       containerId: overlay-container--right
       floating: 0
       collapsed: 0
-      displayed: 0
-      snapOffset: {x: -207, y: -242}
+      displayed: 1
+      snapOffset: {x: 48, y: 48}
       snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 3
+      snapCorner: 0
       id: AINavigationOverlay
       index: 7
       layout: 4
@@ -12276,47 +13840,8 @@ MonoBehaviour:
       snapOffset: {x: 48, y: 48}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
-      id: Scene View/TrailRenderer
-      index: 8
-      layout: 4
-      size: {x: 0, y: 0}
-      sizeOverriden: 0
-    - dockPosition: 1
-      containerId: overlay-container--right
-      floating: 0
-      collapsed: 0
-      displayed: 1
-      snapOffset: {x: 48, y: 48}
-      snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 0
-      id: UnityEditor.SceneViewCameraOverlay
-      index: 9
-      layout: 4
-      size: {x: 0, y: 0}
-      sizeOverriden: 0
-    - dockPosition: 1
-      containerId: overlay-container--right
-      floating: 0
-      collapsed: 0
-      displayed: 0
-      snapOffset: {x: 48, y: 48}
-      snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 0
-      id: APV Overlay
-      index: 9
-      layout: 4
-      size: {x: 0, y: 0}
-      sizeOverriden: 0
-    - dockPosition: 1
-      containerId: overlay-container--right
-      floating: 0
-      collapsed: 0
-      displayed: 0
-      snapOffset: {x: 48, y: 48}
-      snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 0
       id: Scene View/Visual Effect
-      index: 10
+      index: 8
       layout: 4
       size: {x: 0, y: 0}
       sizeOverriden: 0
@@ -12329,7 +13854,7 @@ MonoBehaviour:
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: Scene View/Visual Effect Timeline Control
-      index: 11
+      index: 9
       layout: 4
       size: {x: 0, y: 0}
       sizeOverriden: 0
@@ -12342,7 +13867,7 @@ MonoBehaviour:
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: Scene View/Visual Effect Model
-      index: 12
+      index: 10
       layout: 4
       size: {x: 0, y: 0}
       sizeOverriden: 0
@@ -12355,12 +13880,38 @@ MonoBehaviour:
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: Scene View/Visual Effect Event Tester
+      index: 11
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 48, y: 48}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: APV Overlay
+      index: 12
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 48, y: 48}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/TrailRenderer
       index: 13
       layout: 4
       size: {x: 0, y: 0}
       sizeOverriden: 0
     m_OverlaysVisible: 1
-  m_WindowGUID: d69a67902db7f994ca099bec79d22ce1
+  m_WindowGUID: cc27987af1a868c49b0894db9c0f5429
   m_Gizmos: 1
   m_OverrideSceneCullingMask: 6917529027641081856
   m_SceneIsLit: 1
@@ -12370,9 +13921,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.80002356, y: 1.2931731, z: -0.16838402}
+    m_Target: {x: 12.439175, y: -5.875458, z: -2.9530416}
     speed: 2
-    m_Value: {x: -0.80002356, y: 1.2931731, z: -0.16838402}
+    m_Value: {x: 12.439175, y: -5.875458, z: -2.9530416}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -12418,21 +13969,21 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.09354462, y: 0.8967713, z: -0.22831847, w: 0.36736426}
+    m_Target: {x: -0.15646626, y: -0.7545394, z: 0.19452305, w: -0.60692066}
     speed: 2
-    m_Value: {x: 0.09354296, y: 0.8967555, z: -0.22831444, w: 0.3673578}
+    m_Value: {x: -0.15796247, y: -0.75242203, z: 0.19518133, w: -0.6089443}
   m_Size:
-    m_Target: 4.0481663
+    m_Target: 7.8335304
     speed: 2
-    m_Value: 4.0481663
+    m_Value: 7.4962015
   m_Ortho:
-    m_Target: 1
+    m_Target: 0
     speed: 2
-    m_Value: 1
+    m_Value: 0
   m_CameraSettings:
     m_Speed: 1
     m_SpeedNormalized: 0.5
-    m_SpeedMin: 0.01
+    m_SpeedMin: 0.001
     m_SpeedMax: 2
     m_EasingEnabled: 1
     m_EasingDuration: 0.4
@@ -12470,10 +14021,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 339
-    y: 73
-    width: 1081
-    height: 585
+    x: 0
+    y: 634
+    width: 950
+    height: 365
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -12490,7 +14041,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 2560, y: 1440}
+  m_TargetSize: {x: 950, y: 344}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -12499,16 +14050,16 @@ MonoBehaviour:
   m_VSyncEnabled: 0
   m_Gizmos: 0
   m_Stats: 0
-  m_SelectedSizes: 05000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_SelectedSizes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
   m_ZoomArea:
     m_HRangeLocked: 0
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -1280
-    m_HBaseRangeMax: 1280
-    m_VBaseRangeMin: -720
-    m_VBaseRangeMax: 720
+    m_HBaseRangeMin: -475
+    m_HBaseRangeMax: 475
+    m_VBaseRangeMin: -172
+    m_VBaseRangeMax: 172
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -12526,26 +14077,26 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 1081
-      height: 564
-    m_Scale: {x: 0.39166668, y: 0.39166668}
-    m_Translation: {x: 540.5, y: 282}
+      width: 950
+      height: 344
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 475, y: 172}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -1380
-      y: -720
-      width: 2760
-      height: 1440
+      x: -475
+      y: -172
+      width: 950
+      height: 344
     m_MinimalGUI: 1
-  m_defaultScale: 0.39166668
-  m_LastWindowPixelSize: {x: 1081, y: 585}
+  m_defaultScale: 1
+  m_LastWindowPixelSize: {x: 950, y: 365}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
-  m_LowResolutionForAspectRatios: 01000000000100000100
+  m_LowResolutionForAspectRatios: 01000000000000000000
   m_XRRenderMode: -1
   m_RenderTexture: {fileID: 0}
 --- !u!114 &20
@@ -12569,10 +14120,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 0
-    y: 895
-    width: 1977
-    height: 440
+    x: 2249
+    y: 726.5
+    width: 920
+    height: 250
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
