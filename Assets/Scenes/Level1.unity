@@ -5390,6 +5390,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1729167003183328896}
+  - component: {fileID: 1729167003183328897}
   m_Layer: 0
   m_Name: Armature
   m_TagString: Untagged
@@ -5478,6 +5479,59 @@ Transform:
   - {fileID: 4006883121264102892}
   m_Father: {fileID: 7732655720800878110}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &1729167003183328897
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 964041250810815690}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 3
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 0}
+  m_Bones: []
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 4006883121264102892}
+  m_AABB:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_DirtyAABB: 0
 --- !u!137 &1735338976638344299
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 0
@@ -5708,6 +5762,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_RequestedTrackingOriginMode
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8247058250834344323, guid: 0a8b5be76a5b6d142808e28743986093,
+        type: 3}
+      propertyPath: m_Name
+      value: ReticleR
       objectReference: {fileID: 0}
     - target: {fileID: 8797206840679446794, guid: 0a8b5be76a5b6d142808e28743986093,
         type: 3}
@@ -5981,7 +6040,7 @@ Animator:
   m_GameObject: {fileID: 6918718442498040996}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 138c9b41ddcf9fa4eade3d45ec63e7b2, type: 3}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 3338dde1ae80a3b43826deca5c238356, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
