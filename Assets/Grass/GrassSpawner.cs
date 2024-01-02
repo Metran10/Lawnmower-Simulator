@@ -10,7 +10,7 @@ public class GrassSpawner : MonoBehaviour {
     [System.Serializable]
     public class Settings {
         [Tooltip("Half the length of the box to spawn grass, centered on the game object")]
-        public int areaHalfLength;
+        public float areaHalfLength;
         [Tooltip("The number of rings to calculate. Put more than you think.")]
         public int numRings;
         [Tooltip("The amount to increase the ring radius each iteration")]

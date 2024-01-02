@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Inspector
+  m_Title: Scene
   m_RootView: {fileID: 8}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -43,8 +43,8 @@ MonoBehaviour:
     y: 0
     width: 951
     height: 386
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -99,7 +99,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 349
+  controlID: 69
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -146,8 +146,8 @@ MonoBehaviour:
     y: 0
     width: 363
     height: 561
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -320,8 +320,8 @@ MonoBehaviour:
     y: 0
     width: 1103
     height: 561
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -369,8 +369,8 @@ MonoBehaviour:
   currentStatusEntriesHasUpdate: 1
   repositoryProgressHasUpdate: 1
   appManagerProgressHasUpdate: 1
-  changeTab: 4
-  activeTab: 4
+  changeTab: 3
+  activeTab: 3
   initProjectView:
     hasCompletedInitialCheck: 0
     isUserDataPresent: 0
@@ -557,10 +557,10 @@ MonoBehaviour:
     disableDelete: 1
     disableCreate: 0
     lastLocalAndRemoteBranchListChangedEvent:
-      updatedTimeString: 2023-12-14T16:33:48.484+01:00
+      updatedTimeString: 2023-12-14T18:09:19.500+01:00
       cacheType: 2
     lastCurrentBranchAndRemoteChange:
-      updatedTimeString: 2023-12-14T16:33:56.043+01:00
+      updatedTimeString: 2023-12-14T18:09:17.107+01:00
       cacheType: 1
     currentBranch:
       name: grass
@@ -588,12 +588,12 @@ MonoBehaviour:
     - name: origin/master
       tracking: '[None]'
   changesView:
-    currentBranchHasUpdate: 0
-    currentStatusEntriesHasUpdate: 0
-    currentLocksHasUpdate: 0
+    currentBranchHasUpdate: 1
+    currentStatusEntriesHasUpdate: 1
+    currentLocksHasUpdate: 1
     commitBody: 
     commitMessage: 
-    currentBranch: Hands
+    currentBranch: grass
     treeScroll: {x: 0, y: 0}
     treeChanges:
       assets:
@@ -652,10 +652,10 @@ MonoBehaviour:
     gitStatusEntries: []
     changedFilesText: No changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2023-12-14T16:33:48.493+01:00
+      updatedTimeString: 2023-12-18T18:44:46.180+01:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2023-12-14T16:33:20.643+01:00
+      updatedTimeString: 2023-12-18T18:44:50.524+01:00
       cacheType: 6
     lastLocksChangedEvent:
       updatedTimeString: 0001-01-01T00:00:00.000+00:00
@@ -13237,13 +13237,13 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: Url of the origin remote
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2023-12-14T16:33:56.043+01:00
+    updatedTimeString: 2023-12-14T18:37:48.389+01:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2023-12-14T16:36:23.637+01:00
+    updatedTimeString: 2023-12-14T18:44:04.425+01:00
     cacheType: 5
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2023-12-14T16:36:23.617+01:00
+    updatedTimeString: 2023-12-14T18:44:04.401+01:00
     cacheType: 6
   pullButtonContent:
     m_Text: Pull
@@ -13263,7 +13263,7 @@ MonoBehaviour:
     m_Tooltip: 
   repositoryProgressValue: 0
   repositoryProgressMessage: 
-  appManagerProgressValue: 0.875
+  appManagerProgressValue: 1
   appManagerProgressMessage: 
   primaryConnectionUsername: 
 --- !u!114 &15
@@ -13312,7 +13312,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/CustomModels
+    - Assets/Grass
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -13320,16 +13320,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/CustomModels
+  - Assets/Grass
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\Users\grzet\Desktop\VR projekt\V1\Lawnmower Simulator
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: c28d0000
-    m_LastClickedID: 36290
-    m_ExpandedIDs: 00000000088b00000a8b00000c8b00000e8b0000108b0000128b0000148b000000ca9a3b
+    scrollPos: {x: 0, y: 51}
+    m_SelectedIDs: 4e8d0000
+    m_LastClickedID: 36174
+    m_ExpandedIDs: 000000008e8a0000908a0000928a0000948a0000968a0000988a00009a8a000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -13357,7 +13357,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000088b00000a8b00000c8b00000e8b0000108b0000128b0000148b0000
+    m_ExpandedIDs: 000000008e8a0000908a0000928a0000948a0000968a0000988a00009a8a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -13385,7 +13385,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c62300007e860000
+    m_ExpandedInstanceIDs: c62300007e86000012870000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -13455,7 +13455,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
+  m_LastVerticalScrollValue: 64
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
@@ -13499,9 +13499,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 7cebffff
-      m_LastClickedID: -5252
-      m_ExpandedIDs: 7ceafffffaeaffff04ebffff7cebffffa4ebffff20fbffff348f0000fc8f0000
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 86faffff20fbffff0686000048860000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -13564,8 +13564,8 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: -166, y: -26}
+      snapOffset: {x: -166, y: -26}
+      snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 3
       id: Tool Settings
       index: 0
@@ -13921,9 +13921,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 12.439175, y: -5.875458, z: -2.9530416}
+    m_Target: {x: 8.348283, y: -5.3861017, z: -0.88334274}
     speed: 2
-    m_Value: {x: 12.439175, y: -5.875458, z: -2.9530416}
+    m_Value: {x: 8.348283, y: -5.3861017, z: -0.88334274}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -13969,13 +13969,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.15646626, y: -0.7545394, z: 0.19452305, w: -0.60692066}
+    m_Target: {x: -0.19279392, y: -0.79566604, z: 0.323172, w: -0.47467035}
     speed: 2
-    m_Value: {x: -0.15796247, y: -0.75242203, z: 0.19518133, w: -0.6089443}
+    m_Value: {x: -0.19279334, y: -0.79566365, z: 0.32317105, w: -0.47466895}
   m_Size:
-    m_Target: 7.8335304
+    m_Target: 15.103049
     speed: 2
-    m_Value: 7.4962015
+    m_Value: 14.452679
   m_Ortho:
     m_Target: 0
     speed: 2
