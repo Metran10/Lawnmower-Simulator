@@ -3970,9 +3970,39 @@ PrefabInstance:
       objectReference: {fileID: 523866496}
     - target: {fileID: 6274338972114361218, guid: 39b513633bb7ed440945b6a6784d0f68,
         type: 3}
+      propertyPath: m_InteractionManager
+      value: 
+      objectReference: {fileID: 197825573}
+    - target: {fileID: 6274338972114361218, guid: 39b513633bb7ed440945b6a6784d0f68,
+        type: 3}
       propertyPath: rightAttachTransform
       value: 
       objectReference: {fileID: 1806798604}
+    - target: {fileID: 6274338972114361218, guid: 39b513633bb7ed440945b6a6784d0f68,
+        type: 3}
+      propertyPath: m_InteractionLayers.m_Bits
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7626989602127689544, guid: 39b513633bb7ed440945b6a6784d0f68,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 2.6523743
+      objectReference: {fileID: 0}
+    - target: {fileID: 7626989602127689544, guid: 39b513633bb7ed440945b6a6784d0f68,
+        type: 3}
+      propertyPath: m_Size.z
+      value: 3.9279425
+      objectReference: {fileID: 0}
+    - target: {fileID: 7626989602127689544, guid: 39b513633bb7ed440945b6a6784d0f68,
+        type: 3}
+      propertyPath: m_Center.y
+      value: 1.4682763
+      objectReference: {fileID: 0}
+    - target: {fileID: 7626989602127689544, guid: 39b513633bb7ed440945b6a6784d0f68,
+        type: 3}
+      propertyPath: m_Center.z
+      value: -0.011033043
+      objectReference: {fileID: 0}
     - target: {fileID: 8083085314250187579, guid: 39b513633bb7ed440945b6a6784d0f68,
         type: 3}
       propertyPath: m_Layer
@@ -4079,6 +4109,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: LawnTile
       objectReference: {fileID: 0}
+    - target: {fileID: 4385523958975099781, guid: badbf63b2257eae4cb849c3392fd223c,
+        type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4385523958975099781, guid: badbf63b2257eae4cb849c3392fd223c,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7433231753643914154, guid: badbf63b2257eae4cb849c3392fd223c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4087,7 +4127,7 @@ PrefabInstance:
     - target: {fileID: 7433231753643914154, guid: badbf63b2257eae4cb849c3392fd223c,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.373
+      value: 0.155
       objectReference: {fileID: 0}
     - target: {fileID: 7433231753643914154, guid: badbf63b2257eae4cb849c3392fd223c,
         type: 3}

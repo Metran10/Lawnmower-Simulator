@@ -45,6 +45,7 @@ public class GrassCrusher : MonoBehaviour
                 Debug.Log($"Cutting grass");
                 GameObject otherObject = other.gameObject;
 
+                GetComponent<MeshRenderer>().material = activationMaterial;
 
                 foreach (Transform child in transform)
                 {
