@@ -3965,6 +3965,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6274338972114361218, guid: 39b513633bb7ed440945b6a6784d0f68,
         type: 3}
+      propertyPath: m_SelectMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6274338972114361218, guid: 39b513633bb7ed440945b6a6784d0f68,
+        type: 3}
+      propertyPath: m_UseDynamicAttach
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6274338972114361218, guid: 39b513633bb7ed440945b6a6784d0f68,
+        type: 3}
       propertyPath: leftAttachTransform
       value: 
       objectReference: {fileID: 523866496}
