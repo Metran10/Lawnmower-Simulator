@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 807293074748208763}
   - component: {fileID: 4987336324785403074}
   - component: {fileID: 3820690653248206098}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Cylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -99,7 +99,7 @@ GameObject:
   - component: {fileID: 7542880816630903041}
   - component: {fileID: 6731160581731688586}
   - component: {fileID: 5549330861725344540}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Cylinder.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -184,7 +184,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5947796783972108252}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: RightHandAnchor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -220,9 +220,10 @@ GameObject:
   - component: {fileID: 5978015640841822050}
   - component: {fileID: 7626989602127689544}
   - component: {fileID: 6274338972114361218}
-  m_Layer: 0
+  - component: {fileID: 8085679240477765653}
+  m_Layer: 7
   m_Name: Lawnmover_v3
-  m_TagString: Untagged
+  m_TagString: Lawnmover
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -298,8 +299,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1.432773, y: 1.1108339, z: 3.251569}
-  m_Center: {x: 0.011615977, y: 0.6975058, z: 0.32715335}
+  m_Size: {x: 1.432773, y: 2.6523743, z: 3.9279425}
+  m_Center: {x: 0.011615977, y: 1.4682763, z: -0.011033043}
 --- !u!114 &6274338972114361218
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -319,9 +320,9 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_InteractionLayers:
-    m_Bits: 1
+    m_Bits: 4
   m_DistanceCalculationMode: 1
-  m_SelectMode: 0
+  m_SelectMode: 1
   m_FocusMode: 1
   m_CustomReticle: {fileID: 0}
   m_AllowGazeInteraction: 0
@@ -405,7 +406,7 @@ MonoBehaviour:
       m_Calls: []
   m_AttachTransform: {fileID: 0}
   m_SecondaryAttachTransform: {fileID: 0}
-  m_UseDynamicAttach: 0
+  m_UseDynamicAttach: 1
   m_MatchAttachPosition: 1
   m_MatchAttachRotation: 1
   m_SnapToColliderVolume: 1
@@ -451,10 +452,11 @@ MonoBehaviour:
   m_RetainTransformParent: 1
   m_AttachPointCompatibilityMode: 0
   m_StartingSingleGrabTransformers: []
-  m_StartingMultipleGrabTransformers: []
-  m_AddDefaultGrabTransformers: 1
-  leftAttachTransform: {fileID: 0}
-  rightAttachTransform: {fileID: 0}
+  m_StartingMultipleGrabTransformers:
+  - {fileID: 8085679240477765653}
+  m_AddDefaultGrabTransformers: 0
+  leftAttachTransform: {fileID: 3918200803975733814}
+  rightAttachTransform: {fileID: 5947796783972108252}
 --- !u!1 &5522618869880514353
 GameObject:
   m_ObjectHideFlags: 0
@@ -467,7 +469,7 @@ GameObject:
   - component: {fileID: 7005920524591405111}
   - component: {fileID: 5651423974994387898}
   - component: {fileID: 1809743333317377741}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Bag
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -556,7 +558,7 @@ GameObject:
   - component: {fileID: 4152418438886299194}
   - component: {fileID: 5744474017117146265}
   - component: {fileID: 6950516220966294495}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Cylinder.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -641,7 +643,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3918200803975733814}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: LeftHandAnchor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -676,7 +678,7 @@ GameObject:
   - component: {fileID: 4528389369004915084}
   - component: {fileID: 4177016988625622059}
   - component: {fileID: 9077593817947634769}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Cylinder.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -817,5 +819,32 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1297239998936614138, guid: 65a3ab9142634314284f41562abb0aa8,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8085679240477765653}
   m_SourcePrefab: {fileID: 100100000, guid: 65a3ab9142634314284f41562abb0aa8, type: 3}
+--- !u!114 &8085679240477765653
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5098449704513477904}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0a1302d0d134fa8a2a5b3bf4aec3c20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PermittedDisplacementAxes: 5
+  m_ConstrainedAxisDisplacementMode: 1
+  m_TwoHandedRotationMode: 1
+  m_AllowOneHandedScaling: 1
+  m_AllowTwoHandedScaling: 0
+  m_OneHandedScaleSpeed: 0.5
+  m_ThresholdMoveRatioForScale: 0.05
+  m_ClampScaling: 1
+  m_MinimumScaleRatio: 0.25
+  m_MaximumScaleRatio: 2
+  m_ScaleMultiplier: 0.25
