@@ -4141,11 +4141,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: LawnTile
       objectReference: {fileID: 0}
-    - target: {fileID: 4385523958975099781, guid: badbf63b2257eae4cb849c3392fd223c,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 7433231753643914154, guid: badbf63b2257eae4cb849c3392fd223c,
         type: 3}
       propertyPath: m_LocalPosition.x

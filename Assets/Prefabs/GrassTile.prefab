@@ -121,7 +121,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58fe87c1b4c23a1479c122511fbd6ff2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefab: {fileID: 0}
+  prefab: {fileID: 2868760019047192059, guid: d2b148c4466c0734494e77a350d93d3e, type: 3}
   settings:
     areaHalfLength: 0.5
     numRings: 80

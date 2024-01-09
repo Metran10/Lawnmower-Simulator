@@ -9,8 +9,6 @@ public class GrassCrusher : MonoBehaviour
     public Material activationMaterial;
     public Material starterMaterial;
 
-
-
     private Collider ownCollider;
 
 
@@ -18,9 +16,6 @@ public class GrassCrusher : MonoBehaviour
     void Start()
     {
         ownCollider = GetComponent<Collider>();
-
-
-
     }
 
     // Update is called once per frame
