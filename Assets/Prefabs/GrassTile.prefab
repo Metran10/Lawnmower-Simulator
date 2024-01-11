@@ -120,7 +120,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isCuttable: 1
-  activationMaterial: {fileID: 2100000, guid: ffc27d6a182128846b05cb657f7aeb9b, type: 2}
+  activationMaterial: {fileID: 2100000, guid: a95332b7b21ee394c83bb82c47b9c836, type: 2}
   starterMaterial: {fileID: 2100000, guid: a95332b7b21ee394c83bb82c47b9c836, type: 2}
 --- !u!65 &595813962517382690
 BoxCollider:

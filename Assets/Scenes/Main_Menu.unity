@@ -3399,6 +3399,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: MenuUICanvas
       objectReference: {fileID: 0}
+    - target: {fileID: 6842668273721430911, guid: d7bd4e2aea12c2348ac21fde333e8aa4,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7271297144474591955, guid: d7bd4e2aea12c2348ac21fde333e8aa4,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
