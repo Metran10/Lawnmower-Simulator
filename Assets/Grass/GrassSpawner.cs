@@ -21,6 +21,8 @@ public class GrassSpawner : MonoBehaviour {
         public float staggerRingOffset;
         [Tooltip("The amount to offset to the circle centers to the left of the spawn box")]
         public float circleCenterOffset;
+        [Tooltip("Height at which grass will spawn")]
+        public float spawnHeight;
     }
     [SerializeField] private Settings settings = null;
 
@@ -91,7 +93,7 @@ public class GrassSpawner : MonoBehaviour {
         var centerPos = transform.position;
         foreach(var point in spawnPoints) {
             GameObject.Instantiate(prefab,
-                new Vector3(point.x, 0, point.y) + centerPos,
+                new Vector3(point.x, settings.spawnHeight, point.y) + centerPos,
                 Quaternion.Euler(0, Random.value * 360, 0),
                 transform);
             ;

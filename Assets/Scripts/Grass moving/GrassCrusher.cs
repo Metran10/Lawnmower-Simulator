@@ -16,6 +16,11 @@ public class GrassCrusher : MonoBehaviour
     void Start()
     {
         ownCollider = GetComponent<Collider>();
+        if(!starterMaterial == null)
+        {
+            GetComponent<MeshRenderer>().material = starterMaterial;
+        }
+        
     }
 
     // Update is called once per frame
@@ -28,7 +33,7 @@ public class GrassCrusher : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log($"Triggered by {other}");
+        //Debug.Log($"Triggered by {other}");
 
         if (isCuttable)
         {
@@ -37,7 +42,7 @@ public class GrassCrusher : MonoBehaviour
 
             if (other.tag == "Lawnmover")
             {
-                Debug.Log($"Cutting grass");
+                //Debug.Log($"Cutting grass");
                 GameObject otherObject = other.gameObject;
 
                 GetComponent<MeshRenderer>().material = activationMaterial;
