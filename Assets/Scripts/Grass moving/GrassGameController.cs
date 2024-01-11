@@ -14,6 +14,9 @@ public class GrassGameController : MonoBehaviour
 
     public TextMeshProUGUI victoryText;
 
+    [Tooltip("What % of grass has to be cut to win")]
+    public float victoryPercentage = 0.9f;
+
 
 
     // Start is called before the first frame update
@@ -35,7 +38,7 @@ public class GrassGameController : MonoBehaviour
 
 
         //victory conditions
-        if (currGrass >= grassTilesCount)
+        if (currGrass >= grassTilesCount * victoryPercentage)
         {
             victoryText.gameObject.SetActive(true);
         }

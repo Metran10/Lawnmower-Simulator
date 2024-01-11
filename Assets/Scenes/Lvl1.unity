@@ -12346,6 +12346,11 @@ PrefabInstance:
       objectReference: {fileID: 506512193}
     - target: {fileID: 9168855985400658050, guid: 36cb65d820cedf04793b81285eaa06de,
         type: 3}
+      propertyPath: victoryPercentage
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9168855985400658050, guid: 36cb65d820cedf04793b81285eaa06de,
+        type: 3}
       propertyPath: grassCountTextField
       value: 
       objectReference: {fileID: 976142206}

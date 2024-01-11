@@ -47,3 +47,4 @@ MonoBehaviour:
   grassCountTextField: {fileID: 0}
   grassText: 
   victoryText: {fileID: 0}
+  victoryPercentage: 0.9
