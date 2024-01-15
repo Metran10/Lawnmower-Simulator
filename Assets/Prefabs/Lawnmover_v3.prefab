@@ -221,6 +221,7 @@ GameObject:
   - component: {fileID: 7626989602127689544}
   - component: {fileID: 6274338972114361218}
   - component: {fileID: 8085679240477765653}
+  - component: {fileID: 7885420015262647117}
   m_Layer: 7
   m_Name: Lawnmover_v3
   m_TagString: Lawnmover
@@ -260,7 +261,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5098449704513477904}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 1000
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -412,7 +413,7 @@ MonoBehaviour:
   m_SnapToColliderVolume: 1
   m_ReinitializeDynamicAttachEverySingleGrab: 1
   m_AttachEaseInTime: 0.15
-  m_MovementType: 2
+  m_MovementType: 0
   m_VelocityDamping: 1
   m_VelocityScale: 1
   m_AngularVelocityDamping: 1
@@ -446,8 +447,8 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  m_ThrowVelocityScale: 1.5
-  m_ThrowAngularVelocityScale: 1
+  m_ThrowVelocityScale: 0.2
+  m_ThrowAngularVelocityScale: 0.1
   m_ForceGravityOnDetach: 0
   m_RetainTransformParent: 1
   m_AttachPointCompatibilityMode: 0
@@ -824,6 +825,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 8085679240477765653}
+    - targetCorrespondingSourceObject: {fileID: 1297239998936614138, guid: 65a3ab9142634314284f41562abb0aa8,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7885420015262647117}
   m_SourcePrefab: {fileID: 100100000, guid: 65a3ab9142634314284f41562abb0aa8, type: 3}
 --- !u!114 &8085679240477765653
 MonoBehaviour:
@@ -837,7 +842,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0a1302d0d134fa8a2a5b3bf4aec3c20, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_PermittedDisplacementAxes: 5
+  m_PermittedDisplacementAxes: -1
   m_ConstrainedAxisDisplacementMode: 1
   m_TwoHandedRotationMode: 1
   m_AllowOneHandedScaling: 1
@@ -848,3 +853,16 @@ MonoBehaviour:
   m_MinimumScaleRatio: 0.25
   m_MaximumScaleRatio: 2
   m_ScaleMultiplier: 0.25
+--- !u!114 &7885420015262647117
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5098449704513477904}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 792383d03b108e348a5886c2ad539d43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  verticalMovementLimit: 0.1
