@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2589,6 +2589,7 @@ MonoBehaviour:
     staggerRingModulo: 0
     staggerRingOffset: 0
     circleCenterOffset: 0
+    spawnHeight: 0
 --- !u!4 &1204502621
 Transform:
   m_ObjectHideFlags: 0
@@ -2987,6 +2988,7 @@ MonoBehaviour:
     staggerRingModulo: 3
     staggerRingOffset: -0.55
     circleCenterOffset: 5
+    spawnHeight: 0
 --- !u!1 &1391073356
 GameObject:
   m_ObjectHideFlags: 0

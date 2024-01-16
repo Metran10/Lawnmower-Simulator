@@ -3588,6 +3588,8 @@ MonoBehaviour:
       m_Flags: 0
     m_Reference: {fileID: 187161793506945269, guid: c348712bda248c246b8c49b3db54643f,
       type: 3}
+  leftRay: {fileID: 0}
+  rightRay: {fileID: 0}
 --- !u!114 &569952230747158404
 MonoBehaviour:
   m_ObjectHideFlags: 0
