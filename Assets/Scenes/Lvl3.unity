@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.2606813, g: 0.7005776, b: 0.8361592, a: 1}
+  m_IndirectSpecularColor: {r: 0.26048893, g: 0.70035213, b: 0.8320922, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -16986,6 +16986,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: UICanvas
       objectReference: {fileID: 0}
+    - target: {fileID: 8550392518045754747, guid: fd7a18eab6ba6bc4d8c9a82c803ba92d,
+        type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 1936941489}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -50584,6 +50589,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6803edce0201f574f923fd9d10e5b30a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!20 &1936941489 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 4916472758936333006, guid: 0a8b5be76a5b6d142808e28743986093,
+    type: 3}
+  m_PrefabInstance: {fileID: 1936941485}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1940165892
 GameObject:
   m_ObjectHideFlags: 0
